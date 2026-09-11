@@ -88,7 +88,12 @@ a:hover { color: var(--accent-deep); }
 .main-nav a:hover { color: var(--accent); }
 
 @media (max-width: 640px) {
-  .main-nav { gap: 0.8rem; font-size: 0.9rem; }
+  .site-header .inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+  .main-nav { gap: 0.9rem; font-size: 0.9rem; flex-wrap: wrap; }
 }
 
 /* ---------- hero ---------- */
@@ -282,10 +287,10 @@ a:hover { color: var(--accent-deep); }
 .consent button {
   border: none;
   border-radius: 999px;
-  padding: 0.45rem 1.1rem;
+  padding: 0.6rem 1.4rem;
   font-weight: 600;
   cursor: pointer;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 .consent .accept { background: #e8ddc8; color: var(--accent-deep); }
 .consent .reject { background: transparent; color: #eef2f6; border: 1px solid #6a7d92; }
