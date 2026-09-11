@@ -8,6 +8,10 @@ products:
     slug: ashwagandha
     blurb: "The most-studied standardized extract. 300–600 mg/day is the trial range. Not for pregnancy or thyroid-medication users without medical sign-off."
     badge: "Most-studied extract"
+    points:
+      - "~28% average cortisol reduction in the key trial"
+      - "Root-only KSM-66 — the extract most studies used"
+      - "Give it the full 6–8 weeks trials measured"
 ---
 
 Few supplements have had a run like ashwagandha. An ayurvedic root, Suddenly everywhere: stress gummies, "adaptogen" coffee, focus drinks. When something gets that popular, the honest question isn't "does it work?" but "**how well, for whom, and what's the catch?**" That's what this article covers.

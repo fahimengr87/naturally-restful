@@ -9,13 +9,19 @@ interface Props {
   blurb: string;         // one honest sentence on why it's mentioned
   cta?: string;          // button text
   badge?: string;        // e.g. "Top Pick" / "Budget Pick"
+  points?: string[];     // short proof points rendered with checkmarks
 }
-const { name, slug, blurb, cta = 'View current price', badge } = Astro.props;
+const { name, slug, blurb, cta = 'View current price', badge, points = [] } = Astro.props;
 ---
 <div class="affiliate-box">
   {badge && <span class="badge">{badge}</span>}
   <h4>{name}</h4>
   <p>{blurb}</p>
+  {points.length > 0 && (
+    <ul class="pts">
+      {points.map((p) => <li>{p}</li>)}
+    </ul>
+  )}
   <a class="btn" href={`/go/${slug}`} rel="nofollow sponsored noopener" target="_blank">{cta} →</a>
   <p class="commission-note">
     We may earn a commission if you buy through this link, at no extra cost to you.

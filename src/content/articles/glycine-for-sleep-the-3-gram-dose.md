@@ -8,6 +8,10 @@ products:
     slug: glycine
     blurb: "Plain glycine powder is the only sensible format — 3 g is one small scoop, versus six or more capsules. Sweet taste, dissolves instantly."
     badge: "Format matters"
+    points:
+      - "3 g scoop = the exact dose trials used"
+      - "Roughly twenty cents a night"
+      - "Faster sleep onset reported within days"
 ---
 
 Here's a supplement story that rarely gets told straight: glycine has some of the cleanest sleep trial data of any amino acid — and most products sold as "glycine sleep aids" contain a fraction of the dose those trials used.

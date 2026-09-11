@@ -8,6 +8,10 @@ products:
     slug: l-theanine
     blurb: "Cheap, extremely well tolerated, and the trial-standard 200 mg dose in a single capsule."
     badge: "Trial-standard dose"
+    points:
+      - "Works the same evening — no build-up needed"
+      - "Non-sedating: calm without grogginess"
+      - "Also takes the edge off morning coffee"
 ---
 
 There's a peculiar fact hiding in your teacup: tea contains a decent dose of caffeine, yet tea drinkers report calm focus rather than coffee jitters. The main reason is L-theanine — and it's become one of the most-purchased calming supplements on the strength of that reputation.

@@ -8,6 +8,10 @@ products:
     slug: magnesium-glycinate
     blurb: "The chelated, stomach-friendly form we'd pick for sleep. Compare third-party tested brands in the category link."
     badge: "For sleep"
+    points:
+      - "Gentle at bedtime — none of citrate's urgency"
+      - "200–400 mg elemental magnesium = trial range"
+      - "Judge it at 2–4 weeks, not night one"
   - name: "Magnesium Citrate (via iHerb)"
     slug: magnesium-citrate
     blurb: "Cheaper and well-absorbed — but its laxative effect is why we don't recommend it as a bedtime supplement."

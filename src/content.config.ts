@@ -25,6 +25,7 @@ const articles = defineCollection({
           slug: z.string(),      // must exist in public/_redirects as /go/<slug>
           blurb: z.string(),
           badge: z.string().optional(),
+          points: z.array(z.string()).optional(),
         })
       )
       .optional(),

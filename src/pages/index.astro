@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import EmailOptin from '../components/EmailOptin.astro';
+import AffiliateBox from '../components/AffiliateBox.astro';
 
 const latest = (await getCollection('articles'))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
@@ -34,6 +35,14 @@ const websiteSchema = {
   </section>
 
   <section class="container wide">
+    <h2 class="section-title">Why readers trust us</h2>
+    <div class="trust-strip">
+      <div class="trust-item"><strong>Research-cited, always</strong> Claims trace back to published human trials — and we link the boring details.</div>
+      <div class="trust-item"><strong>No sponsored posts</strong> No brand pays to appear or to be ranked. Commissions are the same whatever you choose.</div>
+      <div class="trust-item"><strong>We name the weaknesses</strong> Every article says who shouldn't take a supplement and what the evidence doesn't show.</div>
+      <div class="trust-item"><strong>Disclosed on every page</strong> Affiliate relationships are stated plainly, per FTC rules — no fine print games.</div>
+    </div>
+
     <h2 class="section-title">Start here</h2>
     <div class="card-grid">
       <a class="card" href="/best-sleep-supplements">
@@ -48,6 +57,35 @@ const websiteSchema = {
         <h3>Stress &amp; Calm</h3>
         <p>What ashwagandha can realistically do for daily stress, according to trials.</p>
       </a>
+    </div>
+
+    <h2 class="section-title">Today's top picks</h2>
+    <p style="color:var(--ink-soft);font-size:0.95rem;margin:-0.5rem 0 1.2rem">
+      Our current recommendations for the three most common sleep problems —
+      full reasoning in the <a href="/best-sleep-supplements">complete comparison</a>.
+    </p>
+    <div class="card-grid">
+      <AffiliateBox
+        badge="Best overall"
+        name="Magnesium Glycinate"
+        slug="magnesium-glycinate"
+        blurb="The most sensible first try for general sleep quality — gentle, well-studied, modest effects."
+        points={["Gentle on the stomach — safe at bedtime", "200–400 mg matches the trial doses", "Effects build over 2–4 weeks"]}
+      />
+      <AffiliateBox
+        badge="For stress"
+        name="Ashwagandha KSM-66"
+        slug="ashwagandha"
+        blurb="When stress is the root cause. The extract with the deepest trial record."
+        points={["~28% average cortisol drop in trials", "300–600 mg/day, effects at 6–8 weeks", "Not for pregnancy or thyroid meds (ask your doctor)"]}
+      />
+      <AffiliateBox
+        badge="For a racing mind"
+        name="L-Theanine 200 mg"
+        slug="l-theanine"
+        blurb="Same-day calm without sedation — the pick for midnight mental to-do lists."
+        points={["Works within about an hour", "No grogginess, no build-up", "Smooths out coffee jitters, too"]}
+      />
     </div>
 
     <h2 class="section-title">Latest articles</h2>

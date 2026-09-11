@@ -295,6 +295,44 @@ a:hover { color: var(--accent-deep); }
 .consent .accept { background: #e8ddc8; color: var(--accent-deep); }
 .consent .reject { background: transparent; color: #eef2f6; border: 1px solid #6a7d92; }
 
+/* ---------- trust + conversion ---------- */
+.trust-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.trust-item {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+.trust-item strong { display: block; color: var(--ink); font-size: 0.97rem; margin-bottom: 0.25rem; }
+
+.quick-answer {
+  background: var(--accent-soft);
+  border: 1px solid #cfdbe7;
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 1.2rem 1.4rem;
+  margin: 1.5rem 0;
+}
+.quick-answer h2 { margin: 0 0 0.4rem; font-size: 1.15rem; }
+.quick-answer p { margin: 0; font-size: 0.98rem; }
+
+.affiliate-box ul.pts { list-style: none; margin: 0.2rem 0 1rem; padding: 0; }
+.affiliate-box ul.pts li { position: relative; padding-left: 1.5rem; margin: 0.4rem 0; font-size: 0.95rem; }
+.affiliate-box ul.pts li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
 /* ---------- footer ---------- */
 .site-footer {
   margin-top: 4.5rem;
