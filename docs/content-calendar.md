@@ -12,8 +12,8 @@ Each ✔ = written. Interlink within cluster + back to /best-sleep-supplements.
 
 ## Cluster 2 — Stress & adaptogens
 - [x] Ashwagandha for stress: what the research says *(seed)*
-- [ ] Ashwagandha vs. L-theanine: calm-down vs. focus-up
-- [ ] KSM-66 vs Sensoril: the two extracts behind the trials
+- [x] Ashwagandha vs. L-theanine: calm-down vs. focus-up
+- [x] KSM-66 vs Sensoril: the two extracts behind the trials
 - [ ] Ashwagandha side effects: the honest list (and the people who must skip it)
 - [ ] Rhodiola vs. ashwagandha for burnout feelings
 - [ ] Do "adaptogen" drinks actually adapt anything?
@@ -22,7 +22,7 @@ Each ✔ = written. Interlink within cluster + back to /best-sleep-supplements.
 - [x] Melatonin: you're probably taking 5–10x too much *(seed)*
 - [x] Glycine for sleep: the 3-gram trick from Japanese trials
 - [x] L-theanine for a racing mind: what 100 mg does (and doesn't)
-- [ ] GABA supplements: can it even cross into the brain?
+- [x] GABA supplements: can it even cross into the brain?
 - [ ] Apigenin (chamomile's compound): Huberman-famous, trial-thin
 - [ ] Valerian root: why the evidence is messier than the tea box admits
 
