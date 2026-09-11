@@ -21,4 +21,4 @@ pnpm-debug.log*
 .mimosa/
 
 # secrets (never commit tokens)
-scripts/.api-token
+scripts/.api-token*
