@@ -1,0 +1,40 @@
+---
+/**
+ * Minimal consent notice (records choice in localStorage).
+ *
+ * IMPORTANT (GDPR / Google EU user consent policy):
+ * before you monetize EEA/UK traffic with AdSense, replace this with a
+ * Google-certified Consent Management Platform (free tiers exist — e.g.
+ * Funding Choices / Cookiebot). This banner is a honest starting placeholder,
+ * not a certified CMP.
+ */
+---
+<div id="consent-banner" class="consent" role="dialog" aria-label="Cookie consent">
+  <span>
+    We use cookies for site basics and — only if you accept — for advertising and analytics.
+    <a href="/privacy" style="color:#c6d2de">Privacy policy</a>.
+  </span>
+  <div>
+    <button class="accept" id="consent-accept">Accept</button>
+    <button class="reject" id="consent-reject">Reject</button>
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    var banner = document.getElementById('consent-banner');
+    if (!banner) return;
+    try {
+      if (!localStorage.getItem('nr-consent')) banner.classList.add('visible');
+    } catch (e) { /* private mode — keep banner hidden */ }
+
+    function decide(value) {
+      try { localStorage.setItem('nr-consent', value); } catch (e) {}
+      banner.classList.remove('visible');
+      // Consent state is only stored for now. When real analytics/ads are
+      // added, gate their scripts on localStorage 'nr-consent' === 'granted'.
+    }
+    document.getElementById('consent-accept').addEventListener('click', function () { decide('granted'); });
+    document.getElementById('consent-reject').addEventListener('click', function () { decide('denied'); });
+  })();
+</script>

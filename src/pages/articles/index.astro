@@ -1,0 +1,39 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EmailOptin from '../../components/EmailOptin.astro';
+
+const articles = (await getCollection('articles')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const typeLabel: Record<string, string> = {
+  article: 'Guide',
+  review: 'Review',
+  comparison: 'Comparison',
+};
+const dateFmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+---
+<BaseLayout
+  title="All Articles"
+  description="Every Naturally Restful guide to sleep and stress supplements — honest, research-aware, and reader-first."
+>
+  <div class="container">
+    <h1 class="page-title">All Articles</h1>
+    <p class="lead">
+      Honest, evidence-aware breakdowns of sleep and stress supplements. No hype, no miracle claims —
+      just what the research does and doesn't support.
+    </p>
+    <div class="card-grid">
+      {articles.map((a) => (
+        <a class="card" href={`/articles/${a.id}`}>
+          <span class="tag">{typeLabel[a.data.type]}</span>
+          <h3 style="margin-top:0.6rem">{a.data.title}</h3>
+          <p>{a.data.description}</p>
+          <div class="card-meta">{dateFmt(a.data.pubDate)}</div>
+        </a>
+      ))}
+    </div>
+    <EmailOptin />
+  </div>
+</BaseLayout>

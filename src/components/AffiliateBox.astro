@@ -1,0 +1,24 @@
+---
+/**
+ * Single-product affiliate callout. Links ALWAYS go through /go/<slug>,
+ * which is defined in public/_redirects — never paste raw affiliate URLs.
+ */
+interface Props {
+  name: string;
+  slug: string;          // matches a /go/<slug> entry in public/_redirects
+  blurb: string;         // one honest sentence on why it's mentioned
+  cta?: string;          // button text
+  badge?: string;        // e.g. "Top Pick" / "Budget Pick"
+}
+const { name, slug, blurb, cta = 'View current price', badge } = Astro.props;
+---
+<div class="affiliate-box">
+  {badge && <span class="badge">{badge}</span>}
+  <h4>{name}</h4>
+  <p>{blurb}</p>
+  <a class="btn" href={`/go/${slug}`} rel="nofollow sponsored noopener" target="_blank">{cta} →</a>
+  <p class="commission-note">
+    We may earn a commission if you buy through this link, at no extra cost to you.
+    <a href="/disclosure">How this works</a>.
+  </p>
+</div>

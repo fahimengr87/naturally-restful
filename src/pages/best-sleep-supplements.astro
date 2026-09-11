@@ -1,0 +1,129 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AffiliateBox from '../components/AffiliateBox.astro';
+import DisclosureBlock from '../components/DisclosureBlock.astro';
+
+/**
+ * COMPARISON PAGE TEMPLATE (3–5 products, one clear top pick).
+ * Ad-free by policy: this page's job is to help readers choose — mixing
+ * ads into it violates AdSense policy on affiliate-heavy pages.
+ */
+---
+<BaseLayout
+  title="The 5 Best Sleep Supplements (2026)"
+  description="We compared the 5 sleep supplements with the strongest research support: magnesium glycinate, glycine, L-theanine, melatonin, and ashwagandha. One clear top pick."
+>
+  <div class="container">
+    <header class="article-header">
+      <span class="tag">Comparison</span>
+      <h1>The 5 Best Sleep Supplements, Honestly Compared</h1>
+      <p class="article-meta">By <a href="/author">Fahim</a> · Updated September 2026</p>
+    </header>
+
+    <DisclosureBlock />
+
+    <div class="prose">
+      <p>
+        Most "best sleep supplement" lists are copy-paste marketing. This one is different:
+        we only include supplements with multiple human trials behind them, we tell you
+        what the trials actually measured, and we name one clear starting pick instead of
+        hedging with five "winners."
+      </p>
+
+      <h2>Quick comparison</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Supplement</th>
+            <th>Best for</th>
+            <th>Evidence strength</th>
+            <th>Typical dose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>1. Magnesium glycinate</strong></td>
+            <td>Overall sleep quality; most people</td>
+            <td>Moderate</td>
+            <td>200–400 mg</td>
+          </tr>
+          <tr>
+            <td>2. Glycine</td>
+            <td>Falling asleep faster</td>
+            <td>Moderate (small trials)</td>
+            <td>3 g</td>
+          </tr>
+          <tr>
+            <td>3. L-theanine</td>
+            <td>Racing mind at bedtime</td>
+            <td>Moderate</td>
+            <td>100–200 mg</td>
+          </tr>
+          <tr>
+            <td>4. Melatonin</td>
+            <td>Jet lag, shifted schedules</td>
+            <td>Strong (for timing issues)</td>
+            <td>0.5–1 mg</td>
+          </tr>
+          <tr>
+            <td>5. Ashwagandha</td>
+            <td>Stress-driven sleep trouble</td>
+            <td>Moderate</td>
+            <td>300–600 mg extract</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>The top pick: magnesium glycinate</h2>
+      <p>
+        If we had to pick one supplement for general sleep quality, it's magnesium glycinate.
+        Magnesium plays a role in regulating the nervous system's "quiet down" signals, and the
+        glycinate form is gentle on the stomach (unlike citrate, which is better known as a
+        laxative). Trials on magnesium and sleep show modest but consistent improvements in
+        sleep quality — modest is honest; anyone promising more is selling you something.
+      </p>
+    </div>
+
+    <AffiliateBox
+      badge="Top Pick"
+      name="Magnesium Glycinate (via iHerb)"
+      slug="magnesium-glycinate"
+      blurb="Well-absorbed, gentle form. Pick a third-party tested brand — we link the category so you can compare prices and reviews yourself."
+    />
+
+    <div class="prose">
+      <h2>Also excellent</h2>
+      <p>
+        <strong>Glycine (3 g before bed)</strong> helped participants fall asleep faster and feel
+        more rested in small Japanese trials. <strong>L-theanine</strong> is the pick if your
+        problem is a racing mind rather than physical restlessness. <strong>Melatonin</strong> is
+        genuinely strong for jet lag and shift work — it shifts sleep <em>timing</em>, it doesn't
+        knock you out; most people take 5–10x more than the effective dose. <strong>Ashwagandha</strong>
+        earns its place when stress is the root cause — see our full
+        <a href="/articles/ashwagandha-for-stress-what-the-research-says">ashwagandha deep-dive</a>.
+      </p>
+
+      <h2>How we evaluate</h2>
+      <ul>
+        <li><strong>Human trials only.</strong> Rat studies and petri dishes don't count.</li>
+        <li><strong>Multiple studies.</strong> One encouraging trial is a lead, not a conclusion.</li>
+        <li><strong>No disease claims.</strong> Supplements support sleep; they don't treat insomnia disorder. If you have chronic sleep problems, see a doctor.</li>
+        <li><strong>Safety first.</strong> We flag interactions (ashwagandha and thyroid medication, melatonin and blood thinners, and so on).</li>
+      </ul>
+
+      <h2>Bottom line</h2>
+      <p>
+        Start with the basics — consistent sleep schedule, dark room, no late caffeine — then, if
+        you want a supplement, magnesium glycinate is the most sensible first try. Give any
+        supplement 2–4 weeks before judging it.
+      </p>
+    </div>
+
+    <AffiliateBox
+      badge="Stress Pick"
+      name="Ashwagandha KSM-66 (via iHerb)"
+      slug="ashwagandha"
+      blurb="The most-studied extract (KSM-66). Not for pregnant/nursing readers or those on thyroid meds without a doctor's OK."
+    />
+  </div>
+</BaseLayout>

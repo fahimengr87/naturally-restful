@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Contact"
+  description="Questions, corrections, or partnership inquiries — get in touch with Naturally Restful."
+>
+  <div class="container">
+    <h1 class="page-title">Contact</h1>
+    <p class="lead">
+      Corrections, questions, product tips, or just to argue about magnesium — all welcome.
+    </p>
+
+    <div class="prose">
+      <h2>Email</h2>
+      <!-- TODO: set up an email address on your domain, e.g. hello@naturallyrestful.xyz,
+           then update this mailto link. -->
+      <p><a href="mailto:hello@naturallyrestful.xyz">hello@naturallyrestful.xyz</a></p>
+
+      <h2>Form</h2>
+      <!-- TODO: get a free access key at web3forms.com (free tier, no backend needed),
+           replace YOUR-WEB3FORMS-ACCESS-KEY below, and delete the mailto alternative. -->
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="YOUR-WEB3FORMS-ACCESS-KEY" />
+        <input type="hidden" name="subject" value="Naturally Restful — contact form" />
+        <p><label for="name">Name</label><br />
+          <input id="name" type="text" name="name" required style={{ width: '100%', maxWidth: '24rem' }} />
+        </p>
+        <p><label for="email">Email</label><br />
+          <input id="email" type="email" name="email" required style={{ width: '100%', maxWidth: '24rem' }} />
+        </p>
+        <p><label for="message">Message</label><br />
+          <textarea id="message" name="message" rows="6" required style={{ width: '100%', maxWidth: '36rem' }}></textarea>
+        </p>
+        <p><button class="btn" type="submit">Send message</button></p>
+      </form>
+    </div>
+  </div>
+</BaseLayout>

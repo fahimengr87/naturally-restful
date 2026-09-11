@@ -1,0 +1,68 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EmailOptin from '../components/EmailOptin.astro';
+
+const latest = (await getCollection('articles'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+
+const dateFmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Naturally Restful',
+  url: 'https://naturallyrestful.xyz',
+  description: 'Honest, research-aware guides to sleep and stress supplements.',
+};
+---
+<BaseLayout
+  title="Naturally Restful"
+  description="Honest, research-aware guides to sleep and stress supplements. What works, what doesn't, and what the industry won't tell you."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+
+  <section class="hero container">
+    <p class="eyebrow">Sleep · Stress · Supplements</p>
+    <h1>Better sleep, without the hype.</h1>
+    <p>
+      We read the research on sleep and stress supplements so you don't have to —
+      then tell you exactly what works, what doesn't, and who shouldn't take it.
+    </p>
+    <a class="btn" href="/best-sleep-supplements">See the best sleep supplements →</a>
+  </section>
+
+  <section class="container wide">
+    <h2 class="section-title">Start here</h2>
+    <div class="card-grid">
+      <a class="card" href="/best-sleep-supplements">
+        <h3>Best Sleep Supplements</h3>
+        <p>Our current top picks, how they compare, and the one we'd start with.</p>
+      </a>
+      <a class="card" href="/articles/magnesium-glycinate-vs-citrate-for-sleep">
+        <h3>Magnesium for Sleep</h3>
+        <p>Glycinate vs. citrate — which form actually helps sleep, and which is marketing.</p>
+      </a>
+      <a class="card" href="/articles/ashwagandha-for-stress-what-the-research-says">
+        <h3>Stress &amp; Calm</h3>
+        <p>What ashwagandha can realistically do for daily stress, according to trials.</p>
+      </a>
+    </div>
+
+    <h2 class="section-title">Latest articles</h2>
+    <div class="card-grid">
+      {latest.map((a) => (
+        <a class="card" href={`/articles/${a.id}`}>
+          <h3>{a.data.title}</h3>
+          <p>{a.data.description}</p>
+          <div class="card-meta">{dateFmt(a.data.pubDate)}</div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <div class="container">
+    <EmailOptin />
+  </div>
+</BaseLayout>

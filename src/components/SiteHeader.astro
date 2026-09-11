@@ -1,0 +1,20 @@
+---
+const nav = [
+  { href: '/', label: 'Home' },
+  { href: '/articles', label: 'Articles' },
+  { href: '/best-sleep-supplements', label: 'Best Supplements' },
+  { href: '/about', label: 'About' },
+  { href: '/contact', label: 'Contact' },
+];
+---
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">
+      <img src="/favicon.svg" alt="Naturally Restful logo" width="30" height="30" />
+      <span>Naturally Restful</span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      {nav.map((item) => <a href={item.href}>{item.label}</a>)}
+    </nav>
+  </div>
+</header>

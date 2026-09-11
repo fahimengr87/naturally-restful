@@ -1,0 +1,16 @@
+---
+/**
+ * Ad placeholder. Renders an EMPTY, invisible container by default.
+ * When AdSense is approved:
+ *   1. Paste the AdSense loader script into BaseLayout (marked TODO).
+ *   2. Replace this div's contents with the <ins class="adsbygoogle"> unit.
+ * Policy note: never place ad slots on pages whose main purpose is sending
+ * visitors to affiliate/CPA offers (comparison & review pages stay ad-free).
+ */
+interface Props {
+  id: string;
+  label?: string;
+}
+const { id, label = 'Advertisement' } = Astro.props;
+---
+<div class="ad-slot" data-ad-slot={id} role="complementary" aria-label={label}></div>

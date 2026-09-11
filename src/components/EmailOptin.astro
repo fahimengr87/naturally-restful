@@ -1,0 +1,19 @@
+---
+/**
+ * Email opt-in. TODO before launch: connect to a real email provider
+ * (MailerLite / ConvertKit / Buttondown all have free tiers).
+ * EU/UK visitors must be able to unsubscribe in every email (GDPR).
+ * The form is intentionally inert until wired up — never collect emails
+ * into thin air.
+ */
+---
+<section class="optin">
+  <h3>The Sleep Notes — one useful email per week</h3>
+  <p>One supplement breakdown, one sleep tip, zero spam. Unsubscribe anytime.</p>
+  <!-- TODO: replace action/fields with your email provider's form embed -->
+  <form action="#" method="post" onsubmit="this.action='';return false;">
+    <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address" />
+    <button class="btn" type="submit">Subscribe</button>
+  </form>
+  <small>By subscribing you agree to our <a href="/privacy" style="color:#c6d2de">privacy policy</a>. Double opt-in — we'll send a confirmation email first.</small>
+</section>

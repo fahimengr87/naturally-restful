@@ -1,0 +1,15 @@
+{
+  "name": "naturally-restful",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Naturally Restful — honest, research-aware guides to sleep & stress supplements (US/UK/CA/AU).",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.2.0",
+    "astro": "^5.0.0"
+  }
+}

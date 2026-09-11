@@ -1,0 +1,24 @@
+# ============================================================
+# AFFILIATE REDIRECT SYSTEM — /go/<slug> -> affiliate URL
+# ============================================================
+# Cloudflare Pages reads this file at the edge. 302 = temporary,
+# so you can swap destinations anytime without cache problems.
+#
+# HOW TO USE:
+#   1. Get your affiliate link from iHerb / Amazon / CPA network.
+#   2. Add or edit a line below:  /go/<slug> <your-link> 302
+#   3. Never paste raw affiliate URLs into articles — always link
+#      to /go/<slug> instead. One edit here updates the whole site.
+# ============================================================
+
+# TODO: replace these example destinations with real affiliate links
+/go/magnesium-glycinate     https://www.example.com/magnesium-glycinate-affiliate-link 302
+/go/magnesium-citrate       https://www.example.com/magnesium-citrate-affiliate-link 302
+/go/ashwagandha             https://www.example.com/ashwagandha-affiliate-link 302
+/go/melatonin               https://www.example.com/melatonin-affiliate-link 302
+/go/l-theanine              https://www.example.com/l-theanine-affiliate-link 302
+/go/glycine                 https://www.example.com/glycine-affiliate-link 302
+/go/valerian                https://www.example.com/valerian-affiliate-link 302
+/go/apigenin                https://www.example.com/apigenin-affiliate-link 302
+/go/gaba                    https://www.example.com/gaba-affiliate-link 302
+/go/sleep-bundle            https://www.example.com/sleep-bundle-affiliate-link 302

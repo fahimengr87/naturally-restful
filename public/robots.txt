@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Keep crawlers out of the affiliate redirect layer
+Disallow: /go/
+
+Sitemap: https://naturallyrestful.xyz/sitemap-index.xml
