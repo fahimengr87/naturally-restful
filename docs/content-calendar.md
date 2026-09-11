@@ -7,7 +7,7 @@ Each ✔ = written. Interlink within cluster + back to /best-sleep-supplements.
 - [x] Magnesium glycinate vs. citrate for sleep *(seed)*
 - [ ] Best magnesium glycinate brands: how to read a certificate of analysis (review)
 - [ ] Magnesium threonate: worth the premium or clever marketing?
-- [ ] Magnesium before bed: timing, dose, and what to expect at 2 weeks vs 4
+- [x] Magnesium before bed: timing, dose, and what to expect at 2 weeks vs 4
 - [ ] Signs of low magnesium (and why "cramps" isn't the whole story)
 
 ## Cluster 2 — Stress & adaptogens
@@ -20,8 +20,8 @@ Each ✔ = written. Interlink within cluster + back to /best-sleep-supplements.
 
 ## Cluster 3 — Sleep basics & amino acids
 - [x] Melatonin: you're probably taking 5–10x too much *(seed)*
-- [ ] Glycine for sleep: the 3-gram trick from Japanese trials
-- [ ] L-theanine for a racing mind: what 100 mg does (and doesn't)
+- [x] Glycine for sleep: the 3-gram trick from Japanese trials
+- [x] L-theanine for a racing mind: what 100 mg does (and doesn't)
 - [ ] GABA supplements: can it even cross into the brain?
 - [ ] Apigenin (chamomile's compound): Huberman-famous, trial-thin
 - [ ] Valerian root: why the evidence is messier than the tea box admits
