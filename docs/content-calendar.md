@@ -6,7 +6,7 @@ Each ✔ = written. Interlink within cluster + back to /best-sleep-supplements.
 ## Cluster 1 — Magnesium (starter cluster, seeds already planted)
 - [x] Magnesium glycinate vs. citrate for sleep *(seed)*
 - [ ] Best magnesium glycinate brands: how to read a certificate of analysis (review)
-- [ ] Magnesium threonate: worth the premium or clever marketing?
+- [x] Magnesium threonate: worth the premium or clever marketing?
 - [x] Magnesium before bed: timing, dose, and what to expect at 2 weeks vs 4
 - [ ] Signs of low magnesium (and why "cramps" isn't the whole story)
 
@@ -14,8 +14,8 @@ Each ✔ = written. Interlink within cluster + back to /best-sleep-supplements.
 - [x] Ashwagandha for stress: what the research says *(seed)*
 - [x] Ashwagandha vs. L-theanine: calm-down vs. focus-up
 - [x] KSM-66 vs Sensoril: the two extracts behind the trials
-- [ ] Ashwagandha side effects: the honest list (and the people who must skip it)
-- [ ] Rhodiola vs. ashwagandha for burnout feelings
+- [x] Ashwagandha side effects: the honest list (and the people who must skip it)
+- [x] Rhodiola vs. ashwagandha for burnout feelings
 - [ ] Do "adaptogen" drinks actually adapt anything?
 
 ## Cluster 3 — Sleep basics & amino acids
