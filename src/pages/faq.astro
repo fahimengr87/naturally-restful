@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const faqs = [
+  {
+    q: 'What is the best supplement for sleep?',
+    a: 'There is no single best — it depends on your pattern. For general sleep quality: magnesium glycinate (200–400 mg). For stress-driven trouble: ashwagandha KSM-66 (300–600 mg, 6–8 weeks). For a racing mind: L-theanine (100–200 mg, same evening). For jet lag only: low-dose melatonin (0.5–1 mg). Our full comparison walks through the decision.',
+  },
+  {
+    q: 'Are sleep supplements safe?',
+    a: 'The ones we cover are generally well-tolerated at studied doses by healthy adults. But every supplement has exclusions — the most important being pregnancy (ashwagandha is a hard no), thyroid conditions, autoimmune disease, and kidney disease. Always read the exclusion list on the relevant article and talk to your doctor if any apply.',
+  },
+  {
+    q: 'How much melatonin should I take?',
+    a: 'Far less than the bottle suggests. Research supports 0.5–1 mg for jet lag and timing issues. Most commercial products contain 5–10 mg — 5–10x the effective dose, which adds morning grogginess without adding benefit.',
+  },
+  {
+    q: 'Can I take magnesium and ashwagandha together?',
+    a: 'Yes — they work through different mechanisms (mineral regulation vs. stress-hormone modulation) and no interaction is established between them. Many people pair magnesium nightly with ashwagandha during high-stress periods.',
+  },
+  {
+    q: 'How long do sleep supplements take to work?',
+    a: 'L-theanine: the same evening. Glycine: within days. Melatonin: the night you time it correctly. Magnesium: judge at 2–4 weeks. Ashwagandha: the full 6–8 weeks the trials measured. If a supplement promises instant results, be suspicious.',
+  },
+  {
+    q: 'Do sleep gummies work?',
+    a: 'Mostly through ritual and placebo. Doses are frequently 5–20x the research-supported amount for melatonin, blends use under-dosed actives, and each gummy carries sugar at the worst time of day for it.',
+  },
+  {
+    q: 'Do you earn commissions from recommendations?',
+    a: 'Yes — transparently. If you buy through links on this site, the seller pays us a commission at no extra cost to you. Commissions are identical regardless of which product you choose, so rankings reflect merit only. Full details on our disclosure page.',
+  },
+  {
+    q: 'Are you doctors?',
+    a: 'No. Naturally Restful publishes research-aware health information written by a researcher, not medical advice. Nothing here diagnoses, treats, cures, or prevents disease. For that, see a qualified clinician — seriously.',
+  },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
+---
+<BaseLayout
+  title="Frequently Asked Questions"
+  description="Straight answers about sleep supplements: what works, what's safe, how long things take, and how this site earns money."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <div class="container">
+    <h1 class="page-title">Frequently Asked Questions</h1>
+    <p class="lead">
+      The questions readers actually ask — answered in the same honest register as the articles.
+    </p>
+    <div class="prose">
+      {faqs.map((f) => (
+        <div class="faq-item">
+          <h2>{f.q}</h2>
+          <p>{f.a}</p>
+        </div>
+      ))}
+    </div>
+    <p style="margin-top:2rem">
+      <a class="btn" href="/best-sleep-supplements">See the full supplement comparison →</a>
+    </p>
+  </div>
+</BaseLayout>
+
+<style>
+  .faq-item { border-bottom: 1px solid #e5e2da; padding: 0.5rem 0 1.2rem; }
+  .faq-item h2 { font-size: 1.15rem; margin: 1.2rem 0 0.5rem; }
+</style>

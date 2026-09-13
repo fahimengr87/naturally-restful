@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const terms = [
+  { t: 'Adaptogen', d: 'A plant compound claimed to help the body "adapt" to stress. The label covers very different plants with very different evidence — rhodiola and ashwagandha are the best-studied.', link: '/articles/rhodiola-vs-ashwagandha-for-burnout' },
+  { t: 'Bioavailability', d: 'How much of an ingested substance actually reaches your bloodstream. The reason magnesium oxide (≈4%) and magnesium glycinate (far better) are different products despite the same mineral.', link: '/articles/magnesium-glycinate-vs-citrate-for-sleep' },
+  { t: 'Bisglycinate', d: 'Magnesium bound to two glycine molecules — the chelated, bedtime-friendly form usually sold as "glycinate."', link: '/articles/best-magnesium-supplements-for-sleep-ranked' },
+  { t: 'Certificate of Analysis (COA)', d: 'A lab report for a specific production batch verifying contents and purity. The single document that separates honest supplement brands from label-printers.', link: '/articles/best-magnesium-glycinate-brands-coa' },
+  { t: 'Cortisol', d: 'The body\'s primary stress hormone, following a daily rhythm. Chronically elevated evening cortisol is a common driver of stress-related sleep trouble; ashwagandha trials measured ~20–30% reductions.', link: '/articles/ashwagandha-for-stress-what-the-research-says' },
+  { t: 'Elemental magnesium', d: 'The amount of actual magnesium in a compound, as opposed to the compound\'s total weight. Dosing guides (200–400 mg) refer to elemental — always check the back panel.', link: '/articles/magnesium-before-bed-timing-and-dosage' },
+  { t: 'GABA', d: 'The brain\'s main inhibitory ("quiet down") neurotransmitter. Magnesium supports its function; oral GABA supplements mostly cannot cross into the brain — which is why we don\'t rank them.', link: '/articles/gaba-supplements-brain-barrier' },
+  { t: 'Half-life', d: 'The time for a substance\'s level to halve. Caffeine\'s ~5–6 hour half-life is why a 4 p.m. coffee is still one-quarter active at midnight.', link: '/articles/natural-sleep-aids-not-supplements' },
+  { t: 'KSM-66', d: 'A patented root-only ashwagandha extract standardized to 5% withanolides — the extract behind most positive stress and sleep trials.', link: '/articles/ksm-66-vs-sensoril-ashwagandha-extracts' },
+  { t: 'Melatonin', d: 'The pineal hormone signaling biological night. A clock-shifter (great for jet lag and shift work), not a sedative — and effective at 0.5–1 mg, far below typical bottle doses.', link: '/articles/melatonin-most-people-take-too-much' },
+  { t: 'Sensoril', d: 'A root-and-leaf ashwagandha extract standardized to ~10% withanolides; fewer trials than KSM-66 but a solid record at 125–250 mg/day.', link: '/articles/ksm-66-vs-sensoril-ashwagandha-extracts' },
+  { t: 'Standardized extract', d: 'An herbal extract guaranteed to contain a defined percentage of marker compounds. Non-standardized "root powder" products are agricultural material, not supplements.', link: '/articles/best-ashwagandha-supplements-coa' },
+  { t: 'Structure/function claim', d: 'The legal supplement claim format ("supports restful sleep") — distinct from disease claims ("treats insomnia"), which are illegal for supplements. We hold this line without exception.', link: '/medical-disclaimer' },
+  { t: 'Third-party testing', d: 'Independent lab verification of a product\'s contents (NSF, USP, Informed Choice). The shortcut replacement for reading COAs yourself.', link: '/articles/best-magnesium-glycinate-brands-coa' },
+  { t: 'Withanolides', d: 'The active steroidal lactones in ashwagandha; the percentage that defines extract potency (5% root-only for KSM-66, ~10% for Sensoril).', link: '/articles/best-ashwagandha-supplements-coa' },
+];
+---
+<BaseLayout
+  title="Supplement Glossary"
+  description="Plain-English definitions of the terms on every supplement label: adaptogens, withanolides, COAs, elemental magnesium, bioavailability, and more."
+>
+  <div class="container">
+    <h1 class="page-title">Glossary</h1>
+    <p class="lead">
+      The vocabulary of the supplement aisle, translated — each term linked to the article where it matters.
+    </p>
+    <div class="prose">
+      {terms.map((term) => (
+        <div class="term">
+          <h2>{term.t}</h2>
+          <p>{term.d} <a href={term.link}>Read more →</a></p>
+        </div>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .term { border-bottom: 1px solid #e5e2da; padding: 0.4rem 0 1.1rem; }
+  .term h2 { font-size: 1.1rem; margin: 1.1rem 0 0.4rem; }
+</style>
