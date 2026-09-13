@@ -22,4 +22,4 @@ pnpm-debug.log*
 
 # secrets (never commit tokens)
 scripts/.api-token*
-scripts/.pinterest-token
+scripts/.pinterest-*
