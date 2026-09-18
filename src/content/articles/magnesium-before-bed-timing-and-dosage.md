@@ -49,3 +49,5 @@ Splitting the dose (half with dinner, half before bed) is a fine option if you'r
 ## One last expectation-setting
 
 The realistic best case, drawn straight from the trials: **modestly faster sleep onset, modestly better sleep quality, slightly calmer evenings** — stacked on top of decent sleep habits, not instead of them. Magnesium is a supporting actor. The [full comparison of options](/best-sleep-supplements) helps you pick the right lead for your specific problem — and if your sleep is seriously broken, the correct first click is a doctor's appointment, not a supplement site. Even this one.
+
+**Key studies:** Abbasi et al., *J Res Med Sci* 2012 (500 mg in older adults: ↑ sleep time, efficiency, melatonin) · Wells et al., *BMC Complement Med Ther* 2021 meta-analysis (modest pooled sleep benefits) · Mah & Pitre 2021 review (magnesium status, stress, and sleep physiology).

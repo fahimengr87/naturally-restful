@@ -50,3 +50,5 @@ The common habit — popping 10 mg at midnight after failing to fall asleep — 
 If you take melatonin, take **0.5–1 mg, timed for what you're fixing** — earlier in the evening for a late-shifted body clock, at target bedtime for eastbound travel. If it "never worked" at 10 mg, the dose wasn't the missing ingredient; the timing and the job description were.
 
 For ordinary stress-related sleep trouble, the better-studied basics elsewhere on this site — magnesium glycinate, ashwagandha, and boring sleep-schedule discipline — earn their place first.
+
+**Key studies:** Buscemi et al., *BMJ* 2006 meta-analysis (↓ sleep onset latency; marginal sleep-quality effects) · Auld et al., *Sleep Med Rev* 2017 (jet lag: 0.5–5 mg timing-dependent) · Arendt, *J Physiol* 2017 review (low-dose chronobiotic dosing principles).

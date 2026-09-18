@@ -1,9 +1,9 @@
 # Extended Article Queue — Season 2 (post-calendar)
 The weekly autonomous publisher works through this list top-down. Tick when published.
 
-- [ ] Tart Cherry Juice for Sleep: What the Trials Actually Show
-- [ ] Lavender Oil Capsules (Silexan): The Underknown Calm Option
-- [ ] 5-HTP for Sleep: Promising Mechanism, Real Risks
+- [x] Tart Cherry Juice for Sleep: What the Trials Actually Show
+- [x] Lavender Oil Capsules (Silexan): The Underknown Calm Option
+- [x] 5-HTP for Sleep: Promising Mechanism, Real Risks
 - [ ] Passionflower Tea: Gentle Evidence for Anxious Evenings
 - [ ] Lemon Balm: What It Can and Can't Do
 - [ ] CBD for Sleep: The Honest State of the Evidence

@@ -52,3 +52,5 @@ This section matters more than the rest of the article:
 Ashwagandha clears a bar most stress supplements don't clear at all: multiple small human trials showing consistent, biologically measurable effects. If your sleep trouble is obviously stress-driven, it's the most defensible "calm" supplement to try — from a standardized extract, at trial doses, with a doctor's sign-off if any of the flags above apply to you.
 
 If your stress is mild and occasional, a walk and a fixed bedtime remain undefeated.
+
+**Key studies:** Chandrasekhar et al., *Indian J Psychol Med* 2012 (KSM-66 600 mg/day: cortisol −27.9%, stress scores ↓) · Salve et al., *Cureus* 2019 (300 mg BID: sleep onset + quality) · Pratte et al., *J Ayurveda Integr Med* 2014 meta-analysis (significant stress/anxiety reduction vs placebo).
