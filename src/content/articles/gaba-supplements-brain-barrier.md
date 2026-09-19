@@ -7,30 +7,38 @@ type: article
 
 GABA is your brain's main inhibitory neurotransmitter — the literal "quiet down" signal. So the pitch writes itself: eat GABA, calm your brain, sleep better. Supplement shelves are full of GABA-for-sleep products built on exactly that sentence.
 
-There's one problem, and it's a big one: **the blood-brain barrier.**
+I wish it were that simple. There's one problem, and it's a big one.
 
 ## The barrier problem
 
-Orally swallowed GABA faces a security wall between your bloodstream and your brain that it largely cannot pass. This has been the pharmacology consensus for decades: dietary GABA stays mostly outside the central nervous system. A supplement that can't reach its stated target is, on its own label logic, a dud.
+Orally swallowed GABA faces a security wall between your bloodstream and your brain that it largely cannot pass. This has been the pharmacology consensus for decades: dietary GABA stays mostly outside the central nervous system. The blood-brain barrier is exactly what it sounds like — a barrier — and GABA doesn't have the security clearance.
+
+Let me be precise about what that means. A supplement that can't reach its stated target is, on its own label logic, a waste of money. That's the honest starting point.
 
 ## So why do some trials show effects?
 
-A fair question — because some small trials do report modest reductions in stress markers and slight sleep improvements after oral GABA (often 100–300 mg). A few possible explanations, none of them confirmed:
+A fair question — because some small trials *do* report modest reductions in stress markers after oral GABA (often 100–300 mg). I've read these studies, and here are three explanations, none of them confirmed:
 
-1. **The gut-brain axis.** GABA receptors exist in the gut and along the vagus nerve; there's plausible signaling from the digestive system to the brain that bypasses the barrier.
-2. **Tiny transient crossing.** A small fraction may slip through under certain conditions — debated, not established.
-3. **Placebo and small samples.** Many positive GABA studies are small, short, and would not survive the same scrutiny we apply to, say, ashwagandha trials.
+**The gut-brain axis.** GABA receptors exist in your gut and along the vagus nerve. There's plausible signaling from the digestive system to the brain that bypasses the barrier entirely. Your gut talks to your brain more than most people realize, and this could be one of those conversations.
 
-The honest summary: effects reported are **small, inconsistent, and mechanistically unresolved**. That's several evidence tiers below the sleep supplements we actually rate.
+**Tiny transient crossing.** A small fraction might slip through under certain conditions. It's debated, not established. I've gone back and forth on the plausibility, and honestly, the evidence isn't strong enough for me to commit either way.
 
-## What to take instead, depending on why GABA appealed to you
+**Placebo and small samples.** Many positive GABA studies are small, short, and would not survive the scrutiny we apply to, say, the ashwagandha trials. Some probably don't deserve to.
 
-This is the useful part. If GABA's pitch attracted you, one of these fits the same need with far better evidence:
+My honest summary: effects reported are **small, inconsistent, and mechanistically unresolved**. Several tiers below the supplements we actually rate on this site.
 
-- **You want the brain's "quiet" system supported gently** → **magnesium** [supports GABA function indirectly](/articles/magnesium-before-bed-timing-and-dosage) — and magnesium reliably gets into the body.
-- **You want an amino acid with real sleep trials** → **[glycine at 3 g](/articles/glycine-for-sleep-the-3-gram-dose)**, which shares the "inhibitory neurotransmitter" story but has actual positive trial data.
-- **You want calm without sedation** → **[L-theanine](/articles/l-theanine-for-a-racing-mind)**, which demonstrably shifts brain activity in the right direction.
+## What to take instead (depending on why GABA appealed to you)
+
+This is the useful part. If GABA's pitch attracted you, one of these probably fits the same need with far better evidence:
+
+- **You want your brain's "quiet" system supported gently** → [Magnesium](/articles/magnesium-before-bed-timing-and-dosage) supports GABA function *indirectly* — and magnesium reliably gets into the body. The indirect route works better than the direct one here, which is ironic but true.
+
+- **You want an amino acid with real sleep trials** → [Glycine at 3 g](/articles/glycine-for-sleep-the-3-gram-dose) shares the "inhibitory neurotransmitter" story but has actual positive human trial data behind it.
+
+- **You want calm without sedation** → [L-theanine](/articles/l-theanine-for-a-racing-mind) demonstrably shifts brain activity toward the relaxed-alert state.
 
 ## Bottom line
 
-We don't sell fear here and we don't sell fairy tales: GABA supplements are probably not dangerous, just mostly pointless — paying premium prices for a molecule that largely stays outside the brain it's advertised to soothe. When the [comparison page](/best-sleep-supplements) ranks options, GABA's absence from the list is a deliberate decision, and this article is the receipt.
+I don't sell fear, and I don't sell fairy tales. GABA supplements are probably safe, just mostly pointless — you're paying premium prices for a molecule that largely stays outside the brain it's advertised to soothe.
+
+When our [comparison page](/best-sleep-supplements) ranks sleep options, GABA's absence from the list is a deliberate choice. This page is the receipt.
