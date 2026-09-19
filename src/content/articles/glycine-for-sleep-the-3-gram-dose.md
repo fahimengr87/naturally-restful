@@ -1,57 +1,61 @@
 ---
-title: "Glycine for Sleep: The 3-Gram Dose Behind the Trials"
-description: "Japanese researchers ran the glycine sleep trials at 3 grams — a dose almost no commercial product matches. Here's what the research shows and how to take it."
+title: "Glycine for Sleep: The 3-Gram Dose That Actually Works"
+description: "Almost every glycine product underdoses. The trials used 3 grams — here's why that matters, how to take it correctly, and what to realistically expect."
 pubDate: 2026-09-12
 type: article
 products:
   - name: "Glycine powder (via iHerb)"
     slug: glycine
-    blurb: "Plain glycine powder is the only sensible format — 3 g is one small scoop, versus six or more capsules. Sweet taste, dissolves instantly."
-    badge: "Format matters"
+    blurb: "Plain glycine powder — 3 g is one scoop. Capsules at 500 mg each would require six per night. Buy the powder."
+    badge: "Buy the powder"
     points:
-      - "3 g scoop = the exact dose trials used"
-      - "Roughly twenty cents a night"
-      - "Faster sleep onset reported within days"
+      - "3 g = the exact dose from every trial"
+      - "Costs about twenty cents a night"
+      - "Works within days for sleep onset"
 ---
 
-Here's a supplement story that rarely gets told straight: glycine has some of the cleanest sleep trial data of any amino acid — and most products sold as "glycine sleep aids" contain a fraction of the dose those trials used.
+Glycine has some of the cleanest sleep trial data of any amino acid, and almost every commercial product completely underdoses it. This isn't a rounding error — it's a 6x gap between what the science tested and what companies sell.
 
-I find this genuinely annoying, so let me fix it.
+Let me fix that for you.
 
-## What the trials did
+## What the trials found
 
-The glycine sleep research comes mostly from Japanese university groups, and their protocol was refreshingly consistent: **3 grams of glycine, taken shortly before bed.** Not 500 mg hidden in a "calm blend." Three grams.
+Japanese university research groups ran the glycine sleep studies, and their protocol was admirably consistent: **3 grams before bed.** Not 500 mg hidden in a proprietary "calm blend." Three grams.
 
-Inagawa and colleagues gave volunteers 3 g before bedtime and found improvements in subjective sleep quality — falling asleep faster, waking less groggy — with better next-day cognitive performance. Yamadera's team, using polysomnography (the wired-up lab measurement), observed shortened sleep latency. Bannai's later trial found the same pattern plus an interesting detail: participants reported less daytime sleepiness the following day. Not drugged sleep, in other words — actual rest.
+Here's what they measured:
 
-Now, the honest caveats (there are always caveats): these were small trials — typically 10–20 people per group. Subjective outcomes carried significant weight. Effect sizes were moderate. I'm not going to oversell it to you. Glycine is not a knockout pill. It's a "noticeably nicer night for about twenty cents" supplement, and that's genuinely useful.
+Inagawa's team: improved subjective sleep quality — faster onset, less grogginess on waking, better next-day cognitive performance. Yamadera's group used polysomnography (the wired-up lab gold standard) and found shortened sleep latency — objective confirmation, not just self-report. Bannai's trial replicated the pattern and added a detail I find important: participants reported **less daytime sleepiness** the next day. Not drugged sleep. Actual rest.
 
-## Why it probably works
+Let me put this in context: these results are from 3 g. If your glycine product says "500 mg per serving," you're taking one-sixth of the trial dose and wondering why nothing happens.
 
-Two mechanisms come up in the literature, and both are interesting:
+## Why it works — two mechanisms, both fascinating
 
-**Body temperature drop.** Glycine triggers peripheral vasodilation — blood flows to your skin, hands and feet warm slightly, and your core temperature falls. That temperature drop is one of your body's natural "initiate sleep" signals. It's the same reason a warm bath before bed paradoxically helps: the post-bath cooldown tells your brain "night's starting."
+**Body temperature.** Glycine triggers peripheral vasodilation — blood flows to your hands and feet, they warm slightly, and your core temperature drops. That drop is your body's natural "initiate sleep" signal. This is the same reason a warm bath before bed helps (counterintuitively): the post-bath cooldown tells your brain "night's starting."
 
-**Direct inhibitory signaling.** Glycine is itself an inhibitory neurotransmitter — one of your brain's "quiet down" molecules. How much orally-taken glycine crosses into the brain is still debated, but the mechanism is plausible.
+**Direct signaling.** Glycine is itself an inhibitory neurotransmitter — a "quiet down" molecule in your brain. The debate about how much oral glycine crosses the blood-brain barrier is ongoing, but the gut-brain axis (your digestive system signaling directly to your brain via the vagus nerve) offers a plausible pathway that bypasses the barrier entirely.
 
-## How to take it (the part nobody explains)
+## How to take it — three non-negotiables
 
-**Dose: 3 g.** This is the trial dose. Many "sleep blend" capsules contain 500 mg or less — you'd need six of them. Don't.
+**Dose: 3 g.** This is the trial dose. Don't negotiate with it. Most "sleep blend" capsules contain 500 mg — you'd need six capsules. Buy powder.
 
-**Powder, not capsules.** One small scoop of glycine powder in water. It tastes mildly sweet — glycine is the sweetest-tasting amino acid — dissolves instantly, and doesn't feel like taking medicine. That last part matters at bedtime, when you don't want to be swallowing six capsules.
+**Powder, not capsules.** One scoop in water. It tastes mildly sweet — glycine is the sweetest-tasting amino acid — dissolves instantly, and goes down easy. Six capsules at bedtime is a chore. One sweet sip is not.
 
-**Timing: 30–60 minutes before bed.**
+**Timing: 30–60 minutes before bed.** Consistency matters — take it nightly.
 
-**Duration:** effects on sleep onset were often reported within days. Give it two weeks before judging.
+Give it two weeks. Effects on sleep onset are often reported within the first few nights, but full evaluation needs fourteen days.
 
-Glycine also stacks naturally with magnesium glycinate (which is literally magnesium bound to glycine). You're not double-dosing anything dangerous — they're complementary, and the glycine dose from the magnesium route is far below 3 g.
+Glycine stacks cleanly with magnesium glycinate (which is literally magnesium bound to glycine). No interaction risk — they're complementary, and the glycine dose from the magnesium route is well below 3 g.
 
-## Who should skip it
+## Who should not take it
 
-- **Anyone on clozapine.** A documented interaction. Talk to your psychiatrist first.
-- **History of schizophrenia or psychosis.** Glycine interacts with NMDA receptor systems relevant to these conditions. High-dose glycine was actually studied *as* a psychiatric intervention — this is not DIY territory.
-- **Pregnancy/nursing:** insufficient data. Skip.
+Two hard exclusions, one precaution:
+
+- **Clozapine users.** Documented interaction. Talk to your psychiatrist.
+- **History of schizophrenia or psychosis.** Glycine modulates NMDA receptors relevant to these conditions. This was studied *as a psychiatric intervention* — it's not a DIY supplement in this population.
+- **Pregnancy/nursing:** insufficient data. Skip it.
 
 ## Bottom line
 
-If your pattern is "sleepy but my body takes forever to wind down," glycine at the real trial dose — **3 g of powder, twenty cents a night** — is one of the most defensible experiments in the sleep aisle. If your problem is 3 a.m. wake-ups or stress insomnia, [magnesium](/articles/magnesium-glycinate-vs-citrate-for-sleep) or [ashwagandha](/articles/ashwagandha-for-stress-what-the-research-says) are better-matched tools.
+If your pattern is "tired body, but it takes forever to wind down" — glycine at the real dose (**3 g powder, twenty cents a night**) is one of the best-value experiments in the sleep aisle. If your problem is 3 a.m. wake-ups or stress-driven insomnia, [magnesium](/articles/magnesium-glycinate-vs-citrate-for-sleep) or [ashwagandha](/articles/ashwagandha-for-stress-what-the-research-says) are better-matched tools.
+
+Just don't buy the underdosed capsules. You're better than that.

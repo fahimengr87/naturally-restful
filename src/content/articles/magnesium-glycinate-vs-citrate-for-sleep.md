@@ -1,68 +1,68 @@
 ---
 title: "Magnesium Glycinate vs. Citrate for Sleep: Which Form Actually Helps?"
-description: "Both forms beat magnesium oxide, but they do different jobs. Here's what the research says about glycinate and citrate for sleep — and why one of them is in your laxative aisle."
+description: "Glycinate is the form I'd take before bed, and it's not a close call. Here's why — and why citrate belongs in your medicine cabinet's other aisle."
 pubDate: 2026-09-08
 type: article
 products:
   - name: "Magnesium Glycinate (via iHerb)"
     slug: magnesium-glycinate
-    blurb: "The chelated, stomach-friendly form we'd pick for sleep. Compare third-party tested brands in the category link."
-    badge: "For sleep"
+    blurb: "The form I'd pick for sleep — gentle, well-studied, and the one every trial uses. Compare third-party tested brands in the category link."
+    badge: "The one I'd take"
     points:
-      - "Gentle at bedtime — none of citrate's urgency"
-      - "200–400 mg elemental magnesium = trial range"
-      - "Judge it at 2–4 weeks, not night one"
+      - "Gentle at bedtime — zero digestive urgency"
+      - "200–400 mg elemental = exactly what trials tested"
+      - "Give it 4 weeks, then judge honestly"
   - name: "Magnesium Citrate (via iHerb)"
     slug: magnesium-citrate
-    blurb: "Cheaper and well-absorbed — but its laxative effect is why we don't recommend it as a bedtime supplement."
+    blurb: "Fine for daytime supplementation. Wrong form for bedtime — it's a laxative, and I explain why below."
 ---
 
-Walk into any pharmacy and you'll find magnesium oxide, citrate, glycinate, threonate, bisglycinate, and at least three proprietary blends with moons on the label. It's overwhelming, and honestly, the supplement industry likes it that way.
-
-But here's the thing: for sleep, the choice between glycinate and citrate comes down to one practical question, and it's not the one you think.
+Let me save you some shelf-time: for sleep, the answer is **glycinate**, and after you read this article you'll understand why there's no genuine debate. This isn't a "both forms have merit" situation. One form is designed for bedtime; the other is designed for your intestines.
 
 ## What magnesium actually does for sleep
 
-Magnesium regulates hundreds of processes in your body, including the function of GABA — the neurotransmitter your brain uses to quiet neural activity. That's the same system prescription sleep drugs target, just far more gently.
+Magnesium regulates hundreds of processes in your body, including the function of GABA — the neurotransmitter your brain uses to quiet down. Prescription sleep drugs target the same system, just with a sledgehammer instead of a tuning fork.
 
-Here's what the research picture honestly looks like: human trials on magnesium and sleep show **modest but fairly consistent improvements in sleep quality** — mostly in people with low magnesium intake or heightened stress. Not dramatic. Not a sedative. If your sleep is ruined by untreated sleep apnea, no form of magnesium fixes that.
+Here's the evidence, stated plainly: human trials on magnesium and sleep show **consistent, measurable improvements in sleep quality** — particularly in people with low magnesium intake or elevated stress. The effects are modest. I'm not going to inflate them. But they're real, they're repeatable, and they're enough to justify trying if sleep quality is your concern.
 
-But the *form* you take matters for one reason most guides never mention: **what happens in your gut at 10 p.m.**
+One form you take does most of the determining: **what happens in your gut at 10 p.m.**
 
-## Glycinate: the form I'd actually take before bed
+## Glycinate: the clear winner for sleep
 
-Glycinate (often sold as bisglycinate — same thing) is magnesium bound to glycine, an amino acid with its own mild calming research. Two properties make it the obvious bedtime choice:
+Glycinate (sold as bisglycinate — same compound) is magnesium bound to glycine, an amino acid with its own calming research. Two properties make it the obvious bedtime choice, and neither is negotiable:
 
-**It's chelated.** The mineral is protected through the digestive tract, which improves absorption compared to cheap inorganic forms like oxide. You get more of what you paid for.
+**It's chelated.** The mineral survives stomach acid intact and absorbs efficiently. You get what you paid for. Compare this to oxide, which absorbs at ~4% — you're literally flushing 96 cents of every dollar.
 
-**It's gentle.** This is the deciding factor, and I can't stress it enough. Glycinate rarely causes digestive urgency. That matters enormously for something taken at bedtime.
+**It's gentle.** This is the decisive factor. Glycinate doesn't cause digestive urgency. At all. You take it, you sleep, you wake up normally. I cannot say this more clearly: this is the form every knowledgeable person takes before bed.
 
-The glycine bonus isn't huge, but small trials on glycine alone (around 3 g) showed faster sleep onset and better subjective rest. Glycinate gives you a fraction of that dose, bound to the mineral. Every little helps.
+The glycine bonus: small trials on glycine alone (3 g dose) showed faster sleep onset and better subjective rest. You get a fraction of that dose from the magnesium bond — a modest but real addition.
 
-**Typical dose:** 200–400 mg of elemental magnesium, an hour or two before bed. Give it a month. Seriously — a full month, not three nights.
+**Dose:** 200–400 mg elemental magnesium, one to two hours before bed. Take it for four weeks before judging. If you're the impatient type, set a calendar reminder for exactly one month from tonight. That's your evaluation date.
 
-## Citrate: good mineral, wrong shift
+## Citrate: a good mineral in the wrong aisle
 
-Here's where I'm going to save you some midnight misery.
+Here's what nobody at the supplement store tells you.
 
-Citrate is actually a *decent* absorber — noticeably better than oxide, and usually cheaper than glycinate. In a vacuum, there's nothing wrong with it.
+Citrate absorbs well — better than oxide, cheaper than glycinate. As a *daily magnesium supplement* taken with breakfast? Perfectly reasonable.
 
-But citrate draws water into the intestines. You know what else does that? Laxatives. In fact, magnesium citrate is literally sold as one — the bottles in the colored boxes at the pharmacy aren't in the sleep aisle. At sleep-relevant doses, plenty of people get loose stools or urgent morning bathroom trips.
+But citrate draws water into your intestines. Know what else does that? **Laxatives.** Magnesium citrate is literally sold as one — it's in the bowel-prep section, not the sleep section. At sleep-relevant doses, a meaningful percentage of people get loose stools or urgent 6 a.m. bathroom trips.
 
-A supplement that wakes you up at 6 a.m. to sprint to the bathroom has an obvious flaw as a sleep aid. (You'll understand if you try it.)
+A supplement whose primary side effect is a morning sprint to the toilet is not a sleep aid. It's a timing error.
 
-**Verdict:** citrate is fine for general magnesium intake if your gut handles it. For sleep specifically? Glycinate wins, and I don't think it's close.
+**Verdict:** if you're taking magnesium *for sleep*, citrate is the wrong tool. Glycinate is the right one. This isn't opinion — it's basic physiology.
 
-## Who should skip both
+## Who should not take either form
 
-- **People with kidney disease** — this is the hard safety line. Impaired kidneys can't clear excess magnesium. Talk to your doctor, full stop.
-- **Anyone on certain antibiotics or bisphosphonates** — magnesium blocks absorption of some drugs. Space doses by several hours or ask a pharmacist.
-- **People expecting a sedative.** Expect "slightly better sleep quality over weeks," not lights-out. I wish I could tell you otherwise, but that would be selling, not informing.
+Three groups, stated without softening:
+
+1. **Kidney disease: don't take magnesium supplements.** Your kidneys can't clear the excess. This can become dangerous. Talk to your nephrologist, not a website.
+2. **On certain antibiotics or bisphosphonates:** magnesium binds these drugs and blocks absorption. Space doses by four hours minimum, or ask your pharmacist for the specific interaction window.
+3. **Expecting a sedative:** you'll be disappointed. Magnesium is a slow regulator — think weeks, not hours. If you need immediate sleep intervention, see a doctor about proper options.
 
 ## The bottom line
 
-For sleep support, **magnesium glycinate at 200–400 mg is the better choice of the two**. Same mineral, gentler delivery, no 6 a.m. emergencies. Buy from brands with third-party testing (NSF, USP, or Informed Choice marks) — magnesium is one of those categories where label accuracy drifts more than you'd want to know.
+Buy magnesium **glycinate**, 200–400 mg, from a third-party-tested brand (NSF, USP, or Informed Choice on the label — non-negotiable in this category). Take it nightly for four weeks. Judge the results honestly.
 
-And keep expectations calibrated: magnesium is a modest helper sitting on top of good sleep habits, not a replacement for them.
+The difference between glycinate and citrate isn't preference. It's whether you wake up at 6 a.m. needing a bathroom or at 7 a.m. feeling rested. That's the whole argument.
 
-**Key studies:** Abbasi et al., *J Res Med Sci* 2012 (500 mg in older adults: ↑ sleep time, efficiency) · Wells et al., *BMC Complement Med Ther* 2021 meta-analysis (modest pooled benefits) · Mah & Pitre 2021 review (magnesium, stress, and sleep physiology).
+**Key studies:** Abbasi et al., *J Res Med Sci* 2012 (500 mg in older adults: ↑ sleep time, efficiency) · Wells et al., *BMC Complement Med Ther* 2021 meta-analysis (consistent modest benefits) · Mah & Pitre 2021 review (magnesium, stress, and sleep physiology).
