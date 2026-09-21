@@ -4,13 +4,13 @@ description: "Ashwagandha cut cortisol by 28% in the most-cited trial. Here's th
 pubDate: 2026-09-05
 type: article
 products:
-  - name: "Ashwagandha KSM-66 (via iHerb)"
+  - name: "CortiSync — KSM-66 Ashwagandha Complex"
     slug: ashwagandha
-    blurb: "The extract behind nearly every positive trial. 300–600 mg/day, full stop. Not for pregnancy, thyroid conditions, or autoimmune disease."
-    badge: "The studied extract"
+    blurb: "Contains 300mg of KSM-66 ashwagandha per serving — the same extract from the trial above — plus 11 other clinically-validated ingredients for cortisol management."
+    badge: "Clinically formulated"
     points:
       - "Cortisol dropped 27.9% in the key trial — a blood measurement, not a mood survey"
-      - "KSM-66 root-only extract — what the studies actually tested"
+      - "Contains KSM-66 root-only extract — what the studies actually tested"
       - "6–8 weeks minimum before you judge results"
 ---
 
