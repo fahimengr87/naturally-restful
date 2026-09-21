@@ -1,6 +1,13 @@
 # Quora Answer Kit — Phase 1 (karma building, NO links)
 Post one per day. Links live in profile only until ~10 answers / 2 weeks.
 
+## Posting log
+- ✅ Answer 1 (melatonin) — posted Fri [2026-09-18] → quora.com/Should-you-take-melatonin-every-night-to-help-fall-asleep-faster/answer/Fahim-Mahmood-1-1
+- ✅ Answer 2 (magnesium) — posted Sat [2026-09-19] → quora.com/Which-magnesium-is-best-for-sleep/answer/Fahim-Mahmood-1-1
+- ✅ Answer 3 (3 a.m. waking) — posted Mon [2026-09-21] → quora.com/Why-do-I-keep-waking-up-at-3-00am-or-just-before/answer/Fahim-Mahmood-1-1
+- Profile credential set: "Sleep & Stress Supplement Researcher at naturallyrestful.xyz" (default, 2026-09-21)
+- **Next up: Answer 4 (ashwagandha), then Answer 5 (scam split). After that, find new <20-answer questions.**
+
 ## Profile setup (first)
 - Name: Fahim (or existing)
 - Credentials: "Sleep & stress supplement researcher — naturallyrestful.xyz"
