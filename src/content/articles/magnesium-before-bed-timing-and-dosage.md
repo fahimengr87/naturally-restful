@@ -4,10 +4,10 @@ description: "How much magnesium to take for sleep, when to take it, and a reali
 pubDate: 2026-09-14
 type: article
 products:
-  - name: "Magnesium Glycinate (via iHerb)"
+  - name: "CortiSync — Stress & Sleep Support"
     slug: magnesium-glycinate
-    blurb: "200–400 mg elemental magnesium in the gentle glycinate form. Third-party tested brands only."
-    badge: "Start here"
+    blurb: "Our partner product for stress-driven sleep trouble. While magnesium supports GABA function, CortiSync targets cortisol — often the upstream cause. Contains KSM-66 ashwagandha."
+    badge: "Partner product"
 ---
 
 Most magnesium-for-sleep advice fails in the same way: it treats magnesium like a sleeping pill — take it, expect drowsiness in 40 minutes, wake up disappointed. The trials tell a different story: magnesium is a **slow-acting regulator** whose measurable effects build over weeks, not hours.

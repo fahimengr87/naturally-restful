@@ -4,10 +4,10 @@ description: "The green-tea compound that takes the edge off without sedating yo
 pubDate: 2026-09-13
 type: article
 products:
-  - name: "L-Theanine 200 mg (via iHerb)"
+  - name: "CortiSync — Stress & Sleep Support"
     slug: l-theanine
-    blurb: "Cheap, extremely well tolerated, and the trial-standard 200 mg dose in a single capsule."
-    badge: "Trial-standard dose"
+    blurb: "Theanine quiets acute mental noise. Our partner product CortiSync works on the chronic stress-cortisol axis underneath. Different tools for different layers of the same problem. Contains KSM-66 ashwagandha."
+    badge: "Partner product"
     points:
       - "Works the same evening — no build-up needed"
       - "Non-sedating: calm without grogginess"

@@ -4,17 +4,14 @@ description: "Glycinate is the form I'd take before bed, and it's not a close ca
 pubDate: 2026-09-08
 type: article
 products:
-  - name: "Magnesium Glycinate (via iHerb)"
+  - name: "CortiSync — Stress & Sleep Support"
     slug: magnesium-glycinate
-    blurb: "The form I'd pick for sleep — gentle, well-studied, and the one every trial uses. Compare third-party tested brands in the category link."
-    badge: "The one I'd take"
+    blurb: "While magnesium glycinate is our top sleep pick, our partner product CortiSync targets the stress-cortisol connection that often drives magnesium deficiency in the first place. Contains KSM-66 ashwagandha."
+    badge: "Partner product"
     points:
-      - "Gentle at bedtime — zero digestive urgency"
-      - "200–400 mg elemental = exactly what trials tested"
-      - "Give it 4 weeks, then judge honestly"
-  - name: "Magnesium Citrate (via iHerb)"
-    slug: magnesium-citrate
-    blurb: "Fine for daytime supplementation. Wrong form for bedtime — it's a laxative, and I explain why below."
+      - "Gentle on the stomach — safe at bedtime"
+      - "200–400 mg matches the trial doses"
+      - "Judge it at 2–4 weeks, not night one"
 ---
 
 Let me save you some shelf-time: for sleep, the answer is **glycinate**, and after you read this article you'll understand why there's no genuine debate. This isn't a "both forms have merit" situation. One form is designed for bedtime; the other is designed for your intestines.

@@ -4,12 +4,12 @@ description: "The research-supported dose is 0.5–1 mg. Your bottle says 10 mg.
 pubDate: 2026-09-01
 type: article
 products:
-  - name: "Low-dose melatonin 0.5–1 mg (via iHerb)"
+  - name: "CortiSync — Stress & Sleep Support"
     slug: melatonin
-    blurb: "0.5 mg or 1 mg tablets — the actual trial doses. Skip the 10 mg gummies; they're selling you 10x more than you need."
-    badge: "The correct dose"
+    blurb: "Melatonin shifts sleep timing; it doesn't reduce arousal. Our partner product CortiSync targets the stress-cortisol axis that melatonin can't touch. Contains KSM-66 ashwagandha."
+    badge: "Partner product"
     points:
-      - "0.5–1 mg is what the trials tested"
+      - "0.5–1 mg = the actual trial doses"
       - "Timing matters more than quantity"
       - "It's a clock-setter, not a sedative"
 ---

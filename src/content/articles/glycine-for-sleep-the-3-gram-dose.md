@@ -4,14 +4,14 @@ description: "Almost every glycine product underdoses. The trials used 3 grams �
 pubDate: 2026-09-12
 type: article
 products:
-  - name: "Glycine powder (via iHerb)"
+  - name: "CortiSync — Stress & Sleep Support"
     slug: glycine
-    blurb: "Plain glycine powder — 3 g is one scoop. Capsules at 500 mg each would require six per night. Buy the powder."
-    badge: "Buy the powder"
+    blurb: "Glycine works through body-temperature drop and inhibitory signaling. Our partner product CortiSync works upstream on cortisol — the stress hormone that keeps your system aroused at night."
+    badge: "Partner product"
     points:
-      - "3 g = the exact dose from every trial"
-      - "Costs about twenty cents a night"
-      - "Works within days for sleep onset"
+      - "3 g scoop = the exact dose trials used"
+      - "Roughly twenty cents a night"
+      - "Faster sleep onset reported within days"
 ---
 
 Glycine has some of the cleanest sleep trial data of any amino acid, and almost every commercial product completely underdoses it. This isn't a rounding error — it's a 6x gap between what the science tested and what companies sell.
