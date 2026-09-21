@@ -1,24 +1,18 @@
 # ============================================================
 # AFFILIATE REDIRECT SYSTEM — /go/<slug> -> affiliate URL
 # ============================================================
-# TEMPORARY STATE: no affiliate program has approved us yet,
-# so every /go/ link routes to the comparison page (a useful,
-# honest destination) instead of a dead placeholder.
-#
-# WHEN YOUR FIRST APPROVAL LANDS: replace the /best-sleep-
-# supplements destinations with the real affiliate URLs from
-# the kit (docs/affiliate-launch-kit.md section 5).
+# AFFILIATE ID: 995971 (SellHealth)
+# CortiSync: 50% commission, contains KSM-66 ashwagandha
+# More products to be added as links are extracted
 # ============================================================
 
-/go/magnesium-glycinate     /best-sleep-supplements 302
-/go/magnesium-citrate       /best-sleep-supplements 302
-/go/ashwagandha             /best-sleep-supplements 302
-/go/melatonin               /best-sleep-supplements 302
-/go/l-theanine              /best-sleep-supplements 302
-/go/glycine                 /best-sleep-supplements 302
-/go/valerian                /best-sleep-supplements 302
-/go/apigenin                /best-sleep-supplements 302
-/go/gaba                    /best-sleep-supplements 302
-/go/sleep-bundle            /best-sleep-supplements 302
-/go/rhodiola                /best-sleep-supplements 302
-/go/magnesium-threonate     /best-sleep-supplements 302
+/go/ashwagandha             https://www.cortisync.com/ct/995971 302
+/go/magnesium-glycinate     https://www.cortisync.com/ct/995971 302
+/go/magnesium-citrate       https://www.cortisync.com/ct/995971 302
+/go/melatonin               https://www.cortisync.com/ct/995971 302
+/go/l-theanine              https://www.cortisync.com/ct/995971 302
+/go/glycine                 https://www.cortisync.com/ct/995971 302
+/go/valerian                https://www.cortisync.com/ct/995971 302
+/go/apigenin                https://www.cortisync.com/ct/995971 302
+/go/gaba                    https://www.cortisync.com/ct/995971 302
+/go/sleep-bundle            https://www.cortisync.com/ct/995971 302
