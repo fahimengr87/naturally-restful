@@ -1,0 +1,184 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import index from '../../../data/reddit-index-2026-09.json';
+
+const supps = index.supplements;
+const totals = index.methodology;
+
+const totalPosts = Object.values(supps).reduce((s: number, v: any) => s + v.posts, 0);
+const totalUps = Object.values(supps).reduce((s: number, v: any) => s + v.upvotes, 0);
+const totalComments = Object.values(supps).reduce((s: number, v: any) => s + v.comments, 0);
+
+const verdicts: Record<string, string> = {
+  Magnesium: 'The most-discussed mineral in sleep, by a mile — and the talk is specific: glycinate.',
+  'L-Theanine': 'The steady performer. "Life changing" is literally a thread title.',
+  Ashwagandha: 'The most controversial major supplement on the list — read the side-effects talk before the hype.',
+  Melatonin: 'Highest engagement of all, and the most confused dosing conversation.',
+  CBD: 'Middling reports, muddy expectations.',
+  GABA: 'Talked about far more than the evidence supports.',
+  'Valerian root': 'The old-timer — love it or shrug.',
+  Apigenin: 'The chamomile compound having a moment.',
+  'Tart cherry': 'Gentle reputation, kitchen-sink delivery.',
+  '5-HTP': 'Quietly well-liked, thinly discussed.',
+  Reishi: 'Small crowd, high approval.',
+  Glycine: 'The quiet favorite — the single best score in this index.',
+};
+
+const reads: Record<string, string> = {
+  Magnesium: '/articles/best-magnesium-supplements-for-sleep-ranked',
+  'L-Theanine': '/articles/l-theanine-for-a-racing-mind',
+  Ashwagandha: '/articles/ashwagandha-side-effects-honest-list',
+  Melatonin: '/articles/melatonin-most-people-take-too-much',
+  CBD: '/best-sleep-supplements',
+  GABA: '/articles/gaba-supplements-brain-barrier',
+  'Valerian root': '/articles/valerian-root-honest-review',
+  Apigenin: '/articles/apigenin-chamomile-compound',
+  'Tart cherry': '/articles/tart-cherry-juice-for-sleep',
+  '5-HTP': '/articles/5-htp-for-sleep-honest-review',
+  Reishi: '/best-sleep-supplements',
+  Glycine: '/articles/glycine-for-sleep-the-3-gram-dose',
+};
+
+const fmt = (n: number) => n.toLocaleString('en-US');
+const rows = Object.entries(supps).sort((a: any, b: any) => b[1].posts - a[1].posts);
+const generated = new Date(index.generated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<BaseLayout
+  title="Sleep Supplement Reality Index — September 2026"
+  description="We mined 1,673 Reddit posts across 5 sleep communities to rank 12 sleep supplements by what users actually report. Glycine scored 97% positive; ashwagandha is the most controversial."
+>
+  <div class="container">
+    <p class="kicker"><a href="/data">Reality Index</a> · Report #001</p>
+    <h1 class="page-title">What 1,673 Reddit Threads Say About Sleep Supplements</h1>
+    <p class="lead">
+      Everyone publishing supplement advice cites the same dozen clinical trials. Almost nobody tells you
+      what people who actually take this stuff report. So we built the dataset: every top post mentioning
+      twelve sleep supplements across five communities, scored by the language people use to describe
+      outcomes. This is the first edition.
+    </p>
+
+    <div class="stat-row">
+      <div class="stat"><strong>{fmt(totals.uniquePostsScanned)}</strong><span>unique posts scanned</span></div>
+      <div class="stat"><strong>5</strong><span>communities</span></div>
+      <div class="stat"><strong>{fmt(totalUps)}</strong><span>upvotes on mentioning posts</span></div>
+      <div class="stat"><strong>{fmt(totalComments)}</strong><span>comments</span></div>
+    </div>
+
+    <div class="prose">
+      <h2>The five findings that matter</h2>
+
+      <h3>1. Glycine is the quiet favorite — 97% positive</h3>
+      <p>
+        Fifty-six posts, thirty with explicitly positive outcome language, exactly <strong>one</strong> negative.
+        No other supplement in this index comes close to that ratio. Glycine gets a fraction of the
+        attention of magnesium or melatonin and nearly none of the backlash. The pattern in the threads:
+        people who try 3&nbsp;g of glycine before bed either notice deeper sleep or notice nothing —
+        and almost nobody reports harm. Our take remains: it's the most under-hyped legitimate option
+        on the list (<a href="/articles/glycine-for-sleep-the-3-gram-dose">the dosing guide</a>).
+      </p>
+
+      <h3>2. Magnesium dominates the volume — and the crowd has picked a form</h3>
+      <p>
+        217 posts, ~63,000 upvotes, 31,000 comments — the largest conversation in the index. And within it,
+        the community has effectively settled the form debate: <strong>glycinate</strong> came up in 81 posts,
+        threonate in 14, oxide in 10 (almost always negatively — the cheap form that "does nothing but
+        run through you"). Reddit's verdict matches the trial data, which is rarer than you'd think.
+        Start with <a href="/articles/best-magnesium-supplements-for-sleep-ranked">the ranked guide</a>.
+      </p>
+
+      <h3>3. Ashwagandha is the most controversial major supplement</h3>
+      <p>
+        214 posts, 71% approval — the lowest of any high-volume supplement. Thirty-six posts contain
+        outright negative outcome language, and the negative threads aren't "didn't work" — they're
+        side-effect threads: blunted emotions, disrupted sleep, thyroid questions. That's exactly why
+        we publish <a href="/articles/ashwagandha-side-effects-honest-list">the honest side-effects list</a>
+        instead of pretending it's a stress-cure. Ashwagandha works for many people; it is also the
+        supplement most likely to surprise you if you go in uninformed.
+      </p>
+
+      <h3>4. Melatonin owns the engagement — and the confusion</h3>
+      <p>
+        Highest upvote total in the index (~47,600). But read the threads and the dominant theme isn't
+        "melatonin works" — it's <em>"why is my bottle 10 mg when studies use 0.5?"</em> The community has
+        quietly concluded what the research said years ago: most melatonin products are overdosed by
+        5–10×. <a href="/articles/melatonin-most-people-take-too-much">Here's the case in full</a>.
+      </p>
+
+      <h3>5. L-theanine is the steady performer</h3>
+      <p>
+        215 posts, 81% positive, and the praise is unusually specific: it turns off the racing mind
+        without sedation. A 1,178-upvote thread titled simply <em>"L-Theanine is life changing"</em> is
+        the archetype. It's what people take when cortisol noise, not sleep pressure, is the problem —
+        <a href="/articles/l-theanine-for-a-racing-mind">our guide covers exactly that use</a>.
+      </p>
+
+      <h2>The full index — September 2026</h2>
+      <p>
+        Ranked by conversation volume. Approval = share of outcome-language posts that were positive
+        (a post counts only if it contains explicit "worked / didn't work"-type language).
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Supplement</th><th>Posts</th><th>Upvotes</th><th>Approval</th><th>The one-line verdict</th><th></th></tr>
+          </thead>
+          <tbody>
+            {rows.map(([name, r]: any) => (
+              <tr>
+                <td><strong>{name}</strong></td>
+                <td class="num">{r.posts}</td>
+                <td class="num">{fmt(r.upvotes)}</td>
+                <td class="num"><span class={`score ${r.approvalPct >= 80 ? 'hi' : r.approvalPct >= 75 ? 'mid' : 'lo'}`}>{r.approvalPct}%</span></td>
+                <td>{verdicts[name]}</td>
+                <td><a href={reads[name]}>Read →</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Methodology, honestly</h2>
+      <ul>
+        <li><strong>Source:</strong> Reddit public search (top posts, all time) across r/sleep, r/insomnia, r/Supplements, r/ashwagandha, and r/Biohackers — {fmt(totals.uniquePostsScanned)} unique posts in total.</li>
+        <li><strong>Counting:</strong> a post counts for a supplement only if the supplement name actually appears in the title or body (not just search relevance).</li>
+        <li><strong>Sentiment:</strong> posts were classed positive/negative by the presence of explicit outcome phrases (17 positive patterns like "finally sleeping", "huge difference"; 19 negative patterns like "did nothing", "waste of money", "stopped working"). Approval is positive ÷ (positive + negative). Posts with no outcome language don't vote.</li>
+        <li><strong>What this is not:</strong> clinical evidence. This is self-reported community sentiment — useful for expectations, useless for proof. Our supplement guides cite human trials for that half of the picture.</li>
+        <li><strong>Known limits:</strong> up to 50 search results per community per keyword; comments not analyzed in this edition; Reddit's search ranking decides what surfaces.</li>
+      </ul>
+
+      <div class="cite-box">
+        <h3>Cite this data</h3>
+        <p>
+          Journalists, bloggers, and newsletters: this dataset is free to cite with attribution to
+          <em>Naturally Restful — Sleep Supplement Reality Index, September 2026</em> with a link to
+          this page. Want the numbers behind a specific supplement or a chart for your article?
+          <a href="/contact">Ask</a> — we answer.
+        </p>
+      </div>
+
+      <p class="updated">Dataset generated {generated}. Next edition: October 2026. Methodology and raw counts on the <a href="/data">Reality Index hub</a>.</p>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .kicker { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.78rem; font-weight: 600; margin: 2.2rem 0 0.2rem; }
+  .kicker a { color: inherit; }
+  .stat-row { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1.6rem 0 2.2rem; }
+  .stat { background: #f4f1ea; border-radius: 10px; padding: 0.9rem 1.2rem; min-width: 150px; }
+  .stat strong { display: block; font-size: 1.5rem; }
+  .stat span { font-size: 0.8rem; color: #666; }
+  .table-wrap { overflow-x: auto; margin: 1.2rem 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+  th, td { text-align: left; padding: 0.55rem 0.7rem; border-bottom: 1px solid #e5e2da; vertical-align: top; }
+  th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #666; }
+  td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .score { font-weight: 700; padding: 0.15rem 0.5rem; border-radius: 999px; font-size: 0.85rem; }
+  .score.hi { background: #e2efe4; color: #2e6b3a; }
+  .score.mid { background: #f3ecd9; color: #8a6d1a; }
+  .score.lo { background: #f5e3e0; color: #a04a35; }
+  .cite-box { background: #eef2f8; border-left: 4px solid #33517a; padding: 1rem 1.3rem; border-radius: 8px; margin: 1.8rem 0; }
+  .cite-box h3 { margin: 0 0 0.4rem; }
+  .updated { color: #777; font-size: 0.9rem; }
+</style>

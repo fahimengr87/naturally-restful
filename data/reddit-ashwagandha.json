@@ -1,0 +1,165 @@
+{
+  "sub": "ashwagandha",
+  "uniquePosts": 141,
+  "supps": {
+    "Melatonin": {
+      "posts": 21,
+      "upvotes": 110,
+      "comments": 149,
+      "pos": 7,
+      "neg": 0,
+      "quotes": [],
+      "forms": {
+        "ksm-66": 3,
+        "oxide": 1,
+        "gummies": 4,
+        "gummy": 3,
+        "threonate": 1
+      }
+    },
+    "Magnesium": {
+      "posts": 35,
+      "upvotes": 242,
+      "comments": 376,
+      "pos": 12,
+      "neg": 2,
+      "quotes": [],
+      "forms": {
+        "ksm66": 2,
+        "glycinate": 14,
+        "oxide": 1,
+        "gummies": 2,
+        "gummy": 2,
+        "ksm-66": 3,
+        "threonate": 1,
+        "bisglycinate": 1,
+        "citrate": 1,
+        "sensoril": 1
+      }
+    },
+    "Ashwagandha": {
+      "posts": 37,
+      "upvotes": 1823,
+      "comments": 1335,
+      "pos": 13,
+      "neg": 5,
+      "quotes": [
+        {
+          "s": "pos",
+          "q": "I just want to appreciate how amazing this thing is for panic attacks and libido.. I just want to appreciate how amazing this thing is for panic attacks and libido. Ashwagandha is changing my life sin",
+          "ups": 108,
+          "perma": "https://www.reddit.com/r/ASHWAGANDHA/comments/rnx8tt/i_just_want_to_appreciate_how_amazing_this_thing/"
+        },
+        {
+          "s": "neg",
+          "q": "I am so disappointed with Goli ashwagandha gummies (KSM-66). I am so disappointed with Goli ashwagandha gummies (KSM-66) Hear me out! Before purchasing Goli gummies, I was soooo frustrated and mad wit",
+          "ups": 73,
+          "perma": "https://www.reddit.com/r/ASHWAGANDHA/comments/11g05d8/i_am_so_disappointed_with_goli_ashwagandha/"
+        },
+        {
+          "s": "pos",
+          "q": "Ashwagandha has been a life changer. Ashwagandha has been a life changer I've dealt with pretty high anxiety my entire life. I've managed to personally fight it off for most of it, but it doesn't chan",
+          "ups": 69,
+          "perma": "https://www.reddit.com/r/ASHWAGANDHA/comments/11dhm9u/ashwagandha_has_been_a_life_changer/"
+        }
+      ],
+      "forms": {
+        "ksm-66": 6,
+        "gummies": 1,
+        "ksm66": 1
+      }
+    },
+    "Glycine": {
+      "posts": 1,
+      "upvotes": 2,
+      "comments": 3,
+      "pos": 0,
+      "neg": 0,
+      "quotes": [],
+      "forms": {}
+    },
+    "L-Theanine": {
+      "posts": 35,
+      "upvotes": 226,
+      "comments": 350,
+      "pos": 11,
+      "neg": 4,
+      "quotes": [],
+      "forms": {
+        "ksm66": 1,
+        "glycinate": 5,
+        "ksm-66": 6,
+        "gummies": 2,
+        "gummy": 2
+      }
+    },
+    "GABA": {
+      "posts": 14,
+      "upvotes": 110,
+      "comments": 122,
+      "pos": 3,
+      "neg": 0,
+      "quotes": [],
+      "forms": {
+        "glycinate": 1,
+        "ksm-66": 4,
+        "gummies": 1
+      }
+    },
+    "Valerian root": {
+      "posts": 6,
+      "upvotes": 57,
+      "comments": 38,
+      "pos": 3,
+      "neg": 2,
+      "quotes": [],
+      "forms": {
+        "ksm-66": 1,
+        "sensoril": 1
+      }
+    },
+    "CBD": {
+      "posts": 10,
+      "upvotes": 75,
+      "comments": 99,
+      "pos": 3,
+      "neg": 0,
+      "quotes": [],
+      "forms": {
+        "ksm-66": 2,
+        "gummies": 2
+      }
+    },
+    "5-HTP": {
+      "posts": 4,
+      "upvotes": 68,
+      "comments": 139,
+      "pos": 2,
+      "neg": 0,
+      "quotes": [
+        {
+          "s": "pos",
+          "q": "Ashwa is more serious than you think . Ashwa is more serious than you think I genuinely want to share my story with people because I want you to be aware. Ashwaganda is more serious than everyone thi",
+          "ups": 60,
+          "perma": "https://www.reddit.com/r/ASHWAGANDHA/comments/1f6xg8r/ashwa_is_more_serious_than_you_think/"
+        }
+      ],
+      "forms": {
+        "ksm-66": 1,
+        "threonate": 1
+      }
+    },
+    "Reishi": {
+      "posts": 2,
+      "upvotes": 12,
+      "comments": 24,
+      "pos": 2,
+      "neg": 0,
+      "quotes": [],
+      "forms": {
+        "gummies": 1,
+        "gummy": 1
+      }
+    }
+  }
+}

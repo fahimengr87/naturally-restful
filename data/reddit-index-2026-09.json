@@ -1,0 +1,1162 @@
+{
+  "generated": "2026-09-22T15:23:08.867Z",
+  "methodology": {
+    "source": "Reddit public search API (top posts, all time), post titles + selftext; same-origin browser fetch",
+    "subreddits": [
+      "ashwagandha",
+      "biohackers",
+      "insomnia",
+      "sleep",
+      "supplements"
+    ],
+    "uniquePostsScanned": 1673,
+    "sentiment": "keyword classes: 17 positive / 19 negative outcome phrases; approvalPct = positive/(positive+negative) posts",
+    "limits": "max 50 search results per (subreddit, keyword); substring match required; comments not analyzed in v1; self-reported user sentiment, not clinical evidence"
+  },
+  "supplements": {
+    "Magnesium": {
+      "posts": 217,
+      "upvotes": 63431,
+      "comments": 31610,
+      "pos": 114,
+      "neg": 27,
+      "quotes": [
+        {
+          "s": "pos",
+          "q": "I tracked my brain fog for 6 months and tested everything. Here is what actually moved the needle.. I tracked my brain fog for 6 months and tested everything. Here is what actually moved the needle. N",
+          "ups": 5226,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1rzlypc/i_tracked_my_brain_fog_for_6_months_and_tested/"
+        },
+        {
+          "s": "pos",
+          "q": "40M. I biohacked my way from severe alcoholism, ed/pied, severe anxiety to washington monument sized boners every mornin. 40M. I biohacked my way from severe alcoholism, ed/pied, severe anxiety to was",
+          "ups": 2031,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1er1cn3/40m_i_biohacked_my_way_from_severe_alcoholism/"
+        },
+        {
+          "s": "pos",
+          "q": "Focusing on mitochondria health has been an absolute game changer. Focusing on mitochondria health has been an absolute game changer I have tried nearly everything that you could think of to improve m",
+          "ups": 1802,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1nlpuw4/focusing_on_mitochondria_health_has_been_an/"
+        },
+        {
+          "s": "pos",
+          "q": "Holy Sh*t Saffron Actually works. Holy Sh*t Saffron Actually works I have been struggling with OCD and anxiety/depression as a result since Feb 2024. Over the last 1.5 years, I have been in a spiral t",
+          "ups": 1091,
+          "perma": "https://www.reddit.com/r/Supplements/comments/1ld120n/holy_sht_saffron_actually_works/"
+        }
+      ],
+      "forms": {
+        "ksm66": 2,
+        "glycinate": 81,
+        "oxide": 10,
+        "gummies": 5,
+        "gummy": 2,
+        "ksm-66": 5,
+        "threonate": 14,
+        "bisglycinate": 9,
+        "citrate": 7,
+        "sensoril": 2,
+        "extended release": 1
+      },
+      "perSub": {
+        "ashwagandha": {
+          "posts": 35,
+          "pos": 12,
+          "neg": 2
+        },
+        "biohackers": {
+          "posts": 45,
+          "pos": 21,
+          "neg": 4
+        },
+        "insomnia": {
+          "posts": 49,
+          "pos": 35,
+          "neg": 10
+        },
+        "sleep": {
+          "posts": 46,
+          "pos": 29,
+          "neg": 5
+        },
+        "supplements": {
+          "posts": 42,
+          "pos": 17,
+          "neg": 6
+        }
+      },
+      "approvalPct": 81,
+      "avgUps": 292,
+      "topForms": [
+        {
+          "form": "glycinate",
+          "posts": 81
+        },
+        {
+          "form": "threonate",
+          "posts": 14
+        },
+        {
+          "form": "oxide",
+          "posts": 10
+        },
+        {
+          "form": "bisglycinate",
+          "posts": 9
+        },
+        {
+          "form": "citrate",
+          "posts": 7
+        }
+      ]
+    },
+    "L-Theanine": {
+      "posts": 215,
+      "upvotes": 31553,
+      "comments": 19974,
+      "pos": 119,
+      "neg": 28,
+      "quotes": [
+        {
+          "s": "pos",
+          "q": "L-Theanine is life changing. L-Theanine is life changing This is just an appreciation post for theanine. Honestly, I have severe anxiety stemming from overthinking, so much so that I have physical sym",
+          "ups": 1178,
+          "perma": "https://www.reddit.com/r/Supplements/comments/1mp0gsv/ltheanine_is_life_changing/"
+        },
+        {
+          "s": "pos",
+          "q": "Holy Sh*t Saffron Actually works. Holy Sh*t Saffron Actually works I have been struggling with OCD and anxiety/depression as a result since Feb 2024. Over the last 1.5 years, I have been in a spiral t",
+          "ups": 1091,
+          "perma": "https://www.reddit.com/r/Supplements/comments/1ld120n/holy_sht_saffron_actually_works/"
+        },
+        {
+          "s": "pos",
+          "q": "L-Theanine… Wow. L-Theanine… Wow I have had a very rough past month due to severe anxiety almost everyday and I take anti- anxiety meds, I have had anxiety my whole life and haven’t felt this level of",
+          "ups": 766,
+          "perma": "https://www.reddit.com/r/Supplements/comments/15kpfl9/ltheanine_wow/"
+        },
+        {
+          "s": "pos",
+          "q": "Spent 2 Years Fixing My Insomnia. Here Is My Honest Tier List of Supplements.. Spent 2 Years Fixing My Insomnia. Here Is My Honest Tier List of Supplements. I’ve had \"wake up at 3 AM and stare at the ",
+          "ups": 600,
+          "perma": "https://www.reddit.com/r/sleep/comments/1ppb3ks/spent_2_years_fixing_my_insomnia_here_is_my/"
+        }
+      ],
+      "forms": {
+        "ksm66": 1,
+        "glycinate": 56,
+        "ksm-66": 9,
+        "gummies": 14,
+        "gummy": 3,
+        "threonate": 21,
+        "sensoril": 2,
+        "bisglycinate": 5,
+        "sublingual": 2,
+        "citrate": 6,
+        "oxide": 5,
+        "extended release": 1
+      },
+      "perSub": {
+        "ashwagandha": {
+          "posts": 35,
+          "pos": 11,
+          "neg": 4
+        },
+        "biohackers": {
+          "posts": 47,
+          "pos": 23,
+          "neg": 2
+        },
+        "insomnia": {
+          "posts": 47,
+          "pos": 34,
+          "neg": 8
+        },
+        "sleep": {
+          "posts": 45,
+          "pos": 28,
+          "neg": 10
+        },
+        "supplements": {
+          "posts": 41,
+          "pos": 23,
+          "neg": 4
+        }
+      },
+      "approvalPct": 81,
+      "avgUps": 147,
+      "topForms": [
+        {
+          "form": "glycinate",
+          "posts": 56
+        },
+        {
+          "form": "threonate",
+          "posts": 21
+        },
+        {
+          "form": "gummies",
+          "posts": 14
+        },
+        {
+          "form": "ksm-66",
+          "posts": 9
+        },
+        {
+          "form": "citrate",
+          "posts": 6
+        }
+      ]
+    },
+    "Ashwagandha": {
+      "posts": 214,
+      "upvotes": 25972,
+      "comments": 16793,
+      "pos": 90,
+      "neg": 36,
+      "quotes": [
+        {
+          "s": "neg",
+          "q": "How I reversed my epigenetic age by 10 years. How I reversed my epigenetic age by 10 years I've been running an experiment for a year to reverse my epigenetic age as much as possible, and I'm a bit sh",
+          "ups": 2724,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/17veh2y/how_i_reversed_my_epigenetic_age_by_10_years/"
+        },
+        {
+          "s": "pos",
+          "q": "24M. Spent $350/month on supplements. Bloodwork showed half were actively hurting me.. 24M. Spent $350/month on supplements. Bloodwork showed half were actively hurting me. i want to preface this by s",
+          "ups": 1007,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1sdzbcl/24m_spent_350month_on_supplements_bloodwork/"
+        },
+        {
+          "s": "pos",
+          "q": "Ran 11 popular natural t boosters with monthly bloodwork for a year. Here's what actually moved my t from 480 to 870.. Ran 11 popular natural t boosters with monthly bloodwork for a year. Here's what ",
+          "ups": 920,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1t4finx/ran_11_popular_natural_t_boosters_with_monthly/"
+        },
+        {
+          "s": "mixed",
+          "q": "Ashwagandha almost killed my liver – bilirubin hit 50 mg/dL, severe jaundice & itching for months. My warning story (21M. Ashwagandha almost killed my liver – bilirubin hit 50 mg/dL, severe jaundice &",
+          "ups": 703,
+          "perma": "https://www.reddit.com/r/Supplements/comments/1qzx4ru/ashwagandha_almost_killed_my_liver_bilirubin_hit/"
+        }
+      ],
+      "forms": {
+        "ksm-66": 21,
+        "gummies": 15,
+        "ksm66": 2,
+        "glycinate": 37,
+        "threonate": 10,
+        "sensoril": 3,
+        "citrate": 8,
+        "oxide": 6,
+        "bisglycinate": 5,
+        "gummy": 1,
+        "extended release": 1
+      },
+      "perSub": {
+        "ashwagandha": {
+          "posts": 37,
+          "pos": 13,
+          "neg": 5
+        },
+        "biohackers": {
+          "posts": 45,
+          "pos": 16,
+          "neg": 8
+        },
+        "insomnia": {
+          "posts": 48,
+          "pos": 31,
+          "neg": 9
+        },
+        "sleep": {
+          "posts": 47,
+          "pos": 18,
+          "neg": 6
+        },
+        "supplements": {
+          "posts": 37,
+          "pos": 12,
+          "neg": 8
+        }
+      },
+      "approvalPct": 71,
+      "avgUps": 121,
+      "topForms": [
+        {
+          "form": "glycinate",
+          "posts": 37
+        },
+        {
+          "form": "ksm-66",
+          "posts": 21
+        },
+        {
+          "form": "gummies",
+          "posts": 15
+        },
+        {
+          "form": "threonate",
+          "posts": 10
+        },
+        {
+          "form": "citrate",
+          "posts": 8
+        }
+      ]
+    },
+    "Melatonin": {
+      "posts": 203,
+      "upvotes": 47577,
+      "comments": 25019,
+      "pos": 110,
+      "neg": 22,
+      "quotes": [
+        {
+          "s": "pos",
+          "q": "I accidentally created the weirdest sleep protocol that actually works. I accidentally created the weirdest sleep protocol that actually works So guys, let me tell you how I screwed up my life for 3 m",
+          "ups": 4066,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1nc028i/i_accidentally_created_the_weirdest_sleep/"
+        },
+        {
+          "s": "pos",
+          "q": "My weird but effective sleep trick: pretend I’m a medieval peasant. My weird but effective sleep trick: pretend I’m a medieval peasant After trying everything: melatonin, white noise, breathing, you n",
+          "ups": 2435,
+          "perma": "https://www.reddit.com/r/sleep/comments/1m8hgid/my_weird_but_effective_sleep_trick_pretend_im_a/"
+        },
+        {
+          "s": "pos",
+          "q": "40M. I biohacked my way from severe alcoholism, ed/pied, severe anxiety to washington monument sized boners every mornin. 40M. I biohacked my way from severe alcoholism, ed/pied, severe anxiety to was",
+          "ups": 2031,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1er1cn3/40m_i_biohacked_my_way_from_severe_alcoholism/"
+        },
+        {
+          "s": "pos",
+          "q": "I've slept 8+ hours every single night for a year. AMA [Re-Post]. I've slept 8+ hours every single night for a year. AMA [Re-Post] I had an AMA about my sleep habits go viral on r/AMA so I'm doing it ",
+          "ups": 826,
+          "perma": "https://www.reddit.com/r/sleep/comments/1fnukra/ive_slept_8_hours_every_single_night_for_a_year/"
+        }
+      ],
+      "forms": {
+        "ksm-66": 4,
+        "oxide": 5,
+        "gummies": 13,
+        "gummy": 7,
+        "threonate": 14,
+        "glycinate": 34,
+        "sensoril": 1,
+        "citrate": 2,
+        "bisglycinate": 3,
+        "extended release": 1
+      },
+      "perSub": {
+        "ashwagandha": {
+          "posts": 21,
+          "pos": 7,
+          "neg": 0
+        },
+        "biohackers": {
+          "posts": 46,
+          "pos": 28,
+          "neg": 5
+        },
+        "insomnia": {
+          "posts": 48,
+          "pos": 25,
+          "neg": 8
+        },
+        "sleep": {
+          "posts": 49,
+          "pos": 32,
+          "neg": 4
+        },
+        "supplements": {
+          "posts": 39,
+          "pos": 18,
+          "neg": 5
+        }
+      },
+      "approvalPct": 83,
+      "avgUps": 234,
+      "topForms": [
+        {
+          "form": "glycinate",
+          "posts": 34
+        },
+        {
+          "form": "threonate",
+          "posts": 14
+        },
+        {
+          "form": "gummies",
+          "posts": 13
+        },
+        {
+          "form": "gummy",
+          "posts": 7
+        },
+        {
+          "form": "oxide",
+          "posts": 5
+        }
+      ]
+    },
+    "CBD": {
+      "posts": 200,
+      "upvotes": 11490,
+      "comments": 14143,
+      "pos": 88,
+      "neg": 24,
+      "quotes": [
+        {
+          "s": "pos",
+          "q": "How I finally fixed my insomnia after 3 years — and it was all about food. How I finally fixed my insomnia after 3 years — and it was all about food For the past 3 years, I struggled with severe insom",
+          "ups": 220,
+          "perma": "https://www.reddit.com/r/insomnia/comments/1lum6hp/how_i_finally_fixed_my_insomnia_after_3_years_and/"
+        },
+        {
+          "s": "pos",
+          "q": "Has anyone else improved health by removing things instead of adding more?. Has anyone else improved health by removing things instead of adding more? 57-year-old female. I’m genuinely curious if othe",
+          "ups": 209,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1qxocdl/has_anyone_else_improved_health_by_removing/"
+        },
+        {
+          "s": "neg",
+          "q": "Has anyone else experienced this \"wired but exhausted\" thing where you're dead tired but your brain won't shut off?. Has anyone else experienced this \"wired but exhausted\" thing where you're dead tire",
+          "ups": 199,
+          "perma": "https://www.reddit.com/r/sleep/comments/1r09uq8/has_anyone_else_experienced_this_wired_but/"
+        },
+        {
+          "s": "pos",
+          "q": "my recent experience with black seed oil........ my recent experience with black seed oil....... **Can i discuss black seed oil here?** if so, i keep it brief. So i take a bunch of different vitami",
+          "ups": 187,
+          "perma": "https://www.reddit.com/r/Supplements/comments/toiyme/my_recent_experience_with_black_seed_oil/"
+        }
+      ],
+      "forms": {
+        "ksm-66": 4,
+        "gummies": 19,
+        "glycinate": 26,
+        "threonate": 12,
+        "citrate": 6,
+        "bisglycinate": 2,
+        "gummy": 6,
+        "sensoril": 2,
+        "oxide": 1,
+        "ksm66": 1
+      },
+      "perSub": {
+        "ashwagandha": {
+          "posts": 10,
+          "pos": 3,
+          "neg": 0
+        },
+        "biohackers": {
+          "posts": 47,
+          "pos": 17,
+          "neg": 3
+        },
+        "insomnia": {
+          "posts": 47,
+          "pos": 24,
+          "neg": 11
+        },
+        "sleep": {
+          "posts": 49,
+          "pos": 25,
+          "neg": 7
+        },
+        "supplements": {
+          "posts": 47,
+          "pos": 19,
+          "neg": 3
+        }
+      },
+      "approvalPct": 79,
+      "avgUps": 57,
+      "topForms": [
+        {
+          "form": "glycinate",
+          "posts": 26
+        },
+        {
+          "form": "gummies",
+          "posts": 19
+        },
+        {
+          "form": "threonate",
+          "posts": 12
+        },
+        {
+          "form": "citrate",
+          "posts": 6
+        },
+        {
+          "form": "gummy",
+          "posts": 6
+        }
+      ]
+    },
+    "GABA": {
+      "posts": 188,
+      "upvotes": 13564,
+      "comments": 12587,
+      "pos": 95,
+      "neg": 26,
+      "quotes": [
+        {
+          "s": "pos",
+          "q": "L-Theanine is changing my life. L-Theanine is changing my life I know the title may seem dramatic, but I am so serious. Last week, I went through a pretty rough breakup, and normally when stuff like t",
+          "ups": 680,
+          "perma": "https://www.reddit.com/r/Supplements/comments/1ethltn/ltheanine_is_changing_my_life/"
+        },
+        {
+          "s": "neg",
+          "q": "My wife thinks my pill regimen is poisoning me. Is she right?. My wife thinks my pill regimen is poisoning me. Is she right? For the past several years, my supplement intake has been based on anecdota",
+          "ups": 395,
+          "perma": "https://www.reddit.com/r/Supplements/comments/1g5rmq1/my_wife_thinks_my_pill_regimen_is_poisoning_me_is/"
+        },
+        {
+          "s": "pos",
+          "q": "My top 10 takeaways from Rhonda Patrick's new episode about the longevity benefits of coffee. My top 10 takeaways from Rhonda Patrick's new episode about the longevity benefits of coffee What's up gan",
+          "ups": 394,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1lcwnct/my_top_10_takeaways_from_rhonda_patricks_new/"
+        },
+        {
+          "s": "mixed",
+          "q": "I tested most sleep hygiene tips for 6 months. Here's what actually worked but the biggest thing that helped is boring. I tested most sleep hygiene tips for 6 months. Here's what actually worked but t",
+          "ups": 383,
+          "perma": "https://www.reddit.com/r/sleep/comments/1styzss/i_tested_most_sleep_hygiene_tips_for_6_months/"
+        }
+      ],
+      "forms": {
+        "glycinate": 33,
+        "ksm-66": 5,
+        "gummies": 9,
+        "bisglycinate": 6,
+        "sublingual": 1,
+        "oxide": 8,
+        "threonate": 17,
+        "citrate": 9,
+        "gummy": 1,
+        "extended release": 1
+      },
+      "perSub": {
+        "ashwagandha": {
+          "posts": 14,
+          "pos": 3,
+          "neg": 0
+        },
+        "biohackers": {
+          "posts": 44,
+          "pos": 14,
+          "neg": 5
+        },
+        "insomnia": {
+          "posts": 45,
+          "pos": 30,
+          "neg": 8
+        },
+        "sleep": {
+          "posts": 46,
+          "pos": 27,
+          "neg": 7
+        },
+        "supplements": {
+          "posts": 39,
+          "pos": 21,
+          "neg": 6
+        }
+      },
+      "approvalPct": 79,
+      "avgUps": 72,
+      "topForms": [
+        {
+          "form": "glycinate",
+          "posts": 33
+        },
+        {
+          "form": "threonate",
+          "posts": 17
+        },
+        {
+          "form": "gummies",
+          "posts": 9
+        },
+        {
+          "form": "citrate",
+          "posts": 9
+        },
+        {
+          "form": "oxide",
+          "posts": 8
+        }
+      ]
+    },
+    "Valerian root": {
+      "posts": 185,
+      "upvotes": 11260,
+      "comments": 10024,
+      "pos": 101,
+      "neg": 31,
+      "quotes": [
+        {
+          "s": "pos",
+          "q": "Spent 2 Years Fixing My Insomnia. Here Is My Honest Tier List of Supplements.. Spent 2 Years Fixing My Insomnia. Here Is My Honest Tier List of Supplements. I’ve had \"wake up at 3 AM and stare at the ",
+          "ups": 600,
+          "perma": "https://www.reddit.com/r/sleep/comments/1ppb3ks/spent_2_years_fixing_my_insomnia_here_is_my/"
+        },
+        {
+          "s": "pos",
+          "q": "Valerian root works a little too well…. Valerian root works a little too well… They may smell like sweaty gym socks, but they do in fact deliver the knock out punch. However, I wake up still feeling l",
+          "ups": 402,
+          "perma": "https://www.reddit.com/r/Supplements/comments/1u6tpnj/valerian_root_works_a_little_too_well/"
+        },
+        {
+          "s": "pos",
+          "q": "My top 10 takeaway from Dr. Rhonda Patrick's new episode with sleep scientist Dr. Michael Grandner. My top 10 takeaway from Dr. Rhonda Patrick's new episode with sleep scientist Dr. Michael Grandner W",
+          "ups": 393,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1nzs8ih/my_top_10_takeaway_from_dr_rhonda_patricks_new/"
+        },
+        {
+          "s": "mixed",
+          "q": "I Tried 15+ Supplements for Better Sleep & Recovery - Here's What Actually Moved the Needle. I Tried 15+ Supplements for Better Sleep & Recovery - Here's What Actually Moved the Needle Hey r/supplemen",
+          "ups": 318,
+          "perma": "https://www.reddit.com/r/Supplements/comments/1pby3m4/i_tried_15_supplements_for_better_sleep_recovery/"
+        }
+      ],
+      "forms": {
+        "ksm-66": 2,
+        "sensoril": 2,
+        "glycinate": 33,
+        "threonate": 13,
+        "oxide": 6,
+        "gummies": 9,
+        "sublingual": 2,
+        "citrate": 8,
+        "bisglycinate": 1,
+        "ksm66": 1,
+        "gummy": 1
+      },
+      "perSub": {
+        "ashwagandha": {
+          "posts": 6,
+          "pos": 3,
+          "neg": 2
+        },
+        "biohackers": {
+          "posts": 45,
+          "pos": 19,
+          "neg": 2
+        },
+        "insomnia": {
+          "posts": 48,
+          "pos": 33,
+          "neg": 14
+        },
+        "sleep": {
+          "posts": 46,
+          "pos": 26,
+          "neg": 9
+        },
+        "supplements": {
+          "posts": 40,
+          "pos": 20,
+          "neg": 4
+        }
+      },
+      "approvalPct": 77,
+      "avgUps": 61,
+      "topForms": [
+        {
+          "form": "glycinate",
+          "posts": 33
+        },
+        {
+          "form": "threonate",
+          "posts": 13
+        },
+        {
+          "form": "gummies",
+          "posts": 9
+        },
+        {
+          "form": "citrate",
+          "posts": 8
+        },
+        {
+          "form": "oxide",
+          "posts": 6
+        }
+      ]
+    },
+    "Apigenin": {
+      "posts": 178,
+      "upvotes": 7076,
+      "comments": 7282,
+      "pos": 72,
+      "neg": 23,
+      "quotes": [
+        {
+          "s": "pos",
+          "q": "Spent 2 Years Fixing My Insomnia. Here Is My Honest Tier List of Supplements.. Spent 2 Years Fixing My Insomnia. Here Is My Honest Tier List of Supplements. I’ve had \"wake up at 3 AM and stare at the ",
+          "ups": 600,
+          "perma": "https://www.reddit.com/r/sleep/comments/1ppb3ks/spent_2_years_fixing_my_insomnia_here_is_my/"
+        },
+        {
+          "s": "pos",
+          "q": "I pulled every supplement mentioned by Andrew Huberman and ranked them by how often he actually brings them up. I pulled every supplement mentioned by Andrew Huberman and ranked them by how often he a",
+          "ups": 449,
+          "perma": "https://www.reddit.com/r/Supplements/comments/1uueluc/i_pulled_every_supplement_mentioned_by_andrew/"
+        },
+        {
+          "s": "mixed",
+          "q": "I Tried 15+ Supplements for Better Sleep & Recovery - Here's What Actually Moved the Needle. I Tried 15+ Supplements for Better Sleep & Recovery - Here's What Actually Moved the Needle Hey r/supplemen",
+          "ups": 318,
+          "perma": "https://www.reddit.com/r/Supplements/comments/1pby3m4/i_tried_15_supplements_for_better_sleep_recovery/"
+        },
+        {
+          "s": "pos",
+          "q": "Recovering from years of alcoholism: all the data after 1,500 days of rebuilding. Recovering from years of alcoholism: all the data after 1,500 days of rebuilding **Disclaimer: This is an N=1, just my",
+          "ups": 250,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1qgsdro/recovering_from_years_of_alcoholism_all_the_data/"
+        }
+      ],
+      "forms": {
+        "glycinate": 56,
+        "bisglycinate": 8,
+        "sublingual": 4,
+        "threonate": 46,
+        "gummies": 5,
+        "citrate": 6,
+        "oxide": 5,
+        "gummy": 1,
+        "extended release": 3
+      },
+      "perSub": {
+        "biohackers": {
+          "posts": 44,
+          "pos": 13,
+          "neg": 2
+        },
+        "insomnia": {
+          "posts": 47,
+          "pos": 25,
+          "neg": 12
+        },
+        "sleep": {
+          "posts": 48,
+          "pos": 20,
+          "neg": 5
+        },
+        "supplements": {
+          "posts": 39,
+          "pos": 14,
+          "neg": 4
+        }
+      },
+      "approvalPct": 76,
+      "avgUps": 40,
+      "topForms": [
+        {
+          "form": "glycinate",
+          "posts": 56
+        },
+        {
+          "form": "threonate",
+          "posts": 46
+        },
+        {
+          "form": "bisglycinate",
+          "posts": 8
+        },
+        {
+          "form": "citrate",
+          "posts": 6
+        },
+        {
+          "form": "gummies",
+          "posts": 5
+        }
+      ]
+    },
+    "Tart cherry": {
+      "posts": 165,
+      "upvotes": 3761,
+      "comments": 4497,
+      "pos": 71,
+      "neg": 16,
+      "quotes": [
+        {
+          "s": "pos",
+          "q": "Some natural hacks that worked for me. Some natural hacks that worked for me I used to be a wreck at night. Couldn’t fall asleep. Couldn’t stay asleep. Would wake up feeling like I lost a fight. I tr",
+          "ups": 390,
+          "perma": "https://www.reddit.com/r/sleep/comments/1m5yy6s/some_natural_hacks_that_worked_for_me/"
+        },
+        {
+          "s": "mixed",
+          "q": "I Tried 15+ Supplements for Better Sleep & Recovery - Here's What Actually Moved the Needle. I Tried 15+ Supplements for Better Sleep & Recovery - Here's What Actually Moved the Needle Hey r/supplemen",
+          "ups": 318,
+          "perma": "https://www.reddit.com/r/Supplements/comments/1pby3m4/i_tried_15_supplements_for_better_sleep_recovery/"
+        },
+        {
+          "s": "pos",
+          "q": "1 glass of tart Cherry juice before bed=accidentally the best sleep I’ve had in my life.. 1 glass of tart Cherry juice before bed=accidentally the best sleep I’ve had in my life. ",
+          "ups": 280,
+          "perma": "https://www.reddit.com/r/Supplements/comments/xo4k70/1_glass_of_tart_cherry_juice_before/"
+        },
+        {
+          "s": "pos",
+          "q": "My top 10 supplement takeaways from Rhonda Patrick's podcast with Andy Galpin. My top 10 supplement takeaways from Rhonda Patrick's podcast with Andy Galpin Andy went deep on supplements for enhancing",
+          "ups": 260,
+          "perma": "https://www.reddit.com/r/Supplements/comments/1ka49uu/my_top_10_supplement_takeaways_from_rhonda/"
+        }
+      ],
+      "forms": {
+        "glycinate": 49,
+        "citrate": 8,
+        "oxide": 12,
+        "threonate": 13,
+        "ksm-66": 3,
+        "extended release": 2,
+        "sublingual": 1,
+        "bisglycinate": 5,
+        "gummy": 7,
+        "gummies": 9
+      },
+      "perSub": {
+        "biohackers": {
+          "posts": 35,
+          "pos": 12,
+          "neg": 5
+        },
+        "insomnia": {
+          "posts": 42,
+          "pos": 27,
+          "neg": 4
+        },
+        "sleep": {
+          "posts": 45,
+          "pos": 20,
+          "neg": 3
+        },
+        "supplements": {
+          "posts": 43,
+          "pos": 12,
+          "neg": 4
+        }
+      },
+      "approvalPct": 82,
+      "avgUps": 23,
+      "topForms": [
+        {
+          "form": "glycinate",
+          "posts": 49
+        },
+        {
+          "form": "threonate",
+          "posts": 13
+        },
+        {
+          "form": "oxide",
+          "posts": 12
+        },
+        {
+          "form": "gummies",
+          "posts": 9
+        },
+        {
+          "form": "citrate",
+          "posts": 8
+        }
+      ]
+    },
+    "5-HTP": {
+      "posts": 157,
+      "upvotes": 5223,
+      "comments": 5692,
+      "pos": 80,
+      "neg": 16,
+      "quotes": [
+        {
+          "s": "mixed",
+          "q": "I Tried 15+ Supplements for Better Sleep & Recovery - Here's What Actually Moved the Needle. I Tried 15+ Supplements for Better Sleep & Recovery - Here's What Actually Moved the Needle Hey r/supplemen",
+          "ups": 318,
+          "perma": "https://www.reddit.com/r/Supplements/comments/1pby3m4/i_tried_15_supplements_for_better_sleep_recovery/"
+        },
+        {
+          "s": "pos",
+          "q": "NOW Supplements Ashwagandha - A cautionary tale (x-post). NOW Supplements Ashwagandha - A cautionary tale (x-post) I'll try to condense the first part of this and get to the important details, but a l",
+          "ups": 248,
+          "perma": "https://www.reddit.com/r/Supplements/comments/ic1ekw/now_supplements_ashwagandha_a_cautionary_tale/"
+        },
+        {
+          "s": "pos",
+          "q": "How I finally fixed my insomnia after 3 years — and it was all about food. How I finally fixed my insomnia after 3 years — and it was all about food For the past 3 years, I struggled with severe insom",
+          "ups": 220,
+          "perma": "https://www.reddit.com/r/insomnia/comments/1lum6hp/how_i_finally_fixed_my_insomnia_after_3_years_and/"
+        },
+        {
+          "s": "pos",
+          "q": "Proven natural hacks to boost your mood (Serotonin) and lower anxiety. I hope it helps.. Proven natural hacks to boost your mood (Serotonin) and lower anxiety. I hope it helps. # A lot of people from ",
+          "ups": 208,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1cqwvft/proven_natural_hacks_to_boost_your_mood_serotonin/"
+        }
+      ],
+      "forms": {
+        "ksm-66": 2,
+        "threonate": 10,
+        "glycinate": 25,
+        "citrate": 7,
+        "gummies": 6,
+        "bisglycinate": 4,
+        "sublingual": 2,
+        "gummy": 2,
+        "extended release": 1,
+        "oxide": 2
+      },
+      "perSub": {
+        "ashwagandha": {
+          "posts": 4,
+          "pos": 2,
+          "neg": 0
+        },
+        "biohackers": {
+          "posts": 40,
+          "pos": 12,
+          "neg": 4
+        },
+        "insomnia": {
+          "posts": 37,
+          "pos": 26,
+          "neg": 6
+        },
+        "sleep": {
+          "posts": 41,
+          "pos": 22,
+          "neg": 2
+        },
+        "supplements": {
+          "posts": 35,
+          "pos": 18,
+          "neg": 4
+        }
+      },
+      "approvalPct": 83,
+      "avgUps": 33,
+      "topForms": [
+        {
+          "form": "glycinate",
+          "posts": 25
+        },
+        {
+          "form": "threonate",
+          "posts": 10
+        },
+        {
+          "form": "citrate",
+          "posts": 7
+        },
+        {
+          "form": "gummies",
+          "posts": 6
+        },
+        {
+          "form": "bisglycinate",
+          "posts": 4
+        }
+      ]
+    },
+    "Reishi": {
+      "posts": 129,
+      "upvotes": 3407,
+      "comments": 3919,
+      "pos": 43,
+      "neg": 8,
+      "quotes": [
+        {
+          "s": "pos",
+          "q": "Creatine before sleep has been amazing for me. Creatine before sleep has been amazing for me I take about five grams dissolved in water right before going to bed. Saw a post on here a bit ago recomme",
+          "ups": 653,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1f1mfc7/creatine_before_sleep_has_been_amazing_for_me/"
+        },
+        {
+          "s": "pos",
+          "q": "I repeatedly take huge amounts of vaccines at once, AMA. I repeatedly take huge amounts of vaccines at once, AMA TLDR: **viruses slowly makes you stupid. Vaccines often give cross-immunity and prolong",
+          "ups": 277,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1sruvgp/i_repeatedly_take_huge_amounts_of_vaccines_at/"
+        },
+        {
+          "s": "pos",
+          "q": "Compounds that I didn’t expect much from, but surprised me.. Compounds that I didn’t expect much from, but surprised me. **Erinacine A** \\- I've been taking medicinal mushrooms for years. They are suc",
+          "ups": 140,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1wbql8d/compounds_that_i_didnt_expect_much_from_but/"
+        },
+        {
+          "s": "mixed",
+          "q": "What helps for anxiety/extreme introversion?. What helps for anxiety/extreme introversion? I know most people will say “just get yourself out there”. And i see the point of getting out of your comfort",
+          "ups": 80,
+          "perma": "https://www.reddit.com/r/Supplements/comments/10ppr67/what_helps_for_anxietyextreme_introversion/"
+        }
+      ],
+      "forms": {
+        "gummies": 4,
+        "gummy": 2,
+        "extended release": 1,
+        "citrate": 5,
+        "ksm-66": 4,
+        "threonate": 6,
+        "glycinate": 17,
+        "oxide": 3,
+        "bisglycinate": 1,
+        "sublingual": 1
+      },
+      "perSub": {
+        "ashwagandha": {
+          "posts": 2,
+          "pos": 2,
+          "neg": 0
+        },
+        "biohackers": {
+          "posts": 42,
+          "pos": 12,
+          "neg": 0
+        },
+        "insomnia": {
+          "posts": 20,
+          "pos": 10,
+          "neg": 2
+        },
+        "sleep": {
+          "posts": 27,
+          "pos": 8,
+          "neg": 3
+        },
+        "supplements": {
+          "posts": 38,
+          "pos": 11,
+          "neg": 3
+        }
+      },
+      "approvalPct": 84,
+      "avgUps": 26,
+      "topForms": [
+        {
+          "form": "glycinate",
+          "posts": 17
+        },
+        {
+          "form": "threonate",
+          "posts": 6
+        },
+        {
+          "form": "citrate",
+          "posts": 5
+        },
+        {
+          "form": "gummies",
+          "posts": 4
+        },
+        {
+          "form": "ksm-66",
+          "posts": 4
+        }
+      ]
+    },
+    "Glycine": {
+      "posts": 56,
+      "upvotes": 10729,
+      "comments": 6006,
+      "pos": 30,
+      "neg": 1,
+      "quotes": [
+        {
+          "s": "pos",
+          "q": "Here's what ACTUALLY helps me sleep:. Here's what ACTUALLY helps me sleep: What's up sleep hustlers, hope you got some sleep. A little about me. I am a female in my late 30’s and have had sleep disord",
+          "ups": 524,
+          "perma": "https://www.reddit.com/r/sleep/comments/sx6qra/heres_what_actually_helps_me_sleep/"
+        },
+        {
+          "s": "pos",
+          "q": "I pulled every supplement mentioned by Andrew Huberman and ranked them by how often he actually brings them up. I pulled every supplement mentioned by Andrew Huberman and ranked them by how often he a",
+          "ups": 449,
+          "perma": "https://www.reddit.com/r/Supplements/comments/1uueluc/i_pulled_every_supplement_mentioned_by_andrew/"
+        },
+        {
+          "s": "pos",
+          "q": "My top 10 takeaways from Rhonda Patrick's new episode about the longevity benefits of coffee. My top 10 takeaways from Rhonda Patrick's new episode about the longevity benefits of coffee What's up gan",
+          "ups": 394,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1lcwnct/my_top_10_takeaways_from_rhonda_patricks_new/"
+        },
+        {
+          "s": "pos",
+          "q": "My top 10 takeaway from Dr. Rhonda Patrick's new episode with sleep scientist Dr. Michael Grandner. My top 10 takeaway from Dr. Rhonda Patrick's new episode with sleep scientist Dr. Michael Grandner W",
+          "ups": 393,
+          "perma": "https://www.reddit.com/r/Biohackers/comments/1nzs8ih/my_top_10_takeaway_from_dr_rhonda_patricks_new/"
+        }
+      ],
+      "forms": {
+        "gummy": 1,
+        "glycinate": 26,
+        "threonate": 8,
+        "oxide": 3,
+        "bisglycinate": 4,
+        "sublingual": 1,
+        "citrate": 2,
+        "gummies": 1
+      },
+      "perSub": {
+        "ashwagandha": {
+          "posts": 1,
+          "pos": 0,
+          "neg": 0
+        },
+        "biohackers": {
+          "posts": 18,
+          "pos": 8,
+          "neg": 0
+        },
+        "insomnia": {
+          "posts": 11,
+          "pos": 8,
+          "neg": 0
+        },
+        "sleep": {
+          "posts": 16,
+          "pos": 9,
+          "neg": 0
+        },
+        "supplements": {
+          "posts": 10,
+          "pos": 5,
+          "neg": 1
+        }
+      },
+      "approvalPct": 97,
+      "avgUps": 192,
+      "topForms": [
+        {
+          "form": "glycinate",
+          "posts": 26
+        },
+        {
+          "form": "threonate",
+          "posts": 8
+        },
+        {
+          "form": "bisglycinate",
+          "posts": 4
+        },
+        {
+          "form": "oxide",
+          "posts": 3
+        },
+        {
+          "form": "citrate",
+          "posts": 2
+        }
+      ]
+    }
+  }
+}

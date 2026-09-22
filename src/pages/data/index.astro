@@ -1,0 +1,72 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import index from '../../../data/reddit-index-2026-09.json';
+
+const supps = Object.entries(index.supplements).sort((a: any, b: any) => b[1].posts - a[1].posts);
+const generated = new Date(index.generated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<BaseLayout
+  title="Sleep Supplement Reality Index"
+  description="An original, continuously-updated dataset: what thousands of Reddit posts actually say about sleep supplements — mention volume, user approval, and the forms people settle on."
+>
+  <div class="container">
+    <h1 class="page-title">The Sleep Supplement Reality Index</h1>
+    <p class="lead">
+      Clinical trials tell you what works under controlled conditions. Reddit tells you what people
+      actually experience, in their own words, at their own doses. The Reality Index is our original
+      dataset covering both halves — built by mining every top post about twelve sleep supplements
+      across five sleep communities. Cited by us, citable by anyone.
+    </p>
+
+    <a class="report-card" href="/data/2026-09">
+      <span class="tag">Latest report</span>
+      <strong>Report #001 — September 2026</strong>
+      <span>1,673 posts · 5 communities · 12 supplements. Headline: glycine is the quiet favorite at 97% positive; ashwagandha is the most controversial major supplement.</span>
+      <span class="go">Read the report →</span>
+    </a>
+
+    <div class="prose">
+      <h2>Current standings (September 2026)</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Supplement</th><th class="num">Posts</th><th class="num">User approval</th></tr></thead>
+          <tbody>
+            {supps.map(([name, r]: any) => (
+              <tr><td>{name}</td><td class="num">{r.posts}</td><td class="num">{r.approvalPct}%</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="fine">Approval = positive ÷ (positive + negative) posts containing explicit outcome language. Dataset generated {generated}.</p>
+
+      <h2>Why we publish this</h2>
+      <p>
+        Most supplement content is written from the same ten studies, or from nothing at all. Community
+        experience is the missing dataset — nobody had packaged it, so we did. If you write about sleep
+        supplements and want a citable number for what users report, this page is the source.
+      </p>
+
+      <h2>Editions</h2>
+      <ul>
+        <li><a href="/data/2026-09">September 2026 — Report #001</a> (baseline edition)</li>
+      </ul>
+      <p class="fine">New edition monthly. Trend lines begin with the October 2026 report.</p>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .report-card { display: block; background: #f4f1ea; border-radius: 12px; padding: 1.2rem 1.4rem; margin: 1.8rem 0 2.4rem; color: inherit; text-decoration: none; }
+  .report-card:hover { background: #ece7db; }
+  .report-card strong { display: block; font-size: 1.15rem; margin: 0.5rem 0 0.3rem; }
+  .report-card span { display: block; color: #555; font-size: 0.95rem; }
+  .report-card .tag { display: inline-block; background: #33517a; color: #fff; border-radius: 999px; padding: 0.15rem 0.7rem; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; }
+  .report-card .go { color: #33517a; font-weight: 600; margin-top: 0.5rem; }
+  .table-wrap { overflow-x: auto; margin: 1rem 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 0.5rem 0.7rem; border-bottom: 1px solid #e5e2da; }
+  th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #666; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .fine { font-size: 0.85rem; color: #777; }
+</style>

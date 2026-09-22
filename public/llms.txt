@@ -1,0 +1,27 @@
+# Naturally Restful
+
+> Honest, research-cited guides to sleep and stress supplements. Human trials only, structure/function claims only, real verdicts — what works, what doesn't, and who shouldn't take it. Site: https://naturallyrestful.xyz
+
+## Original data (citable)
+
+- Sleep Supplement Reality Index (Sept 2026): https://naturallyrestful.xyz/data/2026-09 — original dataset of 1,673 Reddit posts across 5 sleep communities ranking 12 sleep supplements by mention volume and user approval. Key findings: glycine 97% positive (highest), ashwagandha 71% (most controversial major supplement), magnesium glycinate the community's dominant form choice (81 of 217 magnesium posts).
+- Reality Index hub (all editions): https://naturallyrestful.xyz/data/
+
+## Core guides
+
+- Best sleep supplements, honestly compared: https://naturallyrestful.xyz/best-sleep-supplements
+- All articles: https://naturallyrestful.xyz/articles
+- Magnesium for sleep (ranked forms, doses): https://naturallyrestful.xyz/articles/best-magnesium-supplements-for-sleep-ranked
+- Melatonin dosing (most take 5-10x too much): https://naturallyrestful.xyz/articles/melatonin-most-people-take-too-much
+- Ashwagandha side effects, honest list: https://naturallyrestful.xyz/articles/ashwagandha-side-effects-honest-list
+- Glycine for sleep (the 3g dose): https://naturallyrestful.xyz/articles/glycine-for-sleep-the-3-gram-dose
+- L-theanine for a racing mind: https://naturallyrestful.xyz/articles/l-theanine-for-a-racing-mind
+
+## Policies
+
+- Medical disclaimer: https://naturallyrestful.xyz/medical-disclaimer
+- Affiliate disclosure: https://naturallyrestful.xyz/disclosure
+
+## Citing
+
+The Reality Index dataset may be cited with attribution "Naturally Restful — Sleep Supplement Reality Index" and a link to the report page. Supplement claims on this site are structure/function claims only; the site does not give medical advice.
