@@ -48,13 +48,14 @@
 
 ### Traffic Channels
 - **Pinterest: FLAGGED — RECOVERY IN PROGRESS** ⚠️ (full protocol in docs/pinterest-playbook.md)
-  - 17 pins live (16 + Reality Index #1), claimed domain, 2 boards
+  - 18 pins live (16 + Reality Index #1 & #2), claimed domain, 2 boards
   - **naturallyrestful.xyz is spam-flagged on Pinterest** — all site URLs blocked on new pins ("may lead to spam"); this, not the algorithm, is why every pin had 0-2 impressions
-  - Appeal FILED Sep 22 via help.pinterest.com (watch fahim.mahmood6@gmail.com + Pinterest notifications)
+  - Appeal #1 FILED Sep 22 → **DENIED Sep 23**. Re-appeal #2 scheduled ~Oct 6-8 (draft ready in docs/pinterest-playbook.md)
   - Recovery protocol live: max 1 pin/day, linkless pins until unblock, 2-3 repins + 1-2 follows per week (warm-up started Sep 22: 6 follows, 3 repins)
+  - Remaining chart pins: 29 (ashwagandha), 30 (magnesium), 31 (melatonin — can link to the Medium melatonin article, Medium is not flagged)
   - Profile: pinterest.com/naturallyrestful
   - Publishing method: Playwright browser → pin-creation-tool → upload → fill → publish (Escape+force-click). NOTE: link field validates async — check for the spam alert AFTER ~2s; Publish button disables while a link is blocked
-  - Chart pin generator: scripts/make-pins-reality.py (5 Reality Index pins ready: pin-27..31 in C:/Users/Fahim/ZCodeProject/pinterest-pins/)
+  - Chart pin generator: scripts/make-pins-reality.py (pins 27-31 in C:/Users/Fahim/ZCodeProject/pinterest-pins/)
 - **Quora:** 3 answers live (melatonin, magnesium, "are supplements a scam?")
   - Profile: quora.com/profile/Fahim-Mahmood-1-1
   - Credential: "Sleep & Stress Supplement Researcher at naturallyrestful.xyz"

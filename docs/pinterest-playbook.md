@@ -58,3 +58,19 @@ Pin images: `Desktop/pinterest-pins/` (6 ready). Format 1000×1500 — Pinterest
 - Do NOT edit the 16 existing pins in bulk — leave them; once the domain is clean they should regain eligibility
 
 **Why this happened (so it never repeats):** Pinterest's spam classifier weighs (identical templates × same-domain links × new account × batch cadence). Any two of those are fine; all four together trip it.
+
+## SEP 23, 2026 — FIRST APPEAL DENIED
+
+Pinterest rejected the Sep 22 appeal ("decided not to unblock your website"). Expected on a first try for a fresh account — re-appeals spaced 1-2 weeks are the documented path that works.
+
+**Revised Pinterest strategy (Sep 23 →):**
+1. **Continue recovery protocol unchanged** — 1 linkless pin/day (pins 28-31 queued), 2-3 repins + 1-2 follows/week. The goal is an account that looks alive and legitimate by the next review.
+2. **Re-appeal ~Oct 6-8** (2 weeks after the first) using the draft below — stronger, more specific, references policy.
+3. **Medium bridge meanwhile:** pins may link to the two existing Medium articles (Medium is not flagged; the articles are standalone content, not redirects — legitimate per guidelines). Pin 31 (melatonin) → medium.com/@fahim.mahmood6 melatonin article.
+4. **Effort cap:** Pinterest gets ≤15 min/day until unblocked. The growth plan (Reality Index, SEO, sandbox lift) does not depend on it.
+
+### Re-appeal draft (file ~Oct 6-8 via help.pinterest.com/contact → Appeals → Pinterest blocked my site)
+
+Subject: Re-appeal: naturallyrestful.xyz domain block — false positive, second request
+
+Body: We're writing again to request a manual review of our domain block. Since our first appeal we've continued operating normally and adjusted how we use Pinterest. To be specific about why we believe the block is a false positive: (1) Our site is an original editorial publication — 44 research-cited pages with named study citations, a medical disclaimer, and FTC affiliate disclosure on every page; affiliate links are permitted under Pinterest's Community Guidelines and ours are disclosed. (2) The site has no pop-ups, no redirect chains, no scraped or duplicated content, HTTPS everywhere. (3) The domain is claimed on our business account (username: naturallyrestful). (4) We publish an original monthly research dataset (the Sleep Supplement Reality Index) that other sites cite. (5) Since the flag we have limited ourselves to at most one Pin per day with varied designs and regular engagement with other creators' content. If a reviewer can check a specific page, we'd suggest https://naturallyrestful.xyz/articles/glycine-for-sleep-the-3-gram-dose/ as representative. Thank you for reconsidering.
