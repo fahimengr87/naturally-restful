@@ -92,6 +92,7 @@
 | `docs/pinterest-playbook.md` | Pinterest strategy + cadence |
 | `docs/content-calendar.md` | Season 1 (complete, 24/24) |
 | `docs/article-queue-extended.md` | Season 2 queue (some done, ~10 remaining) |
+| `docs/design-system.md` | DESIGN RULES (owner's principles) — read before generating ANY visual |
 | `docs/reality-index.md` | Reality Index manual: harvest snippet + monthly checklist |
 | `scripts/reddit-mine.mjs` | RETIRED (Reddit 403s scripts) — use browser method in reality-index.md |
 | `scripts/reddit-index-merge.mjs` | Merges data/reddit-*.json into monthly index dataset |
@@ -116,13 +117,15 @@
 
 6. **Voice rule:** Every article must sound like a well-read friend who genuinely cares — confident, zero hedging, actual opinions, varied rhythm. No "may potentially perhaps." See existing articles for reference.
 
+6b. **Design rule (owner's principles, codified in docs/design-system.md):** design must speak for itself and be expressive; rotate visual styles — never two consecutive pins in the same style; include light/airy (Dawn) designs regularly for "light sensation" while keeping brand DNA (moon mark, footer, palette family); identical-template batches are believed to have triggered the Pinterest spam flag. Read docs/design-system.md before generating any pin/image. Generators: scripts/make-pins-v2.py (Aura/Editorial/Dawn + rotation), scripts/make-pins-style-lab.py (all 5 styles).
+
 7. **Security scanner:** Mimosa runs on git commits. High-severity blocks pushes. Current state: medium-level findings in other projects (llm-stack, malware-shield), non-blocking.
 
 8. **Cookie transplant pattern:**
    - Firefox profile: `$APPDATA/Mozilla/Firefox/Profiles/n7obr8qs.default-release-1786376006444`
    - Copy cookies.sqlite → extract via Python sqlite3 → inject via Playwright `page.context().addCookies()`
 
-9. **Cloudflare GraphQL analytics (Sep 22):** both scripts/.api-token* files LACK analytics scope. Working method: extract `oauth_token` from `$APPDATA/xdg.config/.wrangler/config/default.toml` and use it as Bearer. Zone httpRequests1dGroups (date_ASC sort; NOT dateDimension_ASC) for daily req/pv/uniques; httpRequestsAdaptiveGroups (`count`, no `uniq`, orderBy count_DESC) for countries; `rumPageloadEventsAdaptiveGroups` on account 895d81943e5722135ce61681e10bbc21 for real-browser data (rounded to nearest 10).
+9. **Cloudflare GraphQL analytics (Sep 22):** both scripts/.api-token* files LACK analytics scope. Working method: run `npx wrangler whoami` first (refreshes the OAuth token — it expires; GraphQL returns code 10000 "Authentication error" when stale), then extract `oauth_token` from `$APPDATA/xdg.config/.wrangler/config/default.toml` and use it as Bearer. Zone httpRequests1dGroups (date_ASC sort; NOT dateDimension_ASC) for daily req/pv/uniques; httpRequestsAdaptiveGroups (`count`, no `uniq`, orderBy count_DESC) for countries/paths; `rumPageloadEventsAdaptiveGroups` on account 895d81943e5722135ce61681e10bbc21 for real-browser data (rounded to nearest 10; dimension is `countryName`, NOT `pagePath`).
 
 10. **Reddit data harvesting:** all direct script access is 403-blocked. Use the Playwright same-origin fetch method in docs/reality-index.md (fire-and-forget evaluate + poll window.__result; evaluate tool caps at 30s).
 

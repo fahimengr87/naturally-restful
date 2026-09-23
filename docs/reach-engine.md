@@ -33,7 +33,7 @@ Open a NEW ZCode chat and paste:
    CI=true npx wrangler pages deploy dist --project-name naturally-restful --branch main
    ```
 
-5. **PIN:** Generate a 1000×1500 branded pin with PIL (navy gradient, cream crescent moon, stars, bold white title, kicker label, naturallyrestful.xyz footer — copy the pattern from existing pins in C:/Users/Fahim/ZCodeProject/pinterest-pins/). Save as pin-NNN-<slug>.png. Publish via Playwright browser to https://www.pinterest.com/pin-creation-tool/ (session logged in as Naturally Restful). Steps: upload image → fill Title (article title), 2-sentence Description, article Link → select board (Sleep Supplements or Stress & Adaptogens) → Publish with Escape+force-click. If browser session expired, skip and note it.
+5. **PIN:** Generate a 1000×1500 pin following **docs/design-system.md** — rotate style (Aura / Editorial / Sticker / Chrome / Dawn), never repeat the previous pin's style; extend scripts/make-pins-v2.py or scripts/make-pins-style-lab.py. Save as pin-NNN-<slug>.png. Publish via Playwright browser to https://www.pinterest.com/pin-creation-tool/ (session logged in as Naturally Restful). Steps: upload image → fill Title (article title), 2-sentence Description, article Link → select board (Sleep Supplements or Stress & Adaptogens) → Publish with Escape+force-click. If browser session expired, skip and note it.
 
 6. **INDEXNOW PING:**
    ```bash
