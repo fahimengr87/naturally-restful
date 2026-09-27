@@ -1,0 +1,230 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Question',
+      name: 'What supplement should I take for sleep?',
+      acceptedAnswer: { '@context': 'https://schema.org', '@type': 'Answer', text: 'It depends on your specific problem: magnesium glycinate for general sleep quality, glycine for deep restful sleep with almost no reported downsides, low-dose melatonin (0.5–1 mg) for timing issues like jet lag, L-theanine for a racing mind, and ashwagandha for stress-driven sleep trouble. This quiz narrows it to your situation.' },
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Question',
+      name: 'Is this quiz based on real data?',
+      acceptedAnswer: { '@context': 'https://schema.org', '@type': 'Answer', text: 'The recommendations follow two sources: our research-cited guides (human trials only), and the Naturally Restful Sleep Supplement Reality Index — a dataset of 1,673 Reddit posts scoring what users actually report about 12 sleep supplements.' },
+    },
+  ],
+};
+---
+<BaseLayout
+  title="Sleep Supplement Finder — 60-Second Quiz"
+  description="Answer 4 questions about your sleep problem and get an honest, research-cited supplement recommendation — plus what 1,673 Reddit threads say people actually experience. No email required."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <div class="container">
+    <p class="kicker">Free tool · No email required</p>
+    <h1 class="page-title">Sleep Supplement Finder</h1>
+    <p class="lead">
+      Four questions. One honest recommendation — based on human-trial research and
+      what 1,673 Reddit threads report people actually experience. Sometimes the
+      answer is "no supplement" — we'll say that too.
+    </p>
+
+    <div class="quiz-box" id="quiz">
+      <div class="progress"><div id="bar"></div></div>
+      <p class="qnum" id="qnum">Question 1 of 4</p>
+      <h2 id="qtext">Loading…</h2>
+      <div id="answers"></div>
+      <button id="back" class="ghost" style="display:none">← Back</button>
+    </div>
+
+    <div class="quiz-box result" id="result" style="display:none"></div>
+
+    <div class="prose">
+      <h2>How this works</h2>
+      <p>
+        Your answers point to the supplement (or habit) with the best match for your
+        situation in our research-cited guides — cross-checked against the
+        <a href="/data/2026-09">Sleep Supplement Reality Index</a>, our dataset of
+        1,673 Reddit posts across 5 sleep communities. The Index tracks what real
+        users report, not just what trials measure. When those two sources disagree,
+        we tell you.
+      </p>
+      <p class="fine">
+        Educational content, not medical advice — supplements interact with medications
+        and conditions. See our <a href="/medical-disclaimer">medical disclaimer</a>.
+      </p>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  const QS = [
+    { q: 'What’s your main sleep problem?', a: [
+      { t: 'I can’t fall asleep — my mind races when I lie down', s: { theanine: 3, glycine: 1 } },
+      { t: 'I fall asleep but wake at 3 a.m. and can’t get back', s: { magnesium: 3, glycine: 2 } },
+      { t: 'I’m stressed and wound up all evening', s: { ashwagandha: 3, theanine: 1 } },
+      { t: 'My sleep schedule is off (jet lag, shift work)', s: { melatonin: 3 } },
+      { t: 'Sleep is just… shallow and unrefreshing', s: { glycine: 3, magnesium: 2 } },
+    ]},
+    { q: 'Have you tried supplements for sleep before?', a: [
+      { t: 'No — this would be my first', s: {} },
+      { t: 'Melatonin — it did nothing or made me groggy', s: { magnesium: 2, glycine: 2 }, note: 'Your dose was probably 5–10× too high. Research uses 0.5–1 mg.' },
+      { t: 'Magnesium — didn’t notice much', s: { glycine: 2, theanine: 1 }, note: 'Form matters: oxide does almost nothing. Glycinate is the studied form.' },
+      { t: 'A mix of things, nothing impressed me', s: { hygiene: 2 }, note: 'Fair. Sometimes the basics outperform every bottle.' },
+    ]},
+    { q: 'How’s your baseline — caffeine, screens, schedule?', a: [
+      { t: 'Honestly, kind of a mess', s: { hygiene: 3 } },
+      { t: 'Decent, but not perfect', s: { hygiene: 1 } },
+      { t: 'Solid — consistent schedule, no late caffeine', s: {} },
+    ]},
+    { q: 'Which matters more to you?', a: [
+      { t: 'Falling asleep faster', s: { theanine: 1, melatonin: 1 } },
+      { t: 'Staying asleep through the night', s: { magnesium: 1, glycine: 1 } },
+      { t: 'Feeling less stressed overall', s: { ashwagandha: 2 } },
+    ]},
+  ];
+
+  const REC = {
+    magnesium: {
+      name: 'Magnesium Glycinate',
+      reality: '81% positive across 217 Reddit threads — the most-discussed mineral in sleep, and the crowd has settled on glycinate as the form.',
+      dose: '200–400 mg elemental, about an hour before bed. Give it 2–4 weeks.',
+      link: '/articles/best-magnesium-supplements-for-sleep-ranked', cta: 'Read the ranked magnesium guide',
+    },
+    glycine: {
+      name: 'Glycine (3 g)',
+      reality: '97% positive — the single best score in our index of 1,673 threads. Exactly 1 negative post in 56. The quiet favorite.',
+      dose: '3 g powder before bed. Cheap, well-tolerated, surprisingly underhyped.',
+      link: '/articles/glycine-for-sleep-the-3-gram-dose', cta: 'Read the glycine dosing guide',
+    },
+    theanine: {
+      name: 'L-Theanine',
+      reality: '81% positive across 215 threads. The praise is specific: it quiets a racing mind without sedation.',
+      dose: '100–200 mg in the evening. Pairs well with, not instead of, good habits.',
+      link: '/articles/l-theanine-for-a-racing-mind', cta: 'Read the L-theanine guide',
+    },
+    ashwagandha: {
+      name: 'Ashwagandha (KSM-66)',
+      reality: '71% positive — the most controversial major supplement in the index. Effective for stress-driven sleep trouble, but read the side-effects list first.',
+      dose: '300–600 mg KSM-66 daily. Not for pregnancy, thyroid conditions, or constant long-term use.',
+      link: '/articles/ashwagandha-for-stress-what-the-research-says', cta: 'Read the honest ashwagandha guide',
+    },
+    melatonin: {
+      name: 'Low-dose Melatonin (0.5–1 mg)',
+      reality: '83% positive and the highest-engagement supplement on Reddit — but the winning conversation is about dosing less, not more.',
+      dose: '0.5–1 mg, 2–3 hours before target bedtime. A clock-setter, not a sedative.',
+      link: '/articles/melatonin-most-people-take-too-much', cta: 'Read the melatonin dose truth',
+    },
+    hygiene: {
+      name: 'No Supplement Yet — Fix the Base First',
+      reality: 'The highest-upvoted sleep posts on Reddit are almost never about pills. Light, timing, and caffeine timing outperform most bottles — and make any supplement work better.',
+      dose: 'Morning light, a fixed wake time, and no caffeine after ~2 p.m. Two weeks, then retake this quiz.',
+      link: '/articles/natural-sleep-aids-not-supplements', cta: 'Read the free sleep aids that beat pills',
+    },
+  };
+
+  let step = 0;
+  const scores: Record<string, number> = {};
+  const notes: string[] = [];
+  const picked: number[] = [];
+
+  const qnum = document.getElementById('qnum')!;
+  const qtext = document.getElementById('qtext')!;
+  const answers = document.getElementById('answers')!;
+  const back = document.getElementById('back')!;
+  const bar = document.getElementById('bar')!;
+  const quiz = document.getElementById('quiz')!;
+  const result = document.getElementById('result')!;
+
+  function render() {
+    const q = QS[step];
+    qnum.textContent = `Question ${step + 1} of ${QS.length}`;
+    qtext.textContent = q.q;
+    bar.style.width = `${(step / QS.length) * 100}%`;
+    back.style.display = step > 0 ? 'inline-block' : 'none';
+    answers.innerHTML = '';
+    q.a.forEach((opt, i) => {
+      const b = document.createElement('button');
+      b.className = 'ans';
+      b.textContent = opt.t;
+      b.onclick = () => pick(i);
+      answers.appendChild(b);
+    });
+  }
+
+  function pick(i: number) {
+    const opt = QS[step].a[i];
+    picked[step] = i;
+    for (const [k, v] of Object.entries(opt.s)) scores[k] = (scores[k] || 0) + (v as number);
+    if (opt.note) notes.push(opt.note);
+    step++;
+    if (step < QS.length) render(); else finish();
+  }
+
+  function finish() {
+    const keys = Object.keys(scores);
+    if (!keys.length) { scores.hygiene = 1; }
+    const winner = Object.entries(scores).sort((a, b) => b[1] - a[1])[0][0];
+    const r = REC[winner as keyof typeof REC];
+    quiz.style.display = 'none';
+    const stressPath = scores.ashwagandha! >= 3;
+    result.style.display = 'block';
+    result.innerHTML = `
+      <p class="qnum">Your match</p>
+      <h2>${r.name}</h2>
+      <p class="match">${r.dose}</p>
+      <p class="reality"><strong>What real users report:</strong> ${r.reality}</p>
+      ${notes.length ? `<p class="note">${notes[0]}</p>` : ''}
+      <a class="btn" href="${r.link}">${r.cta} →</a>
+      ${stressPath ? `
+      <div class="affiliate-inline">
+        <p><strong>One product we can vouch for on this path:</strong> CortiSync — a KSM-66 ashwagandha formula targeting exactly the stress-cortisol loop.
+        We may earn a commission; see our <a href="/disclosure">disclosure</a>.</p>
+        <a class="btn small" href="/go/ashwagandha" rel="nofollow sponsored noopener" target="_blank">See CortiSync →</a>
+      </div>` : ''}
+      <p class="fine">Based on research-cited guides + the <a href="/data/2026-09">Reality Index</a> (1,673 Reddit threads). Not medical advice.</p>
+      <button class="ghost" onclick="location.reload()">↻ Retake</button>
+    `;
+    window.scrollTo({ top: result.offsetTop - 120, behavior: 'smooth' });
+  }
+
+  back.onclick = () => {
+    step--;
+    // crude rollback: recompute scores from picked answers
+    for (const k of Object.keys(scores)) scores[k] = 0;
+    notes.length = 0;
+    for (let s = 0; s < step; s++) {
+      const opt = QS[s].a[picked[s]];
+      for (const [k, v] of Object.entries(opt.s)) scores[k] = (scores[k] || 0) + (v as number);
+      if (opt.note) notes.push(opt.note);
+    }
+    render();
+  };
+
+  render();
+</script>
+
+<style>
+  .kicker { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.78rem; font-weight: 600; margin: 2.2rem 0 0.2rem; color: #33517a; }
+  .quiz-box { background: #f7f4ec; border-radius: 14px; padding: 1.6rem 1.8rem; margin: 1.4rem 0; }
+  .quiz-box.result { background: #eef2f8; border-left: 4px solid #33517a; }
+  .progress { height: 8px; background: #e5e0d3; border-radius: 99px; overflow: hidden; margin-bottom: 1rem; }
+  #bar { height: 100%; width: 0; background: #33517a; transition: width .3s; }
+  .qnum { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: #7a7466; margin: 0 0 0.3rem; }
+  #qtext { margin: 0 0 1.1rem; }
+  .ans { display: block; width: 100%; text-align: left; margin: 0.5rem 0; padding: 0.85rem 1.1rem; border-radius: 10px;
+    border: 2px solid #d8d2c2; background: #fff; font-size: 1rem; cursor: pointer; }
+  .ans:hover { border-color: #33517a; background: #f2f5fa; }
+  .ghost { background: none; border: none; color: #33517a; cursor: pointer; font-size: 0.9rem; margin-top: 0.8rem; }
+  .match { font-size: 1.05rem; }
+  .reality { background: #fff; border-radius: 10px; padding: 0.8rem 1rem; font-size: 0.95rem; }
+  .note { font-size: 0.9rem; color: #8a6d1a; }
+  .affiliate-inline { background: #fdf6ec; border: 1px solid #e8d9b8; border-radius: 10px; padding: 0.9rem 1.1rem; margin: 1rem 0; font-size: 0.92rem; }
+  .affiliate-inline .btn.small { padding: 0.45rem 0.9rem; font-size: 0.9rem; }
+  .fine { font-size: 0.85rem; color: #777; }
+</style>

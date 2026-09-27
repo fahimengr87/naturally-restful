@@ -42,12 +42,27 @@ const reads: Record<string, string> = {
 const fmt = (n: number) => n.toLocaleString('en-US');
 const rows = Object.entries(supps).sort((a: any, b: any) => b[1].posts - a[1].posts);
 const generated = new Date(index.generated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+const datasetSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: 'Sleep Supplement Reality Index — September 2026',
+  description: 'Original dataset scoring 12 sleep supplements by mention volume and user-reported outcomes across 1,673 Reddit posts in 5 sleep communities (r/sleep, r/insomnia, r/Supplements, r/ashwagandha, r/Biohackers). Free to cite with attribution.',
+  url: 'https://naturallyrestful.xyz/data/2026-09',
+  creator: { '@type': 'Organization', name: 'Naturally Restful', url: 'https://naturallyrestful.xyz' },
+  temporalCoverage: '2026-09',
+  keywords: ['sleep supplements', 'reddit analysis', 'magnesium', 'melatonin', 'ashwagandha', 'glycine', 'L-theanine', 'user sentiment'],
+  variableMeasured: ['post volume', 'upvotes', 'comment volume', 'approval percentage (positive outcome language / all outcome language)'],
+  isAccessibleForFree: true,
+  license: 'https://naturallyrestful.xyz/disclosure',
+};
 ---
 
 <BaseLayout
   title="Sleep Supplement Reality Index — September 2026"
   description="We mined 1,673 Reddit posts across 5 sleep communities to rank 12 sleep supplements by what users actually report. Glycine scored 97% positive; ashwagandha is the most controversial."
 >
+  <script type="application/ld+json" set:html={JSON.stringify(datasetSchema)} />
   <div class="container">
     <p class="kicker"><a href="/data">Reality Index</a> · Report #001</p>
     <h1 class="page-title">What 1,673 Reddit Threads Say About Sleep Supplements</h1>

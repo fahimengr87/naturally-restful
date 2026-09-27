@@ -21,9 +21,11 @@
 ## CURRENT STATE (as of Sep 22, 2026)
 
 ### Website
-- 44 pages live (27 articles + Reality Index hub & Report #001 + comparison + FAQ + glossary + trust pages)
-- All SEO features: hreflang (en-US, en, x-default), schema (Article, FAQ, Breadcrumb), OG cards, RSS feed, related articles mesh, security headers, GDPR consent banner
-- **Reality Index (launched Sep 22):** original Reddit-mined dataset at /data/ — Report #001 (Sept 2026) covers 1,673 posts / 5 communities / 12 supplements. Glycine 97% approval, ashwagandha most controversial (71%). Operating manual: docs/reality-index.md. Monthly automation ARMED (1st of month 2 PM). llms.txt live (AI-citation layer).
+- 46 pages live (28 articles + Reality Index hub & Report #001 + Sleep Supplement Finder quiz + comparison + FAQ + glossary + trust pages)
+- **Sleep Supplement Finder quiz (Sep 27):** /sleep-supplement-finder — 4-question client-side quiz → research-cited recommendation + contextual CortiSync box on stress path. Linkable asset; FAQ schema included.
+- **Reality Index (launched Sep 22):** original Reddit-mined dataset at /data/ — Report #001 (Sept 2026) covers 1,673 posts / 5 communities / 12 supplements. Glycine 97% approval, ashwagandha most controversial (71%). Dataset schema (schema.org/Dataset) on report page. Operating manual: docs/reality-index.md. Monthly automation ARMED (1st of month 2 PM). llms.txt live (AI-citation layer).
+- **Sensational-but-honest data story (Sep 27):** "We Read 1,673 Reddit Threads on Sleep Supplements. The Winner Has No Hype." — on site (/articles/what-1673-reddit-threads-say-about-sleep-supplements) AND on Medium via import (canonical to our site, 7 live anchor links): medium.com/@fahim.mahmood6/we-read-1-673-reddit-threads-on-sleep-supplements-the-winner-has-no-hype-313bb4cb0721
+- **Facebook (Sep 27):** glycine findings post + chart published natively (page id 61594222214795; vanity URL still unset — pending user action)
 - Voice: CONFIDENT HUMAN — zero hedging, actual opinions, varied rhythm, direct address
 - Deployed via: `cd /c/Users/Fahim/ZCodeProject/naturallyrestful && npm run build && CI=true npx wrangler pages deploy dist --project-name naturally-restful --branch main`
 
@@ -83,7 +85,7 @@
 |---|---|
 | `docs/affiliate-launch-kit.md` | Master profile, application answers, phone scripts |
 | `docs/quora-answer-kit.md` | Pre-written Quora answers + posting protocol |
-| `docs/guest-post-pitches.md` | 3 pitch emails for OdeSleep, Sleepify Lab, Intelligent Labs |
+| `docs/guest-post-pitches.md` | 3 pitch emails + Sep 27 re-angled exclusive-stat versions (SEND THESE) |
 | `docs/facebook-native-posts.md` | Algorithm-optimized FB posts + posting schedule |
 | `docs/facebook-page-kit.md` | Page setup guide + first posts |
 | `docs/maxbounty-phone-prep.md` | Phone interview preparation kit |

@@ -79,3 +79,49 @@ Send from fahim.mahmood6@gmail.com. One per day, not all at once.
 ## Follow-up rule
 If no reply in 7 days → ONE polite follow-up → then move on.
 Target: 3–5 accepted guest posts over 60 days.
+
+---
+
+## SEP 27, 2026 — RE-ANGLED PITCHES (exclusive-stat offer — SEND THESE, stronger than the originals)
+
+Why these work: cold "guest post?" emails from a 2-week-old site get ignored. "Here's a free, exclusive stat for your article" gets opened, used, and credited with a link.
+
+### Email 1 — OdeSleep
+Subject: A stat for your magnesium content (free, exclusive)
+
+Hi [name],
+
+I run Naturally Restful — we just published the first dataset of its kind: every top Reddit post about 12 sleep supplements across 5 communities (1,673 posts), scored by what users actually report.
+
+One number your readers would love: across 217 magnesium threads, glycinate was named in 81 posts — threonate just 14, oxide 10 (almost always negatively). The community has effectively settled the form debate, and it matches the trial data.
+
+Happy to give you the full magnesium breakdown (or any supplement) as an exclusive for your next article — free, just cite "Naturally Restful Reality Index" with a link. Dataset: https://naturallyrestful.xyz/data/2026-09
+
+Either way, great work on [specific article].
+
+Fahim
+naturallyrestful.xyz
+
+### Email 2 — Sleepify Lab
+Subject: The melatonin stat nobody's published (free for your next article)
+
+Hi [name],
+
+We mined 1,673 Reddit posts about sleep supplements (5 communities, 12 supplements) and scored them by real user outcomes. The melatonin finding is striking: highest engagement of any supplement (~47,600 upvotes) — and the dominant theme isn't "it works," it's "why does my bottle say 10 mg when studies use 0.5?"
+
+Your audience would eat this up. I'll share the full melatonin breakdown as an exclusive — free, just credit "Naturally Restful Reality Index" with a link. Full public dataset: https://naturallyrestful.xyz/data/2026-09
+
+Fahim
+naturallyrestful.xyz
+
+### Email 3 — Intelligent Labs
+Subject: Exclusive data: ashwagandha is Reddit's most controversial supplement
+
+Hi [name],
+
+Since you carry ashwagandha, a data point worth knowing: in our index of 1,673 Reddit sleep posts, ashwagandha scored 71% approval — dead last of 12 supplements. The 36 negative threads are side-effect stories (blunted emotions, thyroid questions), not "didn't work."
+
+The positive spin for a quality brand: KSM-66 was the extract named in positive threads. If you're writing about ashwagandha transparency, I'll share our full breakdown as an exclusive — free, credit "Naturally Restful Reality Index" with a link. Dataset: https://naturallyrestful.xyz/data/2026-09
+
+Fahim
+naturallyrestful.xyz
