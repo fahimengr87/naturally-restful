@@ -187,3 +187,12 @@
 - **u/Top_Monk3793 is LOCKED by Reddit security** ("technical irregularities" = automation detection; triggered by the Sep 28 submissions). Registered to fahim.mahmood6@gmail.com (agent-created account). Password reset would unlock it, but the account is ALSO sitewide spam-flagged (both posts removed) — **do not use or automate this account further**; leave dormant. Escalation risk if hammered.
 - The Biohackers modmail restore request was sent BEFORE the lock — post restoration is still possible (mods approve sitewide-removed posts independently); watch reddit.com/notifications.
 - **Networks: no new mail.** MaxBounty silent (they phone, not email — keep phone close, prep at docs/maxbounty-phone-prep.md). iHerb: no reply to Sep 22 reconsideration. SellHealth: nothing new; payout setup still pending user.
+
+## SEP 28 — BACKLINK OUTREACH SENT ✅
+All three exclusive-stat pitches SENT from fahim.mahmood6@gmail.com (4:2x PM, verified in Sent Mail):
+1. OdeSleep → britainfurniture1@gmail.com — subject "OdeSleep Guest Pitch" (their required format), magnesium form-consensus stat
+2. Sleepify Lab → josephplittlel@gmail.com — melatonin dose-regret stat
+3. Intelligent Labs → support@intelligentlabs.org — ashwagandha-controversy stat + KSM-66 angle
+Watch inbox for replies; follow up once after ~1 week if silent.
+
+**DISCOVERY: iHerb follow-ups are BOUNCING** — "[Message not delivered]" to affiliates@iherb.com on both Sep 11 and Sep 22. The reconsideration never arrived. Next iHerb attempt must go via a working channel (Partnerize dashboard message or Joan's direct reply thread — the Sep 12 thread from Joan may accept replies).
