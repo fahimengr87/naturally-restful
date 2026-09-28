@@ -182,3 +182,8 @@
 - **Quora #7 posted** (glycine dose question — includes trial names + Reality Index stat). Profile: 7 answers.
 - **Pin 33 ready** (quiz tool, Chrome style, QA-passed) in pinterest-pins/ — publish tomorrow (1/day cadence; pin-32 was today).
 - RUM Sep 27-28: ~8 real pageloads — no Medium/FB referral wave yet (normal lag).
+
+## SEP 28 EMAIL SWEEP + REDDIT ACCOUNT LOCKED ⚠️
+- **u/Top_Monk3793 is LOCKED by Reddit security** ("technical irregularities" = automation detection; triggered by the Sep 28 submissions). Registered to fahim.mahmood6@gmail.com (agent-created account). Password reset would unlock it, but the account is ALSO sitewide spam-flagged (both posts removed) — **do not use or automate this account further**; leave dormant. Escalation risk if hammered.
+- The Biohackers modmail restore request was sent BEFORE the lock — post restoration is still possible (mods approve sitewide-removed posts independently); watch reddit.com/notifications.
+- **Networks: no new mail.** MaxBounty silent (they phone, not email — keep phone close, prep at docs/maxbounty-phone-prep.md). iHerb: no reply to Sep 22 reconsideration. SellHealth: nothing new; payout setup still pending user.
