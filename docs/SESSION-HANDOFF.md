@@ -66,7 +66,7 @@
   - "Your Melatonin Bottle Is Lying to You" (melatonin)
   - "Stop Buying the Wrong Magnesium for Sleep" (magnesium)
   - Profile: medium.com/@fahim.mahmood6
-- **Facebook:** Page live at facebook.com/NaturallyRestful
+- **Facebook:** Page live at facebook.com/NaturallyRestful (vanity URL set Sep 28)
   - 3 posts + 1 video reel published
   - Native content strategy in docs/facebook-native-posts.md
 - **Google:** Search Console verified, sitemap submitted, sandbox period active (until ~Oct 2)
@@ -147,7 +147,7 @@
 2. **Send 3 guest post pitches** — copy from docs/guest-post-pitches.md
 3. **Answer MaxBounty phone call** — prep at docs/maxbounty-phone-prep.md
 4. **Connect email newsletter** — sign up for MailerLite/ConvertKit free tier
-5. **Set Facebook page username** — facebook.com/NaturallyRestful (in page settings)
+5. ~~Set Facebook page username~~ ✅ DONE Sep 28 — facebook.com/NaturallyRestful live
 
 ## WHAT TO DO IN A NEW CHAT
 
