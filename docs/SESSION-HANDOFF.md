@@ -176,3 +176,9 @@
 - **r/sleep is closed to links** (Rule 5: no links in posts or comments) — never usable for traffic, only brand.
 - **Quora surge:** 2 manual answers (ashwagandha #4, favorite-supplement data answer #6 on a 9.9k-answer question) + automation posted #5 (scam) at 9 AM. Profile now 6 answers. Phase 2 (contextual links) can begin ~answer 10.
 - Kit is EXHAUSTED — future answers are written fresh (search questions with <20 answers or high answer counts).
+
+## SEP 28 LATE LOG (surge continuation)
+- **r/Supplements second shot: also sitewide-removed** — even text-only with NO link. Conclusion: u/Top_Monk3793 is account-flagged; ALL its submissions will be filtered. **Reddit is now closed from this account.** Only paths: Biohackers modmail (pending) or the owner's personal Reddit account (post text is in the surge log above).
+- **Quora #7 posted** (glycine dose question — includes trial names + Reality Index stat). Profile: 7 answers.
+- **Pin 33 ready** (quiz tool, Chrome style, QA-passed) in pinterest-pins/ — publish tomorrow (1/day cadence; pin-32 was today).
+- RUM Sep 27-28: ~8 real pageloads — no Medium/FB referral wave yet (normal lag).
