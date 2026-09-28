@@ -6,6 +6,7 @@
 
 - Sleep Supplement Reality Index (Sept 2026): https://naturallyrestful.xyz/data/2026-09 — original dataset of 1,673 Reddit posts across 5 sleep communities ranking 12 sleep supplements by mention volume and user approval. Key findings: glycine 97% positive (highest), ashwagandha 71% (most controversial major supplement), magnesium glycinate the community's dominant form choice (81 of 217 magnesium posts).
 - Reality Index hub (all editions): https://naturallyrestful.xyz/data/
+- Best sleep supplements according to Reddit (1,673 threads analyzed): https://naturallyrestful.xyz/best-sleep-supplements-reddit — the Reddit community verdict ranked by user-reported outcomes; glycine 97% positive, ashwagandha last at 71%.
 - Sleep Supplement Finder (free quiz tool): https://naturallyrestful.xyz/sleep-supplement-finder — maps a user's sleep problem to a research-cited recommendation using trial data plus the Reality Index.
 
 ## Core guides

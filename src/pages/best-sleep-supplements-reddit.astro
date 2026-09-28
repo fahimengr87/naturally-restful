@@ -1,0 +1,175 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import index from '../../data/reddit-index-2026-09.json';
+
+const supps = index.supplements;
+const rows = Object.entries(supps).sort((a: any, b: any) => b[1].approvalPct - a[1].approvalPct);
+const byName = Object.fromEntries(rows);
+const get = (n: string) => supps[n];
+const fmt = (n: number) => n.toLocaleString('en-US');
+
+const faqs = [
+  {
+    q: 'What is the best sleep supplement according to Reddit?',
+    a: 'By user-reported outcomes across 1,673 threads in five sleep communities, glycine scores highest (97% positive, one negative post in 56), followed by melatonin at correct low doses (0.5–1 mg), magnesium glycinate, and L-theanine. The most-hyped supplements — ashwagandha — actually ranks last of twelve.',
+  },
+  {
+    q: 'Does glycine actually work for sleep?',
+    a: 'It has modest, consistent human-trial support at 3 g before bed (faster onset, better subjective quality), and the highest user-approval score we recorded: 97% positive across 56 Reddit threads with exactly one negative post. It is the cheapest well-tolerated option in the aisle.',
+  },
+  {
+    q: 'Which form of magnesium do Redditors take for sleep?',
+    a: 'Glycinate, decisively: it was named in 81 of 217 magnesium threads we analyzed. Threonate appeared in 14 (mostly for cognition, at 10x the price), and oxide in 10 — almost always as the cheap form people say "runs right through you." The community verdict matches the clinical data.',
+  },
+  {
+    q: 'What dose of melatonin does Reddit recommend?',
+    a: 'The recurring conclusion in the highest-engagement melatonin threads (~47,600 upvotes) is that typical bottles are overdosed 5–10x: research uses 0.5–1 mg, taken 2–3 hours before target bedtime, while bottles commonly sell 5–10 mg, which mostly adds morning grogginess.',
+  },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@context': 'https://schema.org',
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@context': 'https://schema.org', '@type': 'Answer', text: f.a },
+  })),
+};
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'Best Sleep Supplements, According to Reddit (1,673 Threads Analyzed)',
+  description: 'What five Reddit communities actually report about 12 sleep supplements, ranked by outcome — glycine 97% positive, ashwagandha last at 71%.',
+  author: { '@type': 'Organization', name: 'Naturally Restful', url: 'https://naturallyrestful.xyz' },
+  datePublished: '2026-09-28',
+  url: 'https://naturallyrestful.xyz/best-sleep-supplements-reddit',
+};
+---
+
+<BaseLayout
+  title="Best Sleep Supplements, According to Reddit (1,673 Threads Analyzed)"
+  description="What does Reddit actually recommend for sleep? We scored 1,673 threads across 5 communities by real outcomes. Glycine wins at 97% positive; the most-hyped supplement ranks last."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <div class="container">
+    <p class="kicker">The community verdict · backed by our full dataset</p>
+    <h1 class="page-title">Best Sleep Supplements, According to Reddit</h1>
+    <p class="lead">
+      You want to know what people who actually take this stuff say — not another listicle
+      quoting the same ten studies. So we built the answer: every top post about twelve
+      sleep supplements across five communities (<strong>r/sleep, r/insomnia, r/Supplements,
+      r/ashwagandha, r/Biohackers</strong>), {fmt(index.methodology.uniquePostsScanned)} threads,
+      scored by outcome language — "finally sleeping," "did nothing," "waste of money."
+      Here is the ranking, and what the crowd actually backs.
+    </p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Rank</th><th>Supplement</th><th class="num">Approval</th><th class="num">Threads</th><th>The Reddit verdict</th></tr></thead>
+        <tbody>
+          {rows.map(([name, r]: any, i: number) => (
+            <tr class:i={i === 0}>
+              <td class="num">{i + 1}</td>
+              <td><strong>{name}</strong></td>
+              <td class="num"><span class={`score ${r.approvalPct >= 80 ? 'hi' : r.approvalPct >= 75 ? 'mid' : 'lo'}`}>{r.approvalPct}%</span></td>
+              <td class="num">{r.posts}</td>
+              <td>{i === 0 ? 'The quiet favorite — one negative post in 56' : i === rows.length - 1 ? 'Most controversial — side-effect stories, not "didn\'t work"' : name === 'Melatonin' ? 'Works, but the dose conversation dominates' : name === 'Magnesium' ? 'Form war settled: glycinate' : name === 'L-Theanine' ? '"Turns off the racing mind"' : 'Solid, quieter follow-up'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="fine">Approval = positive ÷ (positive + negative) posts containing explicit outcome language. Full methodology on the <a href="/data/2026-09">Reality Index report</a>.</p>
+
+    <div class="prose">
+      <h2>The four Reddit actually backs — and how to take them</h2>
+
+      <h3>1. Glycine — 97% positive, zero hype</h3>
+      <p>
+        {get('Glycine').posts} threads, {get('Glycine').pos} positive, exactly <strong>one</strong> negative.
+        The crowd's verdict matches the trials: 3 g before bed modestly speeds sleep onset and deepens
+        subjective quality, costs pennies, and almost nobody reports harm.
+        <a href="/articles/glycine-for-sleep-the-3-gram-dose">The dosing guide →</a>
+      </p>
+
+      <h3>2. Magnesium (glycinate specifically) — 81%, the volume leader</h3>
+      <p>
+        The single biggest conversation we tracked ({get('Magnesium').posts} threads, {fmt(get('Magnesium').upvotes)} upvotes),
+        and it's not about <em>whether</em> — it's about <em>which form</em>: glycinate named in 81 threads,
+        threonate 14, oxide 10 (the "runs right through you" form). 200–400 mg elemental, nightly.
+        <a href="/articles/best-magnesium-supplements-for-sleep-ranked">The ranked forms guide →</a>
+      </p>
+
+      <h3>3. L-Theanine — 81%, the racing-mind specialist</h3>
+      <p>
+        {get('L-Theanine').posts} threads of unusually specific praise: quiets the mind without sedation.
+        100–200 mg in the evening. <a href="/articles/l-theanine-for-a-racing-mind">The full guide →</a>
+      </p>
+
+      <h3>4. Melatonin — 83%, but only at the dose nobody sells</h3>
+      <p>
+        Highest engagement in the dataset ({fmt(get('Melatonin').upvotes)} upvotes) and the dominant theme is
+        dose regret: research uses 0.5–1 mg; bottles ship 5–10 mg. A clock-setter for jet lag and shift work,
+        not a sedative. <a href="/articles/melatonin-most-people-take-too-much">Why less is more →</a>
+      </p>
+
+      <h2>The one Reddit is split on: ashwagandha (71%, last place)</h2>
+      <p>
+        The most-hyped sleep-stress supplement on the internet ranks dead last in community approval —
+        {get('Ashwagandha').neg} negative threads, and they're side-effect stories (blunted emotions, thyroid
+        questions), not "didn't work." It genuinely helps many people; go in knowing the failure modes.
+        <a href="/articles/ashwagandha-side-effects-honest-list">The honest side-effects list →</a>
+      </p>
+
+      <h2>Not sure which fits you?</h2>
+      <p>
+        Four questions in our <a href="/sleep-supplement-finder">Sleep Supplement Finder</a> map your specific
+        problem — racing mind, 3 a.m. wake-ups, stress, schedule — to the research-cited pick. Sometimes the
+        honest answer is "no supplement yet"; it says that too.
+      </p>
+
+      <h2>Methodology, honestly</h2>
+      <p>
+        Self-reported community sentiment, not clinical evidence — useful for expectations, useless for proof.
+        Reddit's search ranking decides what surfaced; comments weren't analyzed this edition; glycine and
+        reishi samples are small. Every count, the sentiment rules, and the per-supplement breakdown are
+        published open at the <a href="/data/2026-09">Sleep Supplement Reality Index</a> — free to cite.
+        Our research-cited recommendations live separately in the
+        <a href="/best-sleep-supplements">full comparison</a>.
+      </p>
+    </div>
+
+    <div class="faq">
+      <h2>What people ask about Reddit's sleep-supplement verdict</h2>
+      {faqs.map((f) => (
+        <div class="qa">
+          <h3>{f.q}</h3>
+          <p>{f.a}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .kicker { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.78rem; font-weight: 600; margin: 2.2rem 0 0.2rem; color: #33517a; }
+  .table-wrap { overflow-x: auto; margin: 1.6rem 0 0.6rem; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+  th, td { text-align: left; padding: 0.55rem 0.7rem; border-bottom: 1px solid #e5e2da; vertical-align: top; }
+  th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #666; }
+  td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  tr.i td { background: #f4f7f4; }
+  .score { font-weight: 700; padding: 0.15rem 0.5rem; border-radius: 999px; font-size: 0.85rem; }
+  .score.hi { background: #e2efe4; color: #2e6b3a; }
+  .score.mid { background: #f3ecd9; color: #8a6d1a; }
+  .score.lo { background: #f5e3e0; color: #a04a35; }
+  .fine { font-size: 0.85rem; color: #777; }
+  .faq { margin-top: 2.4rem; }
+  .qa { border-top: 1px solid #e5e2da; padding: 1rem 0; }
+  .qa h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
+</style>
