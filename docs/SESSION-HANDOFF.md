@@ -201,3 +201,18 @@ Watch inbox for replies; follow up once after ~1 week if silent.
 Replied inside Joan C.'s ticket thread (#17762740) instead of the bouncing affiliates@iherb.com address — the reply feeds their ticket system directly. Pitched: Reality Index dataset, 48 pages, quiz tool, Medium syndication. Watch for iHerb reply in that thread.
 
 **Reddit: HARD STOP confirmed** — third post (from the owner's own session, aged unlocked account) also sitewide-removed. Account is flagged at platform level. No posting from u/Top_Monk3793 for 4+ weeks minimum; only passive use (reading, voting). Modmail to r/Biohackers still pending.
+
+## BOOST SETUP (configured Sep 28, PUBLISHING TOMORROW — user adds payment method first)
+Boost URL: https://www.facebook.com/ad_center/create/boostpost/?ad_account_id=809278157719839&entry_point=www_profile_plus_timeline&page_id=1371376482723140&target_id=122115053679474073
+(post = the glycine findings post; ad account 809278157719839, currency BDT)
+
+Config to apply in the flow (re-do if the draft was lost):
+- Goal: Automatic — Get more website visitors (default)
+- Button destination: Website → https://naturallyrestful.xyz/data/2026-09
+- Audience: Advantage+ → Edit details → Locations: United States, United Kingdom, Canada, Australia (REMOVE Bangladesh default); min age 18
+- Australia "financial services declaration" checkbox: LEAVE UNCHECKED (not a financial ad)
+- Budget: ৳209 BDT/day (~$1.75), continuous — plan: 7-day test (~৳1,460), then keep-or-kill by CTR (~1% CTR = keep; near-zero = pause)
+- BLOCKER until user adds payment method: Ad Center flow → "Payment method" → Add (card/bKash options in BD) → then Publish
+- After publish: review ~30-60 min; evaluate after ~7 days via Ad Center + site analytics
+
+TOMORROW'S QUEUE: 1) user adds payment + we publish the boost, 2) publish pin-33 (quiz, Chrome style — built & QA-passed), 3) Quora automation (weekdays 9 AM), 4) Oct 1 = Reality Index October edition, Oct 2 = sandbox lift (arm SC+analytics automations in a fresh chat).
