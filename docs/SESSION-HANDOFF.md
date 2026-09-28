@@ -196,3 +196,8 @@ All three exclusive-stat pitches SENT from fahim.mahmood6@gmail.com (4:2x PM, ve
 Watch inbox for replies; follow up once after ~1 week if silent.
 
 **DISCOVERY: iHerb follow-ups are BOUNCING** — "[Message not delivered]" to affiliates@iherb.com on both Sep 11 and Sep 22. The reconsideration never arrived. Next iHerb attempt must go via a working channel (Partnerize dashboard message or Joan's direct reply thread — the Sep 12 thread from Joan may accept replies).
+
+## SEP 28 FINAL — iHerb RECONSIDERATION RESENT (working channel)
+Replied inside Joan C.'s ticket thread (#17762740) instead of the bouncing affiliates@iherb.com address — the reply feeds their ticket system directly. Pitched: Reality Index dataset, 48 pages, quiz tool, Medium syndication. Watch for iHerb reply in that thread.
+
+**Reddit: HARD STOP confirmed** — third post (from the owner's own session, aged unlocked account) also sitewide-removed. Account is flagged at platform level. No posting from u/Top_Monk3793 for 4+ weeks minimum; only passive use (reading, voting). Modmail to r/Biohackers still pending.
