@@ -216,3 +216,14 @@ Config to apply in the flow (re-do if the draft was lost):
 - After publish: review ~30-60 min; evaluate after ~7 days via Ad Center + site analytics
 
 TOMORROW'S QUEUE: 1) user adds payment + we publish the boost, 2) publish pin-33 (quiz, Chrome style — built & QA-passed), 3) Quora automation (weekdays 9 AM), 4) Oct 1 = Reality Index October edition, Oct 2 = sandbox lift (arm SC+analytics automations in a fresh chat).
+
+## SEP 29 LOG
+- **Email:** No pitch replies yet (OdeSleep/Sleepify/IntelligentLabs — sent Sep 28, normal to wait ~1 week; follow up ~Oct 5). **iHerb reconsideration CONFIRMED DELIVERED** — ticket system auto-acked Sep 28 4:47 PM (the "bounce" was only the dead direct-address copy). No MaxBounty/SellHealth mail.
+- **Boost:** DEFERRED to Sep 30 by owner — decision pending between /data/2026-09 (credibility) vs /sleep-supplement-finder (recommended for cold paid traffic). Payment method still to be added by owner (card/bKash). Config steps documented below (draft does NOT persist — full re-setup needed, ~2 min).
+- **Pin 33 published** (quiz, Chrome style, linkless, Sleep Supplements board). Design rotation last-used: Chrome.
+- **Quora #8 posted** (L-theanine, "Does L-theanine make you sleep?" — 91-answer question). The 9 AM automation did NOT fire today — second observed automation miss (Sunday engine missed Sep 27 too). Automations need re-arming from a fresh chat if this pattern holds.
+- **Warm-up:** 1 repin (sleep-quiz pin → Sleep Supplements). Re-appeal window: Oct 6–8.
+- Tomorrow Oct 1: Reality Index October edition (automation, 2 PM — verify it runs). Oct 2: sandbox lift.
+
+### Boost re-setup steps (when decided)
+Ad Center → boost the glycine post (target_id=122115053679474073) → URL = chosen destination → audience US/UK/CA/AU (remove Bangladesh) → budget ৳209/day → AU financial declaration UNCHECKED → owner adds payment → Publish.
