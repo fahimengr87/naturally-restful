@@ -227,3 +227,10 @@ TOMORROW'S QUEUE: 1) user adds payment + we publish the boost, 2) publish pin-33
 
 ### Boost re-setup steps (when decided)
 Ad Center → boost the glycine post (target_id=122115053679474073) → URL = chosen destination → audience US/UK/CA/AU (remove Bangladesh) → budget ৳209/day → AU financial declaration UNCHECKED → owner adds payment → Publish.
+
+## SEP 30 LOG (Wednesday)
+- **Pin 29-v2 published** (ashwagandha controversy, Editorial style — 5th design language in rotation; linkless, Stress & Adaptogens board). Rotation last-used: Editorial. Remaining unpublished: pin-30-v2 (magnesium/Aura), pin-31-v2 (melatonin/Dawn).
+- **Quora #9 posted** (magnesium+melatonin combo question — glycinate-form + low-dose-melatonin guidance + Index stats). Automation missed AGAIN (3rd observed miss) — daily Quora is effectively manual now; re-arm from fresh chat.
+- **Email:** no pitch replies yet (follow-up Oct 5), no iHerb human reply, nothing from MaxBounty/SellHealth.
+- **Boost:** still awaiting owner decision (quiz vs data report) + payment method.
+- **TOMORROW Oct 1:** Reality Index October edition via automation at 2 PM — VERIFY it completes (harvest → new page → deploy → report). Oct 2: sandbox lift; Pinterest re-appeal window Oct 6–8.
