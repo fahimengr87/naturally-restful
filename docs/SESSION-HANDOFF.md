@@ -234,3 +234,6 @@ Ad Center → boost the glycine post (target_id=122115053679474073) → URL = ch
 - **Email:** no pitch replies yet (follow-up Oct 5), no iHerb human reply, nothing from MaxBounty/SellHealth.
 - **Boost:** still awaiting owner decision (quiz vs data report) + payment method.
 - **TOMORROW Oct 1:** Reality Index October edition via automation at 2 PM — VERIFY it completes (harvest → new page → deploy → report). Oct 2: sandbox lift; Pinterest re-appeal window Oct 6–8.
+
+## SEP 30 — iHerb REPLIED (LIVE CONVERSATION — ticket 17895982)
+Alexandra D. (iHerb) replied Sep 29 2:06 PM PDT asking: location + promotion countries. ANSWERED Sep 30 (from the correct BD location, honestly): located Bangladesh; promote to US/UK/CA/AU primary + Western Europe secondary; offered analytics. **Watch this thread — a follow-up question or decision is likely within days.** Context: iHerb sometimes restricts by geography; the strong second application (dataset/48 pages/quiz/Medium) got a human engaged, which the first application never did.
