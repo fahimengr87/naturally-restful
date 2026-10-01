@@ -1,0 +1,182 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import index from '../../../data/reddit-index-2026-10.json';
+import sep from '../../../data/reddit-index-2026-09.json';
+
+const supps = index.supplements;
+const sepSupps = sep.supplements;
+const totalPosts = Object.values(supps).reduce((s: number, v: any) => s + v.posts, 0);
+const totalUps = Object.values(supps).reduce((s: number, v: any) => s + v.upvotes, 0);
+
+const verdicts: Record<string, string> = {
+  Magnesium: 'Holds at #1 in volume; the crowd still picks glycinate.',
+  'L-Theanine': 'Steady — the racing-mind specialist.',
+  Ashwagandha: 'Still last of the majors. The controversy is structural, not a fluke.',
+  Melatonin: 'Engagement king, dose regret unchanged.',
+  CBD: 'Middling as ever.',
+  GABA: 'Talk exceeds evidence, again.',
+  'Valerian root': 'The stable old-timer.',
+  Apigenin: 'Quietly consistent.',
+  'Tart cherry': 'Conversation shrank a third; approval firmed.',
+  '5-HTP': 'Thin data, decent reports.',
+  Reishi: 'Small crowd, loyal crowd.',
+  Glycine: 'Still the quiet favorite. Still 97%.',
+};
+
+const reads: Record<string, string> = {
+  Magnesium: '/articles/best-magnesium-supplements-for-sleep-ranked',
+  'L-Theanine': '/articles/l-theanine-for-a-racing-mind',
+  Ashwagandha: '/articles/ashwagandha-side-effects-honest-list',
+  Melatonin: '/articles/melatonin-most-people-take-too-much',
+  CBD: '/best-sleep-supplements',
+  GABA: '/articles/gaba-supplements-brain-barrier',
+  'Valerian root': '/articles/valerian-root-honest-review',
+  Apigenin: '/articles/apigenin-chamomile-compound',
+  'Tart cherry': '/articles/tart-cherry-juice-for-sleep',
+  '5-HTP': '/articles/5-htp-for-sleep-honest-review',
+  Reishi: '/best-sleep-supplements',
+  Glycine: '/articles/glycine-for-sleep-the-3-gram-dose',
+};
+
+const fmt = (n: number) => n.toLocaleString('en-US');
+const rows = Object.entries(supps).sort((a: any, b: any) => b[1].posts - a[1].posts);
+const generated = new Date(index.generated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+const datasetSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: 'Sleep Supplement Reality Index — October 2026',
+  description: 'Second edition of the dataset scoring 12 sleep supplements by mention volume and user-reported outcomes across Reddit sleep communities. Includes September-over-October trend comparison.',
+  url: 'https://naturallyrestful.xyz/data/2026-10',
+  creator: { '@type': 'Organization', name: 'Naturally Restful', url: 'https://naturallyrestful.xyz' },
+  temporalCoverage: '2026-09/2026-10',
+  isAccessibleForFree: true,
+};
+---
+
+<BaseLayout
+  title="Sleep Supplement Reality Index — October 2026"
+  description="Edition #2: 1,645 Reddit posts re-scored. The September ranking held almost perfectly — glycine still 97%, ashwagandha still last. One mover: tart cherry. Trends inside."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(datasetSchema)} />
+  <div class="container">
+    <p class="kicker"><a href="/data">Reality Index</a> · Report #002 · <a href="/data/2026-09">First edition →</a></p>
+    <h1 class="page-title">One Month Later, the Ranking Barely Moved</h1>
+    <p class="lead">
+      The first edition of this index had a fair question hanging over it: was the September
+      ranking a snapshot or a pattern? One month and a full re-harvest later, we have the
+      answer. Across {fmt(index.methodology.uniquePostsScanned)} posts re-scored in the same
+      five communities, the standings held almost perfectly — which is exactly what a real
+      signal does and a fluke doesn't.
+    </p>
+
+    <div class="stat-row">
+      <div class="stat"><strong>{fmt(index.methodology.uniquePostsScanned)}</strong><span>posts re-scored</span></div>
+      <div class="stat"><strong>5</strong><span>communities</span></div>
+      <div class="stat"><strong>{fmt(totalUps)}</strong><span>upvotes tracked</span></div>
+      <div class="stat"><strong>11 / 12</strong><span>rankings unchanged ±1%</span></div>
+    </div>
+
+    <div class="prose">
+      <h2>The October findings</h2>
+
+      <h3>1. Glycine is still the quiet favorite — 97%, again</h3>
+      <p>
+        Fifty-six posts, one negative. A month later, identical. At some point that stops being
+        a data point and starts being a fact about glycine: near-zero backlash, near-zero hype.
+        (<a href="/articles/glycine-for-sleep-the-3-gram-dose">Dosing guide →</a>)
+      </p>
+
+      <h3>2. Ashwagandha's last place is structural, not a bad month</h3>
+      <p>
+        71% approval in September. 71% in October. The side-effect threads keep coming at the
+        same rate — blunted emotions, thyroid questions. If you're stacking it, the
+        <a href="/articles/ashwagandha-side-effects-honest-list">honest exclusions list</a> ages
+        well.
+      </p>
+
+      <h3>3. The one mover: tart cherry's conversation shrank — and firmed</h3>
+      <p>
+        The biggest change in the dataset: tart cherry threads fell from 165 to 131 (−21%),
+        while its approval actually rose from 82% to 85%. Fewer people talking about it; the
+        ones who do, like it more. Interpretation: seasonal chatter fading, not reputation
+        falling. (<a href="/articles/tart-cherry-juice-for-sleep">The trials review →</a>)
+      </p>
+
+      <h3>4. Magnesium's form consensus didn't budge</h3>
+      <p>
+        Glycinate remains the community's form by roughly 6:1 over threonate. Six weeks of
+        stability on that question — the trial data and the crowd keep agreeing.
+        (<a href="/articles/best-magnesium-supplements-for-sleep-ranked">Ranked forms →</a>)
+      </p>
+
+      <h2>The index — October 2026, with September comparison</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Supplement</th><th class="num">Posts</th><th class="num">vs Sep</th><th class="num">Approval</th><th class="num">vs Sep</th><th>Verdict</th><th></th></tr></thead>
+          <tbody>
+            {rows.map(([name, r]: any) => {
+              const s = sepSupps[name];
+              const dPosts = s ? r.posts - s.posts : 0;
+              const dApp = s && s.approvalPct != null && r.approvalPct != null ? r.approvalPct - s.approvalPct : null;
+              return (
+                <tr>
+                  <td><strong>{name}</strong></td>
+                  <td class="num">{r.posts}</td>
+                  <td class="num dim">{dPosts === 0 ? '—' : (dPosts > 0 ? '+' : '') + dPosts}</td>
+                  <td class="num"><span class={`score ${r.approvalPct >= 80 ? 'hi' : r.approvalPct >= 75 ? 'mid' : 'lo'}`}>{r.approvalPct}%</span></td>
+                  <td class="num dim">{dApp == null || dApp === 0 ? '—' : (dApp > 0 ? '+' : '') + dApp}</td>
+                  <td>{verdicts[name]}</td>
+                  <td><a href={reads[name]}>→</a></td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Methodology</h2>
+      <p>
+        Same rules as <a href="/data/2026-09">edition #001</a>: every top post mentioning the
+        twelve supplements across r/sleep, r/insomnia, r/Supplements, r/ashwagandha, r/Biohackers;
+        substring match required; approval = positive ÷ (positive + negative) posts with explicit
+        outcome language; self-reported sentiment, not clinical evidence. Month-over-month deltas
+        reflect both new posts entering and old posts leaving each community's top-50 search
+        results — churn at the edges, stability at the core.
+      </p>
+
+      <div class="cite-box">
+        <h3>Cite this data</h3>
+        <p>
+          Free to cite with attribution to <em>Naturally Restful — Sleep Supplement Reality
+          Index, October 2026</em> with a link to this page. Need a specific cut for an article?
+          <a href="/contact">Ask</a>.
+        </p>
+      </div>
+
+      <p class="updated">Dataset generated {generated}. Next edition: November 2026.</p>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .kicker { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.78rem; font-weight: 600; margin: 2.2rem 0 0.2rem; }
+  .kicker a { color: inherit; }
+  .stat-row { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1.6rem 0 2.2rem; }
+  .stat { background: #f4f1ea; border-radius: 10px; padding: 0.9rem 1.2rem; min-width: 150px; }
+  .stat strong { display: block; font-size: 1.5rem; }
+  .stat span { font-size: 0.8rem; color: #666; }
+  .table-wrap { overflow-x: auto; margin: 1.2rem 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+  th, td { text-align: left; padding: 0.55rem 0.7rem; border-bottom: 1px solid #e5e2da; vertical-align: top; }
+  th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #666; }
+  td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  td.dim { color: #8a857a; font-size: 0.88rem; }
+  .score { font-weight: 700; padding: 0.15rem 0.5rem; border-radius: 999px; font-size: 0.85rem; }
+  .score.hi { background: #e2efe4; color: #2e6b3a; }
+  .score.mid { background: #f3ecd9; color: #8a6d1a; }
+  .score.lo { background: #f5e3e0; color: #a04a35; }
+  .cite-box { background: #eef2f8; border-left: 4px solid #33517a; padding: 1rem 1.3rem; border-radius: 8px; margin: 1.8rem 0; }
+  .cite-box h3 { margin: 0 0 0.4rem; }
+  .updated { color: #777; font-size: 0.9rem; }
+</style>

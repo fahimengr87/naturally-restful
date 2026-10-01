@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import index from '../../../data/reddit-index-2026-09.json';
+import index from '../../../data/reddit-index-2026-10.json';
 
 const supps = Object.entries(index.supplements).sort((a: any, b: any) => b[1].posts - a[1].posts);
 const generated = new Date(index.generated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
@@ -19,10 +19,10 @@ const generated = new Date(index.generated).toLocaleDateString('en-US', { year: 
       across five sleep communities. Cited by us, citable by anyone.
     </p>
 
-    <a class="report-card" href="/data/2026-09">
+    <a class="report-card" href="/data/2026-10">
       <span class="tag">Latest report</span>
-      <strong>Report #001 — September 2026</strong>
-      <span>1,673 posts · 5 communities · 12 supplements. Headline: glycine is the quiet favorite at 97% positive; ashwagandha is the most controversial major supplement.</span>
+      <strong>Report #002 — October 2026</strong>
+      <span>1,645 posts re-scored. The September ranking held almost perfectly — glycine still 97%, ashwagandha still last. One mover: tart cherry.</span>
       <span class="go">Read the report →</span>
     </a>
 
@@ -38,7 +38,7 @@ const generated = new Date(index.generated).toLocaleDateString('en-US', { year: 
           </tbody>
         </table>
       </div>
-      <p class="fine">Approval = positive ÷ (positive + negative) posts containing explicit outcome language. Dataset generated {generated}.</p>
+      <p class="fine">Approval = positive ÷ (positive + negative) posts containing explicit outcome language. Dataset generated {generated} · <a href="/data/2026-09">September edition</a>.</p>
 
       <h2>Why we publish this</h2>
       <p>
@@ -49,7 +49,7 @@ const generated = new Date(index.generated).toLocaleDateString('en-US', { year: 
 
       <h2>Editions</h2>
       <ul>
-        <li><a href="/data/2026-09">September 2026 — Report #001</a> (baseline edition)</li>
+        <li><a href="/data/2026-10">September 2026 — Report #001</a> (baseline edition)</li>
       </ul>
       <p class="fine">New edition monthly. Trend lines begin with the October 2026 report.</p>
     </div>

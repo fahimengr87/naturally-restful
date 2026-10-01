@@ -237,3 +237,10 @@ Ad Center → boost the glycine post (target_id=122115053679474073) → URL = ch
 
 ## SEP 30 — iHerb REPLIED (LIVE CONVERSATION — ticket 17895982)
 Alexandra D. (iHerb) replied Sep 29 2:06 PM PDT asking: location + promotion countries. ANSWERED Sep 30 (from the correct BD location, honestly): located Bangladesh; promote to US/UK/CA/AU primary + Western Europe secondary; offered analytics. **Watch this thread — a follow-up question or decision is likely within days.** Context: iHerb sometimes restricts by geography; the strong second application (dataset/48 pages/quiz/Medium) got a human engaged, which the first application never did.
+
+## OCT 1 LOG (Thursday) — REALITY INDEX OCTOBER EDITION SHIPPED ✅
+- **Report #002 LIVE**: https://naturallyrestful.xyz/data/2026-10/ (49 pages, deployed, IndexNow pinged, 200 verified). Harvested 5 subs fresh (1,645 posts). The story: stability — glycine 97% both months, ashwagandha last both months, 11/12 rankings unchanged; one mover: tart cherry threads 165→131 while approval firmed 82→85%. Hub updated (Report #002 featured, editions list, Sept link). NOTE: 2 PM automation did NOT need to fire — I ran it manually at noon; archive of Sept per-sub files in data/sept-2026/ (merge script picks up any reddit-*.json — archive old months before merging new ones).
+- **Pin #35 published** (magnesium form-consensus, Aura style — linkless, Sleep Supplements board). Rotation last-used: Aura. Remaining: pin-31-v2 (melatonin/Dawn).
+- **Quora #10 posted** ("Do sleep supplements actually work?" — 9,910-answer question, two-month data angle).
+- **Mail:** quiet (no Alexandra reply yet; pitches silent day 3; follow-up Oct 5).
+- **Tomorrow Oct 2: SANDBOX LIFT DAY** — fresh chat recommended to arm SC + analytics automations and watch first impressions. Pinterest re-appeal window opens Oct 6.
