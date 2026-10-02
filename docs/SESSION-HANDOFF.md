@@ -244,3 +244,11 @@ Alexandra D. (iHerb) replied Sep 29 2:06 PM PDT asking: location + promotion cou
 - **Quora #10 posted** ("Do sleep supplements actually work?" — 9,910-answer question, two-month data angle).
 - **Mail:** quiet (no Alexandra reply yet; pitches silent day 3; follow-up Oct 5).
 - **Tomorrow Oct 2: SANDBOX LIFT DAY** — fresh chat recommended to arm SC + analytics automations and watch first impressions. Pinterest re-appeal window opens Oct 6.
+
+## OCT 2 LOG (Friday — SANDBOX LIFT DAY)
+- **Pin #36 published** (melatonin dose-regret, Dawn style — Reality Index pin series COMPLETE; six designs across the set, zero repeats). All v2 pins now live. Next pins must be generated fresh (scripts/make-pins-*.py).
+- **Quora #11 posted** ("What is the best natural sleep aid?" — 9,930-answer question; two-edition data answer with the problem→supplement matching).
+- **Mail:** quiet — no Alexandra reply yet (2 days), pitches day 4 (follow-up Oct 5), nothing from MaxBounty/SellHealth.
+- **Sandbox day traffic:** too early to see impressions (SC owned by wife's account — organic signals only visible there). CF shows normal early-day volume.
+- **Pinterest re-appeal window opens Oct 6** — file appeal #2 (draft in docs/pinterest-playbook.md).
+- NOTE: queue for pins is EMPTY — tomorrow's session must generate a new pin (passionflower/quiz/October-edition themes available).
