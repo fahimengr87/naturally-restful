@@ -252,3 +252,10 @@ Alexandra D. (iHerb) replied Sep 29 2:06 PM PDT asking: location + promotion cou
 - **Sandbox day traffic:** too early to see impressions (SC owned by wife's account — organic signals only visible there). CF shows normal early-day volume.
 - **Pinterest re-appeal window opens Oct 6** — file appeal #2 (draft in docs/pinterest-playbook.md).
 - NOTE: queue for pins is EMPTY — tomorrow's session must generate a new pin (passionflower/quiz/October-edition themes available).
+
+## OCT 3 LOG (Saturday)
+- **Pin #37 published** (October-edition Sticker style — FIRST live Sticker design; stability story + tart-cherry mover; linkless, Sleep Supplements). Rotation last-used: Sticker. All 5 styles now live in feed.
+- **Quora #12 posted** ("Can I take Ashwagandha regularly?" — 9,911 answers; daily-use pattern + both-months-last data).
+- **Mail:** digests only. No Alexandra (day 3 — add iHerb nudge to tomorrow's follow-up batch), pitches day 5 → FOLLOW-UPS DUE TOMORROW Oct 4 (3 pitches + iHerb nudge).
+- Oct 6: Pinterest re-appeal #2 window — file it (draft in playbook).
+- Sunday Oct 5: weekly article due (queue: Lemon Balm next).
