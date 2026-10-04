@@ -259,3 +259,9 @@ Alexandra D. (iHerb) replied Sep 29 2:06 PM PDT asking: location + promotion cou
 - **Mail:** digests only. No Alexandra (day 3 — add iHerb nudge to tomorrow's follow-up batch), pitches day 5 → FOLLOW-UPS DUE TOMORROW Oct 4 (3 pitches + iHerb nudge).
 - Oct 6: Pinterest re-appeal #2 window — file it (draft in playbook).
 - Sunday Oct 5: weekly article due (queue: Lemon Balm next).
+
+## OCT 4 LOG (Sunday — weekly cycle complete)
+- **Weekly article LIVE**: "Lemon Balm for Sleep: What It Can and Can't Do" — https://naturallyrestful.xyz/articles/lemon-balm-what-it-can-and-cant-do/ (50 pages, deployed, IndexNow, queue ticked). Next in queue: "Sleep Trackers: How Accurate Are They Really?"
+- **All 3 pitch FOLLOW-UPS SENT** (OdeSleep, Sleepify Lab, Intelligent Labs — day-6 polite bumps, each with the free-exclusive offer restated). If silent after ~Oct 11, park them and move to Tier B targets (Sleep Advisor, EachNight, Sleep Junkie).
+- **iHerb:** still no Alexandra reply (day 4) — nudge NOT yet sent; send a short ticket-thread nudge ~Oct 6 alongside the Pinterest re-appeal.
+- Mail otherwise: digests only. **Oct 6: Pinterest re-appeal #2 window — file it (draft in playbook).** Daily pin for lemon-balm article not yet generated — tomorrow's session: generate (Editorial or Dawn fits lemon balm) + publish.

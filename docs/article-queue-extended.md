@@ -5,7 +5,7 @@ The weekly autonomous publisher works through this list top-down. Tick when publ
 - [x] Lavender Oil Capsules (Silexan): The Underknown Calm Option
 - [x] 5-HTP for Sleep: Promising Mechanism, Real Risks
 - [x] Passionflower Tea: Gentle Evidence for Anxious Evenings
-- [ ] Lemon Balm: What It Can and Can't Do
+- [x] Lemon Balm: What It Can and Cannot Do
 - [x] CBD for Sleep: The Honest State of the Evidence
 - [ ] Sleep Trackers: How Accurate Are They Really?
 - [ ] Morning vs. Night Ashwagandha: Does Timing Matter?
