@@ -265,3 +265,9 @@ Alexandra D. (iHerb) replied Sep 29 2:06 PM PDT asking: location + promotion cou
 - **All 3 pitch FOLLOW-UPS SENT** (OdeSleep, Sleepify Lab, Intelligent Labs — day-6 polite bumps, each with the free-exclusive offer restated). If silent after ~Oct 11, park them and move to Tier B targets (Sleep Advisor, EachNight, Sleep Junkie).
 - **iHerb:** still no Alexandra reply (day 4) — nudge NOT yet sent; send a short ticket-thread nudge ~Oct 6 alongside the Pinterest re-appeal.
 - Mail otherwise: digests only. **Oct 6: Pinterest re-appeal #2 window — file it (draft in playbook).** Daily pin for lemon-balm article not yet generated — tomorrow's session: generate (Editorial or Dawn fits lemon balm) + publish.
+
+## OCT 5 LOG (Monday)
+- **Pin #38 published** (lemon balm, Dawn style — cream→lemon→sage palette; linkless, Sleep Supplements board; script: scripts/make-pin-lemonbalm.py). Rotation last-used: Dawn.
+- **Quora #13 posted** ("Does tart cherry juice help you sleep?" — October mover story: 165→131 threads, 82→85% approval).
+- **Mail:** Intelligent Labs replied with HelpScout AUTO-ack (weekend closure; humans back Monday = TODAY) — real answer may land today/tomorrow, watch ticket {#HS:3471924889-95669#}. No Alexandra (day 5 — nudge tomorrow with re-appeal). No OdeSleep/Sleepify.
+- **TOMORROW Oct 6: Pinterest re-appeal #2 + iHerb nudge — the day's priorities.**
