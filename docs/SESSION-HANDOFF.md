@@ -277,3 +277,8 @@ Alexandra D. (iHerb) replied Sep 29 2:06 PM PDT asking: location + promotion cou
 - **iHerb: owner says LEAVE IT — do not nudge.** State: geo answer (BD → US/UK/CA/AU) delivered Sep 30, acknowledged by ticket system, awaiting decision. Alexandra's thread: search "Request 17895982".
 - **Mail Oct 8:** nothing new from pitches/IL human/MAxBOunt. IL HelpScout ticket {#HS:3471924889} still auto-only.
 - Pins missed Oct 6-7 (no session) — cadence resumes next session (no queued pins left; generate fresh per article/theme).
+
+## OCT 8 EVENING — CHANNEL CONTENT EXPANSION
+- **Medium: 3 new canonical imports LIVE** (glycine guide /p/1dc935d59a18, ashwagandha side-effects /p/d9bd7abaa88e, magnesium ranked /p/81bcaf22ff10). Medium profile now has 6 stories, 5 with canonical back to the site. Import quirk: URL field must be typed (execCommand insertText doesn't register React state — retype fully if Import doesn't navigate).
+- **Quora Phase 2 BEGUN ✅**: answer #14 ("How much melatonin is safe?" — 9,924-answer question) carries the FIRST contextual link to /articles/melatonin-most-people-take-too-much. Phase 2 rule: 1 link per answer, ONLY where the article genuinely answers the question. Profile: 14 answers.
+- Pending verdicts: Pinterest re-appeal #2, iHerb (on hold per owner), IL human reply, MaxBounty call.
