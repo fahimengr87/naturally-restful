@@ -271,3 +271,9 @@ Alexandra D. (iHerb) replied Sep 29 2:06 PM PDT asking: location + promotion cou
 - **Quora #13 posted** ("Does tart cherry juice help you sleep?" — October mover story: 165→131 threads, 82→85% approval).
 - **Mail:** Intelligent Labs replied with HelpScout AUTO-ack (weekend closure; humans back Monday = TODAY) — real answer may land today/tomorrow, watch ticket {#HS:3471924889-95669#}. No Alexandra (day 5 — nudge tomorrow with re-appeal). No OdeSleep/Sleepify.
 - **TOMORROW Oct 6: Pinterest re-appeal #2 + iHerb nudge — the day's priorities.**
+
+## OCT 7-8 LOG (Wed/Thu)
+- **Pinterest re-appeal #2 SUBMITTED ✅** (Oct 7 night, inside the Oct 6-8 window): help.pinterest.com new flow → Appeals → "Pinterest blocked my site" → "A Pin blocked for Spam" → full second-appeal text (50 cited pages, affiliate-links-permitted argument, claimed domain, monthly dataset, 1-pin/day discipline, representative URL for reviewers). Success page confirmed. Watch inbox + Pinterest notifications for the verdict.
+- **iHerb: owner says LEAVE IT — do not nudge.** State: geo answer (BD → US/UK/CA/AU) delivered Sep 30, acknowledged by ticket system, awaiting decision. Alexandra's thread: search "Request 17895982".
+- **Mail Oct 8:** nothing new from pitches/IL human/MAxBOunt. IL HelpScout ticket {#HS:3471924889} still auto-only.
+- Pins missed Oct 6-7 (no session) — cadence resumes next session (no queued pins left; generate fresh per article/theme).
