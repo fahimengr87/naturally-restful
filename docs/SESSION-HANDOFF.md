@@ -282,3 +282,9 @@ Alexandra D. (iHerb) replied Sep 29 2:06 PM PDT asking: location + promotion cou
 - **Medium: 3 new canonical imports LIVE** (glycine guide /p/1dc935d59a18, ashwagandha side-effects /p/d9bd7abaa88e, magnesium ranked /p/81bcaf22ff10). Medium profile now has 6 stories, 5 with canonical back to the site. Import quirk: URL field must be typed (execCommand insertText doesn't register React state — retype fully if Import doesn't navigate).
 - **Quora Phase 2 BEGUN ✅**: answer #14 ("How much melatonin is safe?" — 9,924-answer question) carries the FIRST contextual link to /articles/melatonin-most-people-take-too-much. Phase 2 rule: 1 link per answer, ONLY where the article genuinely answers the question. Profile: 14 answers.
 - Pending verdicts: Pinterest re-appeal #2, iHerb (on hold per owner), IL human reply, MaxBounty call.
+
+## OCT 10 LOG (Saturday)
+- **Pinterest appeal #2: DENIED** (email Oct 7 11:12 PM, form letter identical to appeal #1). Per protocol: appeal #3 fires ~Oct 21 (2-week spacing); until then linkless pins + warm-up continue. If #3 fails, Pinterest drops to maintenance mode permanently.
+- **Pin #39 published** (Reddit-verdict page, Chrome style — "TOP 5 sleep supplements by real outcomes" with mini ranking bars; linkless per protocol, Sleep Supplements board; script: scripts/make-pin-redditpage.py). Rotation last-used: Chrome.
+- **Quora #15 posted** ("I take melatonin almost every night — is it bad?" ~9,950-answer Q) — Phase 2 style WITH contextual link to /articles/melatonin-most-people-take-too-much. Profile: 15 answers (2 with links).
+- Oct 9: no session ran (pin skipped). Weekly article due tomorrow Oct 11 (Sleep Trackers next in queue).
