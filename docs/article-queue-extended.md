@@ -7,7 +7,7 @@ The weekly autonomous publisher works through this list top-down. Tick when publ
 - [x] Passionflower Tea: Gentle Evidence for Anxious Evenings
 - [x] Lemon Balm: What It Can and Cannot Do
 - [x] CBD for Sleep: The Honest State of the Evidence
-- [ ] Sleep Trackers: How Accurate Are They Really?
+- [x] Sleep Trackers: How Accurate Are They Really?
 - [ ] Morning vs. Night Ashwagandha: Does Timing Matter?
 - [ ] Ashwagandha and Testosterone: What the Trials Actually Measured
 - [ ] Sleep Debt: Can You Really Catch Up on Weekends?

@@ -288,3 +288,10 @@ Alexandra D. (iHerb) replied Sep 29 2:06 PM PDT asking: location + promotion cou
 - **Pin #39 published** (Reddit-verdict page, Chrome style — "TOP 5 sleep supplements by real outcomes" with mini ranking bars; linkless per protocol, Sleep Supplements board; script: scripts/make-pin-redditpage.py). Rotation last-used: Chrome.
 - **Quora #15 posted** ("I take melatonin almost every night — is it bad?" ~9,950-answer Q) — Phase 2 style WITH contextual link to /articles/melatonin-most-people-take-too-much. Profile: 15 answers (2 with links).
 - Oct 9: no session ran (pin skipped). Weekly article due tomorrow Oct 11 (Sleep Trackers next in queue).
+
+## OCT 11 LOG (Sunday — weekly cycle complete)
+- **Weekly article LIVE**: "Sleep Trackers: How Accurate Are They Really?" — https://naturallyrestful.xyz/articles/sleep-trackers-how-accurate-really/ (51 pages, deployed, IndexNow, queue ticked). Orthosomnia angle (novel, citable). Next in queue: "Morning vs. Night Ashwagandha: Does Timing Matter?"
+- **Pin #40 published** (trackers, Editorial style — "YOUR WATCH CANNOT MEASURE SLEEP"; linkless, Sleep Supplements board; script: scripts/make-pin-trackers.py). Rotation last-used: Editorial.
+- **Quora #16 posted** ("Are sleep trackers accurate at all?" — 98 answers) — Phase 2 WITH link to the trackers article. Profile: 16 answers (3 with links).
+- **Mail:** digests only. All verdicts still pending (Pinterest #3 on Oct 21; iHerb on hold; IL silent; MaxBounty phone).
+- 30-day site anniversary: launched Sep 11 — one month old, 51 pages, 2 Index editions, 6 Medium stories, 16 Quora answers, 40 pins, 3 sent pitches + 3 follow-ups.
