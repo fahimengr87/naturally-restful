@@ -311,3 +311,6 @@ Alexandra D. (iHerb) replied Sep 29 2:06 PM PDT asking: location + promotion cou
 - **Embeddable quiz widget LIVE: /embed/quiz/** — bare-chrome iframe version with "Powered by Naturally Restful" loop link; main quiz page now carries a copy-paste embed box (one-line iframe) + shareable result card textarea. The Tally-pattern loop is armed for partners.
 - **Community Notes (UGC) LIVE** on the /data hub: readers submit outcomes via /contact, best quoted by name in the next monthly edition (Miroverse pattern).
 - Trend-jacking radar + surge readiness documented in docs/growth-playbook.md.
+
+## OCT 12 NIGHT 2 — BOOST RE-ATTEMPTED, STILL BLOCKED ON PAYMENT (owner action required)
+Boost flow reopened for the glycine post (target_id=122115053679474073): URL now correctly set to https://naturallyrestful.xyz/sleep-supplement-finder (validated). Audience dialog is FLAKY — attempted US/UK/CA, dialog reverted to Bangladesh default. REMAINING STEPS when owner is ready (2 min): 1) reopen flow URL, 2) Edit audience → remove Bangladesh → add US + UK + CA + AU, 3) AU financial declaration UNCHECKED, 4) budget ৳209/day default OK, 5) **owner adds payment method (Ad Center → Payment method → Add: card/bKash)**, 6) Publish. THE PAYMENT METHOD IS THE ONLY TRUE BLOCKER — everything else is 2 minutes.
