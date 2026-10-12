@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import index from '../../data/reddit-index-2026-10.json';
+
+const names = Object.keys(index.supplements);
+const slug: Record<string, string> = {
+  Glycine: 'glycine', Melatonin: 'melatonin', Magnesium: 'magnesium', 'L-Theanine': 'l-theanine',
+  Ashwagandha: 'ashwagandha', Reishi: 'reishi', 'Tart cherry': 'tart-cherry', '5-HTP': '5-htp',
+  CBD: 'cbd', GABA: 'gaba', 'Valerian root': 'valerian', Apigenin: 'apigenin',
+};
+const pairs: { url: string; label: string; key: string }[] = [];
+for (let i = 0; i < names.length; i++) for (let j = i + 1; j < names.length; j++)
+  pairs.push({ url: `/compare/${slug[names[i]]}-vs-${slug[names[j]]}/`, label: `${names[i]} vs ${names[j]}`, key: `${slug[names[i]]}-vs-${slug[names[j]]}` });
+const featured = ['magnesium-vs-melatonin', 'magnesium-vs-glycine', 'melatonin-vs-glycine', 'l-theanine-vs-ashwagandha', 'gaba-vs-l-theanine', 'melatonin-vs-ashwagandha'];
+---
+
+<BaseLayout title="Compare Any Two Sleep Supplements — Community Data Matchups" description="66 head-to-head comparisons from 1,645 Reddit threads: approval scores, thread volume, and honest verdicts for every supplement pair we track.">
+  <div class="container">
+    <p class="kicker"><a href="/data/2026-10">Reality Index</a> · Matchups</p>
+    <h1 class="page-title">Compare Any Two Sleep Supplements</h1>
+    <p class="lead">
+      Every matchup below is generated from our October dataset — 1,645 Reddit threads, outcome-language
+      scoring, real community quotes. Numbers first, verdicts after, no hype either way.
+    </p>
+
+    <h2 class="section-title">Most-searched matchups</h2>
+    <div class="card-grid">
+      {featured.map((f) => { const p = pairs.find((x) => x.key === f); return p && (
+        <a class="card" href={p.url}><h3>{p.label}</h3><p>The data verdict, both sides' scores, and who each one actually fits.</p></a>
+      ); })}
+    </div>
+
+    <h2 class="section-title">All {pairs.length} matchups</h2>
+    <ul class="pair-list">
+      {pairs.map((p) => <li><a href={p.url}>{p.label}</a></li>)}
+    </ul>
+    <p class="fine">Data: <a href="/data/2026-10">Reality Index October 2026</a>. Unsure where to start? Take the <a href="/sleep-supplement-finder">60-second quiz</a>.</p>
+  </div>
+</BaseLayout>
+
+<style>
+  .kicker { text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; font-weight: 600; margin: 2.2rem 0 .2rem; }
+  .pair-list { columns: 3; column-gap: 2rem; list-style: none; padding: 0; }
+  .pair-list li { break-inside: avoid; padding: .3rem 0; border-bottom: 1px solid #eee9df; }
+  .pair-list a { text-decoration: none; color: #2b3a5c; }
+  .pair-list a:hover { text-decoration: underline; }
+  @media (max-width: 720px) { .pair-list { columns: 1; } }
+  .fine { font-size: .85rem; color: #777; margin-top: 1.4rem; }
+</style>
