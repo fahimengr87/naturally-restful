@@ -295,3 +295,8 @@ Alexandra D. (iHerb) replied Sep 29 2:06 PM PDT asking: location + promotion cou
 - **Quora #16 posted** ("Are sleep trackers accurate at all?" — 98 answers) — Phase 2 WITH link to the trackers article. Profile: 16 answers (3 with links).
 - **Mail:** digests only. All verdicts still pending (Pinterest #3 on Oct 21; iHerb on hold; IL silent; MaxBounty phone).
 - 30-day site anniversary: launched Sep 11 — one month old, 51 pages, 2 Index editions, 6 Medium stories, 16 Quora answers, 40 pins, 3 sent pitches + 3 follow-ups.
+
+## OCT 12 LOG (Monday)
+- **Pin #41 published** (glycine "97% both months," Aura style — two-edition consistency story; linkless, Sleep Supplements board; script: scripts/make-pin-glycine2mo.py). Rotation last-used: Aura.
+- **Quora #17 posted** ("Best time to take magnesium for sleep?" — 95 answers) — Phase 2 WITH link to /articles/magnesium-before-bed-timing-and-dosage. Profile: 17 answers (4 with links).
+- **Mail:** digests only. Pending: Pinterest appeal #3 (Oct 21), iHerb (hold), IL, MaxBounty, SellHealth payout (user).
