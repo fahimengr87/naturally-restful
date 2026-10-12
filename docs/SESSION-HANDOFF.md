@@ -314,3 +314,7 @@ Alexandra D. (iHerb) replied Sep 29 2:06 PM PDT asking: location + promotion cou
 
 ## OCT 12 NIGHT 2 — BOOST RE-ATTEMPTED, STILL BLOCKED ON PAYMENT (owner action required)
 Boost flow reopened for the glycine post (target_id=122115053679474073): URL now correctly set to https://naturallyrestful.xyz/sleep-supplement-finder (validated). Audience dialog is FLAKY — attempted US/UK/CA, dialog reverted to Bangladesh default. REMAINING STEPS when owner is ready (2 min): 1) reopen flow URL, 2) Edit audience → remove Bangladesh → add US + UK + CA + AU, 3) AU financial declaration UNCHECKED, 4) budget ৳209/day default OK, 5) **owner adds payment method (Ad Center → Payment method → Add: card/bKash)**, 6) Publish. THE PAYMENT METHOD IS THE ONLY TRUE BLOCKER — everything else is 2 minutes.
+
+## OCT 12 NIGHT 3 — BOOST FULLY CONFIGURED (1-day, US-only) — ONLY PAYMENT REMAINS
+Final state: URL → /sleep-supplement-finder (validated) · Audience → United States (18+) · Budget → ৳209/day continuous (PAUSE AFTER 24 HOURS from Ad Center — Facebook's min end-date is 6 days out, so continuous+pause is the 1-day method) · AU financial declaration: N/A (US-only audience, no AU) · Publish button: DISABLED pending payment method.
+**OWNER ACTION (the only step left): Ad Center → "Payment method" → Add (card/bKash) → then tell me OR press Publish yourself. Cost: ~৳209 (~$1.75) for one day.**
