@@ -301,3 +301,9 @@ Alexandra D. (iHerb) replied Sep 29 2:06 PM PDT asking: location + promotion cou
 - **Pin #41 published** (glycine "97% both months," Aura style — two-edition consistency story; linkless, Sleep Supplements board; script: scripts/make-pin-glycine2mo.py). Rotation last-used: Aura.
 - **Quora #17 posted** ("Best time to take magnesium for sleep?" — 95 answers) — Phase 2 WITH link to /articles/magnesium-before-bed-timing-and-dosage. Profile: 17 answers (4 with links).
 - **Mail:** digests only. Pending: Pinterest appeal #3 (Oct 21), iHerb (hold), IL, MaxBounty, SellHealth payout (user).
+
+## OCT 12 EVENING — GROWTH PLAYBOOK IMPLEMENTED ✅ (owner's viral-growth principles)
+- **Programmatic comparison pages LIVE: /compare/ × 66 pages** (every supplement pair from the Index dataset; unique data per page: approval table, deltas, volume split, problem-fit verdicts, top community quotes, deep links). Site: 120 pages total. NOTE: pair order follows dataset volume order (e.g. /compare/melatonin-vs-glycine/, NOT glycine-vs-melatonin) — check dist/compare/ listing for exact slugs.
+- **Embeddable quiz widget LIVE: /embed/quiz/** — bare-chrome iframe version with "Powered by Naturally Restful" loop link; main quiz page now carries a copy-paste embed box (one-line iframe) + shareable result card textarea. The Tally-pattern loop is armed for partners.
+- **Community Notes (UGC) LIVE** on the /data hub: readers submit outcomes via /contact, best quoted by name in the next monthly edition (Miroverse pattern).
+- Trend-jacking radar + surge readiness documented in docs/growth-playbook.md.

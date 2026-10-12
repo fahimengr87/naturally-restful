@@ -44,6 +44,13 @@ const faqSchema = {
 
     <div class="quiz-box result" id="result" style="display:none"></div>
 
+    <div class="embed-box">
+      <h2>Run this quiz on your own site or newsletter</h2>
+      <p>Free for sleep blogs, coaches, and newsletters — one line, no signup. Your readers get the tool; you keep them on your page.</p>
+      <textarea readonly rows="2" style="width:100%;font-size:.8rem;padding:.4rem" onclick="this.select()">&lt;iframe src="https://naturallyrestful.xyz/embed/quiz" width="100%" height="640" style="border:0;border-radius:12px" title="Sleep Supplement Finder"&gt;&lt;/iframe&gt;</textarea>
+      <p class="fine">Copy, paste, done. Questions: <a href="/contact">ask</a>.</p>
+    </div>
+
     <div class="prose">
       <h2>How this works</h2>
       <p>
@@ -189,6 +196,7 @@ const faqSchema = {
       </div>` : ''}
       <p class="fine">Based on research-cited guides + the <a href="/data/2026-09">Reality Index</a> (1,673 Reddit threads). Not medical advice.</p>
       <button class="ghost" onclick="location.reload()">↻ Retake</button>
+      <div class="share-line">Share your result: <textarea readonly id="shr" rows="2" style="width:100%;font-size:.8rem;padding:.4rem">My sleep-supplement match: {r.name} — {r.reality.split('—')[0]}. Find yours in 60 seconds: https://naturallyrestful.xyz/sleep-supplement-finder</textarea></div>
     `;
     window.scrollTo({ top: result.offsetTop - 120, behavior: 'smooth' });
   }
@@ -227,4 +235,7 @@ const faqSchema = {
   .affiliate-inline { background: #fdf6ec; border: 1px solid #e8d9b8; border-radius: 10px; padding: 0.9rem 1.1rem; margin: 1rem 0; font-size: 0.92rem; }
   .affiliate-inline .btn.small { padding: 0.45rem 0.9rem; font-size: 0.9rem; }
   .fine { font-size: 0.85rem; color: #777; }
+  .embed-box { background: #eef6ee; border: 1px solid #cfe3cf; border-radius: 12px; padding: 1rem 1.2rem; margin: 1.6rem 0; }
+  .embed-box h2 { margin: 0 0 .4rem; font-size: 1.1rem; }
+  .share-line { margin-top: .8rem; }
 </style>

@@ -1,0 +1,72 @@
+---
+// Embeddable Sleep Supplement Finder — for partners' sites (iframe).
+// Bare chrome, self-contained, "Powered by" link = the viral loop.
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sleep Supplement Finder</title>
+    <style>
+      body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f7f4ec; margin: 0; padding: 1rem; color: #232a4d; }
+      h2 { margin: .2rem 0 .6rem; font-size: 1.25rem; }
+      .q { font-weight: 600; margin: .8rem 0 .5rem; }
+      button.ans { display: block; width: 100%; text-align: left; margin: .4rem 0; padding: .7rem .9rem; border-radius: 8px; border: 2px solid #d8d2c2; background: #fff; font-size: .95rem; cursor: pointer; }
+      button.ans:hover { border-color: #33517a; }
+      .res { background: #eef2f8; border-left: 4px solid #33517a; padding: .8rem 1rem; border-radius: 8px; margin-top: .5rem; }
+      .pwr { text-align: center; font-size: .78rem; color: #8a857a; margin-top: .9rem; }
+      .pwr a { color: #33517a; font-weight: 600; text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <div id="quiz"><h2>Sleep Supplement Finder</h2><div class="q" id="qt">Loading…</div><div id="ans"></div></div>
+    <div class="res" id="res" style="display:none"></div>
+    <p class="pwr">Powered by <a href="https://naturallyrestful.xyz/sleep-supplement-finder" target="_blank" rel="noopener">Naturally Restful</a> — honest, research-cited guides</p>
+    <script>
+      const QS = [
+        { q: 'What\u2019s your main sleep problem?', a: [
+          { t: 'Mind races when I lie down', s: { theanine: 3 } },
+          { t: 'Wake at 3 a.m. can\u2019t get back', s: { magnesium: 3 } },
+          { t: 'Stressed and wound up all evening', s: { ashwagandha: 3 } },
+          { t: 'Schedule off (jet lag, shifts)', s: { melatonin: 3 } },
+          { t: 'Sleep is shallow, unrefreshing', s: { glycine: 3 } } ] },
+        { q: 'Tried supplements before?', a: [
+          { t: 'No — first try', s: {} },
+          { t: 'Melatonin did nothing/groggy', s: { magnesium: 2, glycine: 2 } },
+          { t: 'Magnesium — nothing', s: { glycine: 2 } },
+          { t: 'A mix, unimpressed', s: { hygiene: 2 } } ] },
+        { q: 'Caffeine, screens, schedule?', a: [
+          { t: 'Honestly, a mess', s: { hygiene: 3 } },
+          { t: 'Decent, not perfect', s: { hygiene: 1 } },
+          { t: 'Solid already', s: {} } ] },
+        { q: 'Which matters more?', a: [
+          { t: 'Falling asleep faster', s: { theanine: 1, melatonin: 1 } },
+          { t: 'Staying asleep', s: { magnesium: 1, glycine: 1 } },
+          { t: 'Less stress overall', s: { ashwagandha: 2 } } ] },
+      ];
+      const REC = {
+        magnesium: ['Magnesium Glycinate', '200–400 mg elemental, ~1h before bed; give it 2–4 weeks.', '/articles/best-magnesium-supplements-for-sleep-ranked'],
+        glycine: ['Glycine (3 g)', '3 g powder before bed — 97% approval in our Reddit index, one negative post in 56.', '/articles/glycine-for-sleep-the-3-gram-dose'],
+        theanine: ['L-Theanine', '100–200 mg in the evening — quiets the racing mind without sedation.', '/articles/l-theanine-for-a-racing-mind'],
+        ashwagandha: ['Ashwagandha (KSM-66)', '300–600 mg daily; read the side-effects list first — 71% approval, most controversial.', '/articles/ashwagandha-side-effects-honest-list'],
+        melatonin: ['Low-dose Melatonin (0.5–1 mg)', '2–3h before target bedtime — a clock-setter, not a sedative.', '/articles/melatonin-most-people-take-too-much'],
+        hygiene: ['No Supplement Yet', 'Morning light + a fixed wake time first (2 weeks), then retake. Free beats every bottle.', '/articles/natural-sleep-aids-not-supplements'],
+      };
+      let step = 0; const sc = {};
+      const qt = document.getElementById('qt'), ans = document.getElementById('ans'), quiz = document.getElementById('quiz'), res = document.getElementById('res');
+      function render() {
+        qt.textContent = `Question ${step + 1} of ${QS.length}: ${QS[step].q}`;
+        ans.innerHTML = '';
+        QS[step].a.forEach((o) => { const b = document.createElement('button'); b.className = 'ans'; b.textContent = o.t; b.onclick = () => { for (const [k, v] of Object.entries(o.s)) sc[k] = (sc[k] || 0) + v; step++; step < QS.length ? render() : finish(); }; ans.appendChild(b); });
+      }
+      function finish() {
+        const w = Object.entries(sc).sort((x, y) => y[1] - x[1])[0]?.[0] || 'hygiene';
+        const [n, d, l] = REC[w];
+        quiz.style.display = 'none'; res.style.display = 'block';
+        res.innerHTML = `<strong>Your match: ${n}</strong><p>${d}</p><p><a href="https://naturallyrestful.xyz${l}" target="_blank" rel="noopener">Read the full honest guide →</a></p>`;
+        parent.postMessage({ type: 'nr-quiz-result', match: n }, '*');
+      }
+      render();
+    </script>
+  </body>
+</html>

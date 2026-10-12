@@ -1,0 +1,135 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import index from '../../../data/reddit-index-2026-10.json';
+
+const supps = index.supplements;
+const fmt = (n: number) => n.toLocaleString('en-US');
+
+const problemFit: Record<string, string> = {
+  Glycine: 'deep, shallow sleep and morning grogginess',
+  Melatonin: 'timing problems — jet lag, shift work, a drifted schedule',
+  Magnesium: 'physical restlessness and 3 a.m. wake-ups',
+  'L-Theanine': 'a racing mind that won\'t shut up at bedtime',
+  Ashwagandha: 'stress-driven sleep trouble (with side-effect caveats)',
+  Reishi: 'a gentle adaptogenic experiment',
+  'Tart cherry': 'a food-first ritual with modest effects',
+  '5-HTP': 'mood-adjacent sleep issues (thin evidence)',
+  CBD: 'anxiety-adjacent insomnia (mixed reports)',
+  GABA: 'little — most can\'t cross into the brain',
+  'Valerian root': 'old-school herbal calm (smelly, hit-or-miss)',
+  Apigenin: 'the chamomile compound, Huberman-curious experimenters',
+};
+
+const slugMap: Record<string, string> = {
+  Glycine: 'glycine', Melatonin: 'melatonin', Magnesium: 'magnesium', 'L-Theanine': 'l-theanine',
+  Ashwagandha: 'ashwagandha', Reishi: 'reishi', 'Tart cherry': 'tart-cherry', '5-HTP': '5-htp',
+  CBD: 'cbd', GABA: 'gaba', 'Valerian root': 'valerian', Apigenin: 'apigenin',
+};
+const readMap: Record<string, string> = {
+  glycine: '/articles/glycine-for-sleep-the-3-gram-dose',
+  melatonin: '/articles/melatonin-most-people-take-too-much',
+  magnesium: '/articles/best-magnesium-supplements-for-sleep-ranked',
+  'l-theanine': '/articles/l-theanine-for-a-racing-mind',
+  ashwagandha: '/articles/ashwagandha-side-effects-honest-list',
+  'tart-cherry': '/articles/tart-cherry-juice-for-sleep',
+  'valerian': '/articles/valerian-root-honest-review',
+  '5-htp': '/articles/5-htp-for-sleep-honest-review',
+  'gaba': '/articles/gaba-supplements-brain-barrier',
+  apigenin: '/articles/apigenin-chamomile-compound',
+  reishi: '/best-sleep-supplements',
+  cbd: '/best-sleep-supplements',
+};
+
+export function getStaticPaths() {
+  const data = index.supplements;
+  const slugs: Record<string, string> = {
+    Glycine: 'glycine', Melatonin: 'melatonin', Magnesium: 'magnesium', 'L-Theanine': 'l-theanine',
+    Ashwagandha: 'ashwagandha', Reishi: 'reishi', 'Tart cherry': 'tart-cherry', '5-HTP': '5-htp',
+    CBD: 'cbd', GABA: 'gaba', 'Valerian root': 'valerian', Apigenin: 'apigenin',
+  };
+  const names = Object.keys(data);
+  const paths: any[] = [];
+  for (let i = 0; i < names.length; i++) for (let j = i + 1; j < names.length; j++) {
+    paths.push({ params: { a: slugs[names[i]], b: slugs[names[j]] }, props: { A: names[i], B: names[j] } });
+  }
+  return paths;
+}
+const { A, B } = Astro.props;
+const a = supps[A], b = supps[B];
+const [hi, lo] = a.approvalPct >= b.approvalPct ? [A, B] : [B, A];
+const gap = Math.abs(a.approvalPct - b.approvalPct);
+const louder = a.upvotes >= b.upvotes ? A : B;
+const quoteOf = (s: any) => s.quotes?.[0]?.q?.slice(0, 160) || null;
+---
+
+<BaseLayout title={`${A} vs ${B} for Sleep: What 1,645 Reddit Threads Say`} description={`Community data comparison: ${A} (${a.approvalPct}% approval, ${a.posts} threads) vs ${B} (${b.approvalPct}%, ${b.posts}). Real outcome data, form consensus, and an honest verdict.`}>
+  <div class="container">
+    <p class="kicker"><a href="/data/2026-10">Reality Index data</a> · Comparison</p>
+    <h1 class="page-title">{A} vs {B} for Sleep</h1>
+    <p class="lead">
+      Both scored across {fmt(a.posts + b.posts)} Reddit threads in our October dataset
+      ({fmt(index.methodology.uniquePostsScanned)} posts total, 5 communities, outcome-language scoring).
+      Here's how they actually compare — numbers first, verdict after.
+    </p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th></th><th>{A}</th><th>{B}</th></tr></thead>
+        <tbody>
+          <tr><td>User approval</td><td class="num"><span class="score {a.approvalPct>=80?'hi':a.approvalPct>=75?'mid':'lo'}">{a.approvalPct}%</span></td><td class="num"><span class="score {b.approvalPct>=80?'hi':b.approvalPct>=75?'mid':'lo'}">{b.approvalPct}%</span></td></tr>
+          <tr><td>Threads mentioning it</td><td class="num">{a.posts}</td><td class="num">{b.posts}</td></tr>
+          <tr><td>Upvotes on those threads</td><td class="num">{fmt(a.upvotes)}</td><td class="num">{fmt(b.upvotes)}</td></tr>
+          <tr><td>Positive outcome posts</td><td class="num">{a.pos}</td><td class="num">{b.pos}</td></tr>
+          <tr><td>Negative outcome posts</td><td class="num">{a.neg}</td><td class="num">{b.neg}</td></tr>
+          <tr><td>Avg upvotes per thread</td><td class="num">{fmt(a.avgUps)}</td><td class="num">{fmt(b.avgUps)}</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="prose">
+      <h2>The verdict, by the numbers</h2>
+      <p>
+        <strong>{hi} wins on approval</strong> — {supps[hi].approvalPct}% vs {supps[lo].approvalPct}%
+        {gap >= 10 ? `, a decisive ${gap}-point gap` : gap >= 4 ? `, a modest ${gap}-point gap` : ', essentially a tie'}.
+        On conversation volume, <strong>{louder} dominates</strong>: {fmt(supps[louder].upvotes)} upvotes of engagement
+        versus {fmt(supps[louder === A ? B : A].upvotes)}. {louder === hi
+          ? 'Approval and attention point the same direction here.'
+          : 'Note the split: the louder conversation is not the better-loved one — worth knowing before you follow the hype.'}
+      </p>
+      <p>
+        Fit beats ranking, though. {A} is the better match if your problem is <em>{problemFit[A]}</em>.
+        {B} fits <em>{problemFit[B]}</em>. If you're unsure which problem you actually have,
+        the <a href="/sleep-supplement-finder">60-second Finder quiz</a> sorts it.
+      </p>
+
+      {quoteOf(a) && <blockquote>“{quoteOf(a)}” <cite>— top {A} thread, {fmt(a.quotes[0].ups)} upvotes</cite></blockquote>}
+      {quoteOf(b) && <blockquote>“{quoteOf(b)}” <cite>— top {B} thread, {fmt(b.quotes[0].ups)} upvotes</cite></blockquote>}
+
+      <h2>Read the full breakdowns</h2>
+      <p>
+        <a href={readMap[slugMap[A]]}>{A}: the honest guide →</a><br/>
+        <a href={readMap[slugMap[B]]}>{B}: the honest guide →</a><br/>
+        <a href="/best-sleep-supplements">Both in the full ranked comparison →</a>
+      </p>
+      <p class="fine">
+        Self-reported community sentiment (October 2026 edition, methodology on the
+        <a href="/data/2026-10">Reality Index report</a>) — expectations data, not clinical proof.
+      </p>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .kicker { text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; font-weight: 600; margin: 2.2rem 0 .2rem; }
+  .kicker a { color: #33517a; }
+  .table-wrap { overflow-x: auto; margin: 1.4rem 0; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+  th, td { text-align: left; padding: .55rem .7rem; border-bottom: 1px solid #e5e2da; }
+  th { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: #666; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .score { font-weight: 700; padding: .15rem .5rem; border-radius: 999px; font-size: .9rem; }
+  .score.hi { background: #e2efe4; color: #2e6b3a; } .score.mid { background: #f3ecd9; color: #8a6d1a; } .score.lo { background: #f5e3e0; color: #a04a35; }
+  blockquote { border-left: 4px solid #33517a; margin: 1rem 0; padding: .6rem 1rem; background: #f4f6fa; font-style: italic; }
+  cite { display: block; font-style: normal; font-size: .8rem; color: #777; margin-top: .3rem; }
+  .fine { font-size: .85rem; color: #777; }
+</style>
