@@ -302,6 +302,10 @@ Alexandra D. (iHerb) replied Sep 29 2:06 PM PDT asking: location + promotion cou
 - **Quora #17 posted** ("Best time to take magnesium for sleep?" — 95 answers) — Phase 2 WITH link to /articles/magnesium-before-bed-timing-and-dosage. Profile: 17 answers (4 with links).
 - **Mail:** digests only. Pending: Pinterest appeal #3 (Oct 21), iHerb (hold), IL, MaxBounty, SellHealth payout (user).
 
+## OCT 12 NIGHT — MEDIUM: sleep trackers story LIVE (canonical import)
+- https://medium.com/@fahim.mahmood6/sleep-trackers-how-accurate-really-1245c44d6dcd — Medium profile now 7 stories (6 canonical). Import quirk NEW: the URL field sometimes doesn't render on first load — reload with ?retry=1 and wait ~5s for #editor_7; placeholder text must be selectAll+deleted before typing (else it concatenates and Import silently fails).
+- Medium profile: medium.com/@fahim.mahmood6
+
 ## OCT 12 EVENING — GROWTH PLAYBOOK IMPLEMENTED ✅ (owner's viral-growth principles)
 - **Programmatic comparison pages LIVE: /compare/ × 66 pages** (every supplement pair from the Index dataset; unique data per page: approval table, deltas, volume split, problem-fit verdicts, top community quotes, deep links). Site: 120 pages total. NOTE: pair order follows dataset volume order (e.g. /compare/melatonin-vs-glycine/, NOT glycine-vs-melatonin) — check dist/compare/ listing for exact slugs.
 - **Embeddable quiz widget LIVE: /embed/quiz/** — bare-chrome iframe version with "Powered by Naturally Restful" loop link; main quiz page now carries a copy-paste embed box (one-line iframe) + shareable result card textarea. The Tally-pattern loop is armed for partners.
