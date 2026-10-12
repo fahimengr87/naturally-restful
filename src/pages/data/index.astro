@@ -4,12 +4,28 @@ import index from '../../../data/reddit-index-2026-10.json';
 
 const supps = Object.entries(index.supplements).sort((a: any, b: any) => b[1].posts - a[1].posts);
 const generated = new Date(index.generated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+const datasetSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: 'Sleep Supplement Reality Index',
+  description:
+    'Original, continuously-updated dataset of community-reported outcomes for twelve sleep supplements, mined from top posts across five sleep communities on Reddit. Includes mention volume, user approval rate, and form preferences.',
+  url: 'https://naturallyrestful.xyz/data/',
+  creator: { '@type': 'Organization', name: 'Naturally Restful', url: 'https://naturallyrestful.xyz' },
+  license: 'https://naturallyrestful.xyz/press#citing',
+  isAccessibleForFree: true,
+  keywords: ['sleep supplements', 'Reddit', 'community outcomes', 'glycine', 'ashwagandha', 'magnesium glycinate', 'melatonin'],
+  temporalCoverage: '2026-09/..',
+  variableMeasured: ['mention volume (posts)', 'user approval (% positive of outcome posts)', 'form preference'],
+};
 ---
 
 <BaseLayout
   title="Sleep Supplement Reality Index"
   description="An original, continuously-updated dataset: what thousands of Reddit posts actually say about sleep supplements — mention volume, user approval, and the forms people settle on."
 >
+  <script type="application/ld+json" set:html={JSON.stringify(datasetSchema)} />
   <div class="container">
     <h1 class="page-title">The Sleep Supplement Reality Index</h1>
     <p class="lead">
@@ -27,7 +43,7 @@ const generated = new Date(index.generated).toLocaleDateString('en-US', { year: 
     </a>
 
     <div class="prose">
-      <h2>Current standings (September 2026)</h2>
+      <h2>Current standings (October 2026)</h2>
       <div class="table-wrap">
         <table>
           <thead><tr><th>Supplement</th><th class="num">Posts</th><th class="num">User approval</th></tr></thead>
@@ -46,10 +62,16 @@ const generated = new Date(index.generated).toLocaleDateString('en-US', { year: 
         experience is the missing dataset — nobody had packaged it, so we did. If you write about sleep
         supplements and want a citable number for what users report, this page is the source.
       </p>
+      <p>
+        Writing about sleep more broadly? Our <a href="/sleep-statistics">sleep statistics hub</a> collects
+        the most-cited numbers from CDC, RAND, and clinical research — each with its original source.
+        Journalists and bloggers can grab <a href="/press">ready-made citation formats and embeds here</a>.
+      </p>
 
       <h2>Editions</h2>
       <ul>
-        <li><a href="/data/2026-10">September 2026 — Report #001</a> (baseline edition)</li>
+        <li><a href="/data/2026-10">October 2026 — Report #002</a> (current)</li>
+        <li><a href="/data/2026-09">September 2026 — Report #001</a> (baseline edition)</li>
       </ul>
       <p class="fine">New edition monthly. Trend lines begin with the October 2026 report.</p>
     </div>

@@ -1,10 +1,21 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Fahim',
+  url: 'https://naturallyrestful.xyz/author',
+  jobTitle: 'Founder & Researcher',
+  worksFor: { '@type': 'Organization', name: 'Naturally Restful', url: 'https://naturallyrestful.xyz' },
+  knowsAbout: ['sleep supplements', 'ashwagandha', 'magnesium glycinate', 'glycine', 'melatonin', 'L-theanine'],
+};
 ---
 <BaseLayout
   title="The Author"
   description="Fahim — the researcher behind Naturally Restful. Honest about what he is and isn't."
 >
+  <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
   <div class="container">
     <h1 class="page-title">Fahim</h1>
     <p class="lead">Founder &amp; researcher, Naturally Restful.</p>

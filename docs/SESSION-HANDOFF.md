@@ -95,6 +95,7 @@
 | `docs/content-calendar.md` | Season 1 (complete, 24/24) |
 | `docs/article-queue-extended.md` | Season 2 queue (some done, ~10 remaining) |
 | `docs/design-system.md` | DESIGN RULES (owner's principles) — read before generating ANY visual |
+| `docs/growth-playbook.md` | GROWTH RULES (owner's principles, Oct 12) — viral loops, embeddable quiz, UGC showcase, programmatic SEO w/ unique value, trend-jacking, surge readiness |
 | `docs/reality-index.md` | Reality Index manual: harvest snippet + monthly checklist |
 | `scripts/reddit-mine.mjs` | RETIRED (Reddit 403s scripts) — use browser method in reality-index.md |
 | `scripts/reddit-index-merge.mjs` | Merges data/reddit-*.json into monthly index dataset |

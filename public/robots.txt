@@ -4,4 +4,53 @@ Allow: /
 # Keep crawlers out of the affiliate redirect layer
 Disallow: /go/
 
+# --- AI crawlers: explicitly welcome (we want citations in AI answers) ---
+User-agent: GPTBot
+Allow: /
+Disallow: /go/
+
+User-agent: OAI-ChatGPT
+Allow: /
+Disallow: /go/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /go/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /go/
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /go/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /go/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /go/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /go/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /go/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /go/
+
+User-agent: meta-externalagent
+Allow: /
+Disallow: /go/
+
+User-agent: Bytespider
+Allow: /
+Disallow: /go/
+
 Sitemap: https://naturallyrestful.xyz/sitemap-index.xml

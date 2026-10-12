@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CopyBox from '../components/CopyBox.astro';
+
+const badgeEmbed = `<a href="https://naturallyrestful.xyz/data/" title="Source: Sleep Supplement Reality Index">Sleep Supplement Reality Index</a> — Naturally Restful`;
+
+const statEmbed = `<blockquote>
+  <p><strong>97% of Reddit users who reported an outcome from glycine rated it positive</strong> — the highest approval of any major sleep supplement.</p>
+  <cite>Source: <a href="https://naturallyrestful.xyz/data/">Naturally Restful — Sleep Supplement Reality Index</a></cite>
+</blockquote>`;
+
+const citationInformal = `According to the Sleep Supplement Reality Index (Naturally Restful, 2026) — an analysis of 1,600+ community discussion threads — glycine has the highest user approval (97%) of any major sleep supplement.`;
+
+const citationApa = `Naturally Restful. (2026). Sleep Supplement Reality Index. https://naturallyrestful.xyz/data/`;
+---
+
+<BaseLayout
+  title="Press & Citing — Data, Boilerplate, and Embeds"
+  description="Journalist-ready: Naturally Restful boilerplate, citable sleep supplement statistics, ready-made citation formats, and copy-paste embeds for the Sleep Supplement Reality Index."
+>
+  <div class="container">
+    <h1 class="page-title">Press &amp; Citing</h1>
+    <p class="lead">
+      Our data is free to cite — journalists, bloggers, and researchers included. This page has
+      everything you need: boilerplate, citable numbers, ready-made citations, and copy-paste embeds.
+      No permission required; attribution is the only ask.
+    </p>
+
+    <div class="prose">
+      <h2>About Naturally Restful (boilerplate)</h2>
+      <p>
+        Naturally Restful is an independent publisher of evidence-aware guides to sleep and stress
+        supplements. It publishes the <a href="/data">Sleep Supplement Reality Index</a>, an original,
+        continuously-updated dataset of community-reported supplement outcomes mined from thousands of
+        discussion threads. The site cites human trials, links its sources, and takes no payment to
+        feature or rank products.
+      </p>
+
+      <h2>Citable numbers</h2>
+      <ul>
+        <li><strong>Glycine: 97% positive</strong> — highest user approval of any major sleep supplement (1,600+ threads analyzed).</li>
+        <li><strong>Ashwagandha: 71% positive</strong> — the most controversial major sleep supplement by user report.</li>
+        <li><strong>Magnesium glycinate</strong> — the community's dominant form choice (81 of 217 magnesium threads).</li>
+      </ul>
+      <p>
+        Full methodology and the current table: <a href="/data">Sleep Supplement Reality Index</a>.
+        For public-health sleep statistics from CDC, RAND, and others, see our
+        <a href="/sleep-statistics">sourced sleep statistics hub</a>.
+      </p>
+
+      <h2 id="citing">Ready-made citations</h2>
+      <p>In-text (informal):</p>
+      <CopyBox text={citationInformal} label="Informal citation" />
+      <p>APA style:</p>
+      <CopyBox text={citationApa} label="APA citation" />
+
+      <h2>Copy-paste embeds</h2>
+      <p>Text link (for source lists and footnotes):</p>
+      <CopyBox text={badgeEmbed} label="Text link embed" />
+      <p>Stat card (drops into any article body):</p>
+      <CopyBox text={statEmbed} label="Stat card embed" />
+
+      <h2>Terms</h2>
+      <ul>
+        <li>Cite and quote freely, with a visible link to the report page.</li>
+        <li>Don't present our data as a clinical trial or as medical advice — it is community-reported experience.</li>
+        <li>Don't imply endorsement by Naturally Restful of any product or publisher.</li>
+        <li>Commercial reuse (reports, books, apps): <a href="/contact">get in touch</a> — we usually just ask for the same attribution.</li>
+      </ul>
+
+      <h2>Media contact</h2>
+      <p>
+        Need a custom data cut, a comment on sleep supplement trends, or high-resolution figures?
+        <a href="/contact">Contact us</a> — we answer data requests from journalists and researchers first.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

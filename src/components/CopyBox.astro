@@ -1,0 +1,39 @@
+---
+interface Props {
+  text: string;
+  label: string;
+}
+const { text, label } = Astro.props;
+const id = 'cb-' + label.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+---
+
+<div class="copybox">
+  <textarea id={id} readonly aria-label={label}>{text}</textarea>
+  <button type="button" data-copy={id}>Copy</button>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('button[data-copy]').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const target = document.getElementById(btn.dataset.copy ?? '');
+      if (!(target instanceof HTMLTextAreaElement)) return;
+      await navigator.clipboard.writeText(target.value);
+      const old = btn.textContent;
+      btn.textContent = 'Copied!';
+      setTimeout(() => (btn.textContent = old), 1600);
+    });
+  });
+</script>
+
+<style>
+  .copybox { display: flex; gap: 0.6rem; margin: 0.8rem 0 1.4rem; }
+  .copybox textarea {
+    flex: 1; font-family: ui-monospace, monospace; font-size: 0.8rem; padding: 0.7rem 0.9rem;
+    background: #f8f6f1; border: 1px solid #dcd7cb; border-radius: 8px; color: #444; resize: vertical; min-height: 64px;
+  }
+  .copybox button {
+    align-self: flex-start; background: #33517a; color: #fff; border: 0; border-radius: 8px;
+    padding: 0.6rem 1.1rem; font-size: 0.85rem; cursor: pointer;
+  }
+  .copybox button:hover { background: #27405f; }
+</style>

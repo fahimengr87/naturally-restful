@@ -9,21 +9,11 @@ const latest = (await getCollection('articles'))
   .slice(0, 3);
 
 const dateFmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-
-const websiteSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'WebSite',
-  name: 'Naturally Restful',
-  url: 'https://naturallyrestful.xyz',
-  description: 'Honest, research-aware guides to sleep and stress supplements.',
-};
 ---
 <BaseLayout
   title="Naturally Restful"
   description="Honest, research-aware guides to sleep and stress supplements. What works, what doesn't, and what the industry won't tell you."
 >
-  <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
-
   <section class="hero container">
     <p class="eyebrow">Sleep · Stress · Supplements</p>
     <h1>Better sleep, without the hype.</h1>
