@@ -46,9 +46,9 @@ const faqSchema = {
 
     <div class="embed-box">
       <h2>Run this quiz on your own site or newsletter</h2>
-      <p>Free for sleep blogs, coaches, and newsletters — one line, no signup. Your readers get the tool; you keep them on your page.</p>
-      <textarea readonly rows="2" style="width:100%;font-size:.8rem;padding:.4rem" onclick="this.select()">&lt;iframe src="https://naturallyrestful.xyz/embed/quiz" width="100%" height="640" style="border:0;border-radius:12px" title="Sleep Supplement Finder"&gt;&lt;/iframe&gt;</textarea>
-      <p class="fine">Copy, paste, done. Questions: <a href="/contact">ask</a>.</p>
+      <p>Free for sleep blogs, coaches, and newsletters — paste once, no signup, auto-resizes. Your readers get the tool; you keep them on your page.</p>
+      <textarea readonly rows="3" style="width:100%;font-size:.72rem;padding:.4rem" onclick="this.select()">&lt;iframe id="nr-quiz" src="https://naturallyrestful.xyz/embed/quiz" width="100%" height="620" style="border:0;border-radius:12px" title="Sleep Supplement Finder" scrolling="no"&gt;&lt;/iframe&gt;&lt;script&gt;window.addEventListener('message',function(e)&#123;if(e.data&amp;&amp;e.data.type==='nr-quiz-height'&amp;&amp;e.source===document.getElementById('nr-quiz').contentWindow)&#123;document.getElementById('nr-quiz').style.height=e.data.height+'px'&#125;&#125;);&lt;/script&gt;</textarea>
+      <p class="fine">Copy, paste, done — the frame fits itself to every question screen. Questions: <a href="/contact">ask</a>.</p>
     </div>
 
     <div class="prose">

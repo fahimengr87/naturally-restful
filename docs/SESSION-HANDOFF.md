@@ -318,3 +318,14 @@ Boost flow reopened for the glycine post (target_id=122115053679474073): URL now
 ## OCT 12 NIGHT 3 — BOOST FULLY CONFIGURED (1-day, US-only) — ONLY PAYMENT REMAINS
 Final state: URL → /sleep-supplement-finder (validated) · Audience → United States (18+) · Budget → ৳209/day continuous (PAUSE AFTER 24 HOURS from Ad Center — Facebook's min end-date is 6 days out, so continuous+pause is the 1-day method) · AU financial declaration: N/A (US-only audience, no AU) · Publish button: DISABLED pending payment method.
 **OWNER ACTION (the only step left): Ad Center → "Payment method" → Add (card/bKash) → then tell me OR press Publish yourself. Cost: ~৳209 (~$1.75) for one day.**
+
+## OCT 13 — BOOST CANCELLED BY OWNER (do not re-open unprompted)
+Owner said "leave it. there is some problems" after we reached the card entry form in the Billing Hub (business.facebook.com billing flow, ad account 809278157719839). The form was fully open with name prefilled — only card number/expiry/CVV were blank. Owner declined to complete it. BOOST IS PARKED, not pending: do NOT nudge about it, do NOT re-open the flow unless owner explicitly asks. Config details retained above (Oct 12 Night 3) in case owner ever revives it. Organic channels continue as normal — paid acquisition is OFF.
+
+## OCT 13 LOG (Tuesday — daily duty)
+- **Analytics:** Oct 12 = 169 PV / 182 uniques — best PV day since launch week; compare pages (66, live Oct 12 evening) + trackers story beginning to register. RUM real-browser: ~14 pageloads Oct 11-12 (SG 7, US 5, MX 1, BD 1) — humans still thin, sandbox fully lifted but rankings not yet compounding. Zone trend Oct 8-12: PV 100→131→156→131→169 (slow climb, not a spike).
+- **Mail:** digests only. No pitch replies (OdeSleep/Sleepify/IL — sent Sep 28 + follow-ups Oct 4; if silent by Oct 18, park them). No MaxBounty/SellHealth/iHerb (hold). Pinterest appeal #2 denial (Oct 7) = last account-relevant mail; appeal #3 window opens Oct 21.
+- **Pin #42 published** (Glycine VS Melatonin "Reddit's verdict," Sticker style — promotes the new /compare pages; linkless, Sleep Supplements board; script: scripts/make-pin-compare-vs.py) → pinterest.com/pin/941604234614731734/. Rotation last-used: Sticker (next: Chrome/Editorial/Dawn — NOT Aura, NOT Sticker).
+- **Warm-up:** 1 repin (community glycine pin → Sleep Supplements board).
+- **Quora #18 posted** ("How accurate are wrist-worn sleep trackers at estimating sleep stages?" — UNANSWERED question, requested Oct 11; Phase 2 WITH link to /articles/sleep-trackers-how-accurate-really) → quora.com/How-accurate-are-wrist-worn-sleep-trackers-at-estimating-sleep-stages/answer/Fahim-Mahmood-1-1. Profile: 18 answers (5 with links).
+- TECH NOTE (Quora editor): keyboard.type into the contenteditable times out on long answers (>2 min) — use document.execCommand('insertText') via evaluate instead, and NEVER combine the two (duplication risk; if duplicated, remove duplicate blocks by innerText match).

@@ -8,6 +8,8 @@ Post one per day. Links live in profile only until ~10 answers / 2 weeks.
 - ✅ Answer 4 (ashwagandha) — posted Mon [2026-09-28, surge] → quora.com/Does-anyone-actually-take-ashwagandha-to-help-ease-stress-and-does-it-work-for-you/answer/Fahim-Mahmood-1-1
 - ✅ Answer 5 (scam) — posted Mon [2026-09-28, morning automation] → quora.com/Are-sleep-supplements-legit-or-a-scam/answer/Fahim-Mahmood-1-1
 - ✅ Answer 6 (favorite supplement, Reality-Index data) — posted Mon [2026-09-28, surge] → quora.com/What-is-your-favorite-natural-supplement-for-sleep/answer/Fahim-Mahmood-1-1
+- (Answers 7–17: logged in SESSION-HANDOFF.md daily duty entries, Sep 28 – Oct 12)
+- ✅ Answer 18 (sleep-tracker stage accuracy — Phase 2 WITH link to /articles/sleep-trackers-how-accurate-really) — posted Tue [2026-10-13] → quora.com/How-accurate-are-wrist-worn-sleep-trackers-at-estimating-sleep-stages/answer/Fahim-Mahmood-1-1 — first answer on an unanswered question (requested Oct 11)
 - Profile credential set: "Sleep & Stress Supplement Researcher at naturallyrestful.xyz" (default, 2026-09-21)
 - **Next up: Answer 4 (ashwagandha), then Answer 5 (scam split). After that, find new <20-answer questions.**
 
