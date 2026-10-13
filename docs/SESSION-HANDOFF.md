@@ -27,7 +27,7 @@
 - **Sensational-but-honest data story (Sep 27):** "We Read 1,673 Reddit Threads on Sleep Supplements. The Winner Has No Hype." — on site (/articles/what-1673-reddit-threads-say-about-sleep-supplements) AND on Medium via import (canonical to our site, 7 live anchor links): medium.com/@fahim.mahmood6/we-read-1-673-reddit-threads-on-sleep-supplements-the-winner-has-no-hype-313bb4cb0721
 - **Facebook (Sep 27):** glycine findings post + chart published natively (page id 61594222214795; vanity URL still unset — pending user action)
 - Voice: CONFIDENT HUMAN — zero hedging, actual opinions, varied rhythm, direct address
-- Deployed via: `cd /c/Users/Fahim/ZCodeProject/naturallyrestful && npm run build && CI=true npx wrangler pages deploy dist --project-name naturally-restful --branch main`
+- Deployed via: `cd /c/Users/Fahim/ZCodeProject/naturallyrestful && npm run deploy  (scripts/deploy.sh: build + page-count gate + post-deploy 200-check — NEVER chain wrangler by hand; a piped build masked a failure and emptied the site on Oct 13)`
 
 ### Monetization
 - **SellHealth: APPROVED & EARNING** ✅
@@ -114,7 +114,7 @@
 
 3. **Gmail sending:** Transplant cookies → navigate to mail.google.com → Compose → fill → Send. Works reliably.
 
-4. **Deploy command:** `cd /c/Users/Fahim/ZCodeProject/naturallyrestful && npm run build && CI=true npx wrangler pages deploy dist --project-name naturally-restful --branch main`
+4. **Deploy command:** `cd /c/Users/Fahim/ZCodeProject/naturallyrestful && npm run deploy  (scripts/deploy.sh: build + page-count gate + post-deploy 200-check — NEVER chain wrangler by hand; a piped build masked a failure and emptied the site on Oct 13)`
 
 5. **Git sync:** `cd /c/Users/Fahim/ZCodeProject/naturallyrestful && git add -A && git commit -m "message" && git push -q origin main`
 
@@ -134,13 +134,14 @@
 
 ## AUTOMATIONS STATUS
 
-| Automation | Status | How to arm |
+| Automation | Status | Reality |
 |---|---|---|
-| Weekly Content Engine (Sunday 10 AM) | ✅ ARMED | Already registered |
-| Daily Quora Engine (weekdays 9 AM) | ✅ ARMED | Already registered |
-| Monthly Reality Index (1st, 2 PM) | ✅ ARMED | Already registered (Sep 22) |
-| Monthly Analytics | ❌ Not armed | CronCreate needed |
-| Weekly Search Console | ❌ Not armed | CronCreate needed |
+| Weekly Content Engine (Sunday 10 AM) | ⚠️ UNRELIABLE | Session-bound — fires ONLY if the registering session is alive. Missed Sep 27 + more. **Treat as manual: owner prompts "do ur duty of today."** |
+| Daily Quora Engine (weekdays 9 AM) | ⚠️ UNRELIABLE | Session-bound — missed 3+ observed times. **Manual daily.** |
+| Monthly Reality Index (1st, 2 PM) | ⚠️ PROBABLY MISSES | Same session-binding. **Nov 1 edition: run manually when owner opens a chat on/after Nov 1.** |
+| Monthly Analytics / Weekly SC | ❌ Not armed | Manual, on-request. |
+
+**OFFICIAL POLICY (owner-approved Oct 13): ALL recurring duties run when the owner says "do ur duty of today" — no reliance on scheduled fires. Automations may fire as a bonus; never wait on them.**
 
 ## PENDING USER ACTIONS
 
@@ -337,3 +338,6 @@ Owner said "leave it. there is some problems" after we reached the card entry fo
 - **Embed outreach SENT (3 emails, ~2:07-2:10 AM Oct 14 local, verified in Sent Mail):** OdeSleep (britainfurniture1@gmail.com), Sleepify Lab (josephplittlel@gmail.com), Intelligent Labs (support@intelligentlabs.org) — all pitched the free auto-resizing quiz embed, transparent about the Powered-by trade. These are 3rd touches on silent guest-post threads (easier ask this time). Tracker: docs/link-building/prospect-tracker.csv (5 rows incl. 2 Substack prospects: Dr. Jake Goodman + Dr. Christin Glorioso — no public emails, reach via subscribe+reply later).
 - **Gmail technique (reliable):** full-page compose via URL params `mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=...&su=...&body=...` (encodeURIComponent) — prefills everything, one Send click. Beats dialog automation.
 - NEXT for the loop: if any of the 3 embed → track /embed/quiz hits + new referring domains in Cloudflare. If silent 7 days → one follow-up, then pitch the 2 Substack docs.
+
+## OCT 13 — PINTEREST ON HOLD (owner: "leave piterest")
+Owner cancelled the appeal-#3 draft mid-write and instructed to leave Pinterest. **Effective immediately: NO daily pins, NO appeal #3 on Oct 21, NO warm-up repins/follows, no Pinterest outreach of any kind. Do not nudge about Pinterest or suggest resuming.** 42 pins already live stay up (they cost nothing). If the owner ever says Pinterest is back, resume from docs/pinterest-playbook.md. Daily-duty definition is now: Quora answer (Phase 2), email sweep, analytics check, weekly Sunday article. Deploy pipeline is now fail-safe: `npm run deploy` only.
