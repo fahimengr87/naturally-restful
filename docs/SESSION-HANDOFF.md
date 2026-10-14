@@ -347,3 +347,11 @@ Owner cancelled the appeal-#3 draft mid-write and instructed to leave Pinterest.
 - **Mail:** no embed-pitch replies yet (sent ~8h prior — normal; give 1-3 days). No network mail. Digests only.
 - **Quora #19 posted** ("Do sleep trackers contribute to insomnia?" — 0-answer question, orthosomnia answer, Phase 2 link to trackers article) → quora.com/Do-sleep-trackers-contribute-to-insomnia/answer/Fahim-Mahmood-1-1. Profile: 19 answers (6 with links). Two answers now own the sleep-tracker question cluster.
 - TECH NOTE (Quora): on heavy question pages the click→type→post sequence can exceed the 30s tool cap and the dialog closes silently — BUT Quora autosaves the text as a draft ("You have an answer draft — Click here to continue writing" on the question page). Recovery: reopen draft → verify single copy → Post. Worked first try today.
+
+## OCT 14 — OWNER STRATEGY DIRECTIVE (standing rule): EASY ROADS ONLY
+Owner's verdict: choosing the YMYL head-term path was "totally unwise" — accepted. NICHE IS FIXED (site is built), but ALL future effort takes the lowest-competition road inside the niche:
+1. New articles target LONG-TAIL question queries or Reddit-verdict queries ONLY ("X vs Y reddit", "why do I wake at..."). ZERO head terms ("best sleep supplements" etc.) — we cannot beat DR-90 YMYL sites and will not try.
+2. Existing head-term articles stay (topical fabric) but get no new siblings.
+3. Priority channels: Quora/Medium (level field, own zero-answer questions), compare/data pages (unique dataset = moat), quiz/embeds (tools beat articles for links).
+4. Biggest trust lever remains: named author on the site (OWNER ACTION, pending).
+Sunday articles from article-queue-extended.md must be re-filtered through this rule before writing — swap topic if it's a head-term play.
