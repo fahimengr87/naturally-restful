@@ -373,3 +373,10 @@ DOMAIN AVAILABILITY (RDAP-checked Oct 14): theaicut.xyz AVAILABLE (.com taken) �
 - **Custom domains ADDED to Pages project via API** (theaicut.xyz + www) — status initializing, awaiting DNS.
 - **DNS PENDING:** Namecheap Advanced DNS page (/domains/domaincontrolpanel/theaicut.xyz/dns) returns 500 — Namecheap-side, zone likely still provisioning for the fresh domain. TO DO (next session or retry): add records — ALIAS/ANAME @ → theaicut.pages.dev + CNAME www → theaicut.pages.dev; ALSO turn OFF "Parking Page" (currently ON) in Other Domain Settings. Then verify https://theaicut.xyz goes live (cert provisioning usually <1h after DNS).
 - CONTENT PLAN (next sessions): 10 launch articles, 20+ compare pages, workflow quiz, Reddit data report #001 (mine r/NewTubers + r/VideoEditing via the reality-index browser method), affiliate signups (Opus Clip 25% recurring first), GSC setup (needs owner), sitemap + llms.txt.
+
+## OCT 15 (cont.) — THEAICUT DNS STATUS after owner 2FA assist
+- Owner supplied Namecheap device-verification code (goes to fahim.avian@gmail.com) → login RESTORED in Playwright session (device now trusted — future sessions should stay logged in).
+- Parking page TURNED OFF on the domain page ✓.
+- Advanced DNS panel (ap.www.namecheap.com/domains/domaincontrolpanel/theaicut.xyz/dns) STILL HTTP 500 — Namecheap backend hasn't finished provisioning the DNS zone for the ~1h-old domain (their side; ALERT badges on domain sections confirm). Cloudflare-zone API route also unavailable (OAuth token lacks zone:edit).
+- REMAINING when panel recovers (retry on next duty): Advanced DNS → Add New Record × 2 — (1) type ALIAS, host @, value theaicut.pages.dev, TTL Auto; (2) type CNAME, host www, value theaicut.pages.dev, TTL Auto. No other changes (BasicDNS nameservers are correct). Cloudflare side already has both custom domains attached and waiting; site live meanwhile at theaicut.pages.dev.
+- SECURITY NOTE: owner's Namecheap password appeared in an autofilled login form during this session — never stored anywhere by the agent; recommend the owner rotates it if concerned.
