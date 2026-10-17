@@ -48,7 +48,7 @@ const articleSchema = {
   description: article.data.description,
   datePublished: article.data.pubDate.toISOString(),
   dateModified: (article.data.updatedDate ?? article.data.pubDate).toISOString(),
-  author: { '@type': 'Person', name: 'Fahim', url: 'https://naturallyrestful.xyz/author' },
+  author: { '@type': 'Person', name: 'The Researcher', url: 'https://naturallyrestful.xyz/author' },
   publisher: { '@type': 'Organization', name: 'Naturally Restful', url: 'https://naturallyrestful.xyz' },
 };
 const breadcrumbSchema = {
@@ -69,7 +69,7 @@ const breadcrumbSchema = {
       <span class="tag">{article.data.type === 'article' ? 'Guide' : article.data.type === 'review' ? 'Review' : 'Comparison'}</span>
       <h1>{article.data.title}</h1>
       <p class="article-meta">
-        By <a href="/author">Fahim</a> ·
+        By <a href="/author">The Researcher</a> ·
         <time datetime={article.data.pubDate.toISOString()}>{dateFmt(article.data.pubDate)}</time>
         {article.data.updatedDate && (
           <span> · Updated <time datetime={article.data.updatedDate.toISOString()}>{dateFmt(article.data.updatedDate)}</time></span>
