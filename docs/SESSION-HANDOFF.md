@@ -405,3 +405,11 @@ SITE #2 NEXT STEPS (in order): 1) launch content set (10 long-tail articles + 20
 3. **Quora**: name → **'Fahim M.'** (policy-safe form — Quora real-name policy makes full pseudonyms ban-risky for the 20-answer account). Body verified showing 'Fahim M.'. LIMITS: profile URL /Fahim-Mahmood-1-1 CANNOT change with rename (platform-derived, permanent); avatar alt-text carries old name until Quora refreshes it.
 - RESIDUAL EXPOSURES (owner's call, not acted on): Quora profile URL contains full name (fix = delete profile — loses 20 answers); Medium handle @fahim.mahmood6; GitHub commit author 'Fahim Mahmood' on public repo fahimengr87/naturally-restful (fix = change git author config + optional history rewrite); theaicut repo is local-only (safe).
 - STANDING RULE BOTH SITES: author references = 'The Researcher' (sleep) / 'The Editor' (theaicut). Never the owner's name on public surfaces.
+
+## OCT 18 LOG (Sunday — weekly flagship + duty)
+- **Analytics:** sleep Oct 17 = 179 PV / 132 uniques (steady); Oct 18 just started. The AI Cut all 200s.
+- **Mail:** clean — no pitch replies (day 5 of the window, normal silence), no network mail.
+- **SUNDAY FLAGSHIP PUBLISHED:** /articles/ashwagandha-morning-vs-night-timing — "Morning vs. Night Ashwagandha: Does Timing Matter?" Voice-rule compliant: honest answer up front ("timing matters less than the internet insists"), the one real difference (first-week drowsiness), night protocol for sleep vs morning protocol for stress, what doesn't matter (empty stomach, cycling, cortisol-peak optimization), Reality Index data (71% approval, most controversial) + cross-links to side-effects article and October Index. Site now 122 pages.
+- **Cross-linked** from the existing ashwagandha side-effects article (no-orphan rule).
+- **Medium import DEFERRED:** medium.com serving Cloudflare 403 challenge to the automation browser — will succeed on a fresh session. Article is live on the site (which gets the Google credit via canonical); Medium is distribution, not source of truth.
+- Pinterest hold continues. Opus decision pending owner. GSC sitemap row pending Google's first read.

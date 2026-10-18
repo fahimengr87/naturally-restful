@@ -43,3 +43,6 @@ That's the benign tier. Now the list that actually decides whether you should ta
 ## Bottom line
 
 For a healthy, non-pregnant adult taking no interacting medications, ashwagandha's risk profile at trial doses is genuinely good — better than most over-the-counter sleep aids. But this page exists because "generally safe" and "safe for you" are different sentences. Walk through the list above honestly before the [first dose](/articles/ashwagandha-vs-l-theanine) — and if two of the tiers touched you, that decision belongs to a clinician, not a website. Even this one.
+
+
+*Related: [Morning vs. Night Ashwagandha: Does Timing Matter?](/articles/ashwagandha-morning-vs-night-timing) - the dosing-clock question, answered honestly.*
