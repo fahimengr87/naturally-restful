@@ -12,8 +12,9 @@ Post one per day. Links live in profile only until ~10 answers / 2 weeks.
 - ✅ Answer 18 (sleep-tracker stage accuracy — Phase 2 WITH link to /articles/sleep-trackers-how-accurate-really) — posted Tue [2026-10-13] → quora.com/How-accurate-are-wrist-worn-sleep-trackers-at-estimating-sleep-stages/answer/Fahim-Mahmood-1-1 — first answer on an unanswered question (requested Oct 11)
 - ✅ Answer 19 (trackers & insomnia/orthosomnia — Phase 2 WITH link) — posted [2026-10-14] → quora.com/Do-sleep-trackers-contribute-to-insomnia/answer/Fahim-Mahmood-1-1 — another 0-answer question owned outright
 - ✅ Answer 20 (best sleep aid for insomnia — CBT-I first, supplement tier second — Phase 2 WITH link to /articles/natural-sleep-aids-not-supplements) — posted [2026-10-16] → quora.com/What-is-the-best-sleep-aid-for-people-with-insomnia/answer/Fahim-Mahmood-1-1
+- ✅ Answer 21 (ashwagandha morning vs night — Phase 2 WITH link to /articles/ashwagandha-morning-vs-night-timing) — posted Mon [2026-10-19, 9 AM automation] → quora.com/Should-I-take-ashwagandha-in-the-morning-or-at-night/answer/Fahim-M-29 — first answer on a 0-answer question (owned outright); promotes the Oct 18 flagship
 - Profile credential set: "Sleep & Stress Supplement Researcher at naturallyrestful.xyz" (default, 2026-09-21)
-- **Next up: Answer 4 (ashwagandha), then Answer 5 (scam split). After that, find new <20-answer questions.**
+- **Kit exhausted since answer 6. Fresh answers daily: pick 0-answer or <20-answer long-tail questions (easy-roads rule). Phase 2: max 1 contextual link, only where an article genuinely answers the question.**
 
 ## Profile setup (first)
 - Name: Fahim (or existing)

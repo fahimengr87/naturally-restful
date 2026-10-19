@@ -413,3 +413,8 @@ SITE #2 NEXT STEPS (in order): 1) launch content set (10 long-tail articles + 20
 - **Cross-linked** from the existing ashwagandha side-effects article (no-orphan rule).
 - **Medium import DEFERRED:** medium.com serving Cloudflare 403 challenge to the automation browser — will succeed on a fresh session. Article is live on the site (which gets the Google credit via canonical); Medium is distribution, not source of truth.
 - Pinterest hold continues. Opus decision pending owner. GSC sitemap row pending Google's first read.
+
+## OCT 19 LOG (Monday — 9 AM Quora automation FIRED and completed)
+- **Quora #21 posted** ("Should I take ashwagandha in the morning or at night?" — was a 0-ANSWER question, owned outright; promotes yesterday's flagship with Phase 2 link to /articles/ashwagandha-morning-vs-night-timing) → quora.com/Should-I-take-ashwagandha-in-the-morning-or-at-night/answer/Fahim-M-29. Profile: 21 answers (8 with links). Quora session alive (no transplant needed). Post-publish "Choose answer credential" prompt appeared — researcher credential already checked as default, just click Done.
+- TECH NOTE (Quora /unanswered/ pages): the top-center "Answer" div (q-text, y≈62) is a link to the /answer FEED — do not click. The editor opens from the RIGHT-SIDEBAR "Answer · N" button (x≈1077, next to Related questions) — it binds to the MAIN question even on unanswered pages; verify via the dialog's question title before typing. Then click→insertText(execCommand)→verify→Post inside ONE run_code call as before.
+- NOTE: new answers now post under profile URL /Fahim-M-29 (post-rename handle); old /Fahim-Mahmood-1-1 answer links from the log remain valid (platform redirects).
