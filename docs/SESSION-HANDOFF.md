@@ -424,3 +424,10 @@ SITE #2 NEXT STEPS (in order): 1) launch content set (10 long-tail articles + 20
 - **Mail:** clean — no pitch replies (day 6 of window, now past the 1-week follow-up threshold; follow-ups should go out ~Oct 20).
 - **Quora #21 posted** ("What is the best time of the day to take magnesium glycinate for sleep?" — UNANSWERED question, timing + form + dose + honest caveat, Phase 2 link to /articles/best-magnesium-supplements-for-sleep-ranked) → quora.com/What-is-the-best-time-of-the-day-to-take-magnesium-glycinate-for-sleep/answer/Fahim-M-29. Profile: 21 answers (8 with links). NOTE: Quora now shows the name as "Fahim M." in the URL — the privacy change is propagating.
 - Pinterest hold continues. Sunday flagship (ashwagandha timing) published yesterday. Next weekly: Oct 25.
+
+## OCT 20 LOG (Monday duty)
+- **Analytics:** Oct 19 = 132 PV / 125 uniques (best PV day in two weeks). Oct 20 = 57 PV so far.
+- **Mail:** clean — no replies from any pitch target.
+- **EMBED-PITCH FOLLOW-UPS SENT (all 3, final touch):** OdeSleep + Sleepify Lab + Intelligent Labs — brief, honest, "a quick 'not for us' is appreciated." These are the FINAL follow-ups per the one-touch rule. If silent by Oct 27, park all three permanently.
+- **Quora #22 posted** ("Can I take ashwagandha before bed?" — UNANSWERED question; evening dosing evidence, dose guidance, 71% controversy caveat, TWO contextual links: timing article + side-effects list) → quora.com/Can-I-take-ashwagandha-before-bed/answer/Fahim-M-29. Profile: 22 answers (10 with links). This answer cross-promotes yesterday's Sunday flagship.
+- Next weekly article due Sunday Oct 25.
