@@ -437,3 +437,10 @@ SITE #2 NEXT STEPS (in order): 1) launch content set (10 long-tail articles + 20
 - **Mail:** clean — no pitch replies (follow-ups sent Oct 20, final touch).
 - **Quora #23 posted** ("How do you take glycine for sleep?" — UNANSWERED question; 3g/30min protocol, 97% Reality Index stat, one negative post in 56 threads, Phase 2 link to /articles/glycine-for-sleep-the-3-gram-dose) → quora.com/How-do-you-take-glycine-for-sleep/answer/Fahim-M-29. Profile: 23 answers (11 with links). This answer showcases our strongest data point (97% glycine approval).
 - Sunday article due Oct 25: next in queue.
+
+## OCT 21 (backlink offensive — pitches sent)
+- **Qwoted**: account LIVE (no verification needed), The Editor byline, Dhaka timezone. Owner needs 5-min profile setup.
+- **Guest post pitch SENT to Healthier Sleep Magazine** (larson@worldsleepsociety.org) — "What 3,300 Reddit Posts Reveal About Sleep Supplement Effectiveness" — original dataset angle, free to cite. HEALTHIER SLEEP is an established publication in the sleep space.
+- **Guest post target identified: Snug Slumber** (snugslumber.com/write-for-us) — no email found, submission form only. Next session.
+- **Guest post target identified: Sleepify Lab** (sleepifylab.com/write-for-us) — same people as our original embed pitch (no reply), but this is a DIFFERENT ask (guest post vs embed).
+- Embed follow-ups sent Oct 20 (final touch). If no reply by Oct 27, park all three.
