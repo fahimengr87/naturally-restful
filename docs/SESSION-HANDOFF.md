@@ -431,3 +431,9 @@ SITE #2 NEXT STEPS (in order): 1) launch content set (10 long-tail articles + 20
 - **EMBED-PITCH FOLLOW-UPS SENT (all 3, final touch):** OdeSleep + Sleepify Lab + Intelligent Labs — brief, honest, "a quick 'not for us' is appreciated." These are the FINAL follow-ups per the one-touch rule. If silent by Oct 27, park all three permanently.
 - **Quora #22 posted** ("Can I take ashwagandha before bed?" — UNANSWERED question; evening dosing evidence, dose guidance, 71% controversy caveat, TWO contextual links: timing article + side-effects list) → quora.com/Can-I-take-ashwagandha-before-bed/answer/Fahim-M-29. Profile: 22 answers (10 with links). This answer cross-promotes yesterday's Sunday flagship.
 - Next weekly article due Sunday Oct 25.
+
+## OCT 21 LOG (Tuesday duty)
+- **Analytics:** Oct 20 = 104 PV / 122 uniques. Oct 21 = 21 PV so far (early).
+- **Mail:** clean — no pitch replies (follow-ups sent Oct 20, final touch).
+- **Quora #23 posted** ("How do you take glycine for sleep?" — UNANSWERED question; 3g/30min protocol, 97% Reality Index stat, one negative post in 56 threads, Phase 2 link to /articles/glycine-for-sleep-the-3-gram-dose) → quora.com/How-do-you-take-glycine-for-sleep/answer/Fahim-M-29. Profile: 23 answers (11 with links). This answer showcases our strongest data point (97% glycine approval).
+- Sunday article due Oct 25: next in queue.
