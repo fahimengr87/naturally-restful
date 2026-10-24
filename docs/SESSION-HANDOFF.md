@@ -451,3 +451,11 @@ SITE #2 NEXT STEPS (in order): 1) launch content set (10 long-tail articles + 20
 - **Quora #24 posted** ("When should I take L-theanine before bed?" — UNANSWERED question; 30-60min timing, alpha brain waves, what it's good for vs NOT good for, L-theanine + magnesium combo, 85% Reality Index stat, link to /articles/l-theanine-for-a-racing-mind) → quora.com/When-should-I-take-L-theanine-before-bed/answer/Fahim-M-29. Profile: 24 answers (12 with links).
 - Embed follow-ups still unanswered (sent Oct 20, 4 days — park on Oct 27 if silent).
 - Sunday article due Oct 25 (tomorrow).
+
+## OCT 26 LOG (Sunday — weekly flagship + duty)
+- **Analytics:** Oct 24 = 50 PV / 40 uniques. Oct 23 = 129 PV.
+- **Mail:** no pitch replies (4 days for ToolJunction/Healthier Sleep, 2 for AiTude — still normal).
+- **SUNDAY FLAGSHIP PUBLISHED:** /articles/sleep-supplement-stack-guide — "The Sleep Supplement Stack: Which Combinations Work, Which Conflict, and What to Skip" — three synergistic stacks (racing mind, deep sleep, schedule reset), three combinations to avoid (theanine+melatonin, ashwagandha+5-HTP, multiple GABA), what to skip entirely (GABA supplements, sleep blends, "cure" claims). Cross-links to ALL existing supplement articles. Site now 123 pages.
+- **Quora #25 posted** ("Can tart cherry juice and magnesium truly enhance your sleep?" — UNANSWERED; modest evidence for tart cherry, better evidence for magnesium, honest caveats about sugar, suggests glycine as the better tool, links to the NEW stack guide published today) → quora.com/Can-tart-cherry-juice-and-magnesium-truly-enhance-your-sleep/answer/Fahim-M-29. Profile: 25 answers (13 with links).
+- This Quora answer cross-promotes today's flagship — the flywheel in action.
+- Pinterest hold continues. Next weekly article: Nov 1.
