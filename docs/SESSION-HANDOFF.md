@@ -444,3 +444,10 @@ SITE #2 NEXT STEPS (in order): 1) launch content set (10 long-tail articles + 20
 - **Guest post target identified: Snug Slumber** (snugslumber.com/write-for-us) — no email found, submission form only. Next session.
 - **Guest post target identified: Sleepify Lab** (sleepifylab.com/write-for-us) — same people as our original embed pitch (no reply), but this is a DIFFERENT ask (guest post vs embed).
 - Embed follow-ups sent Oct 20 (final touch). If no reply by Oct 27, park all three.
+
+## OCT 24 LOG (Thursday duty)
+- **Analytics:** Oct 23 = 129 PV / 133 uniques (climbing: 92→95→129 over 3 days). Oct 22 = 95 PV.
+- **Mail:** no replies from ToolJunction or Healthier Sleep Magazine (sent Oct 21, 3 days ago — normal wait).
+- **Quora #24 posted** ("When should I take L-theanine before bed?" — UNANSWERED question; 30-60min timing, alpha brain waves, what it's good for vs NOT good for, L-theanine + magnesium combo, 85% Reality Index stat, link to /articles/l-theanine-for-a-racing-mind) → quora.com/When-should-I-take-L-theanine-before-bed/answer/Fahim-M-29. Profile: 24 answers (12 with links).
+- Embed follow-ups still unanswered (sent Oct 20, 4 days — park on Oct 27 if silent).
+- Sunday article due Oct 25 (tomorrow).
